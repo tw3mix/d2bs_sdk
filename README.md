@@ -35,3 +35,14 @@ Here is just a quick run through of what each current key is, and what it will d
 | 111 - Num / |   |   |   |
 | 123 - F12  | T | revealLevel(true) | show/hide map |
 |   |   |   |   |
+
+# d2bs core commands
+
+#### chat commands
+press and type:
+
+> .start -
+> .stop - will stop the current scripts. the profile will crash and it will be restarted in few seconds
+> .reload - will stop and reload the scripts. you are able to change config while in game.
+> .flushcache -
+> .load -
