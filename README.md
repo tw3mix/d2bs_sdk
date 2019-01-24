@@ -38,7 +38,8 @@ Here is just a quick run through of what each current key is, and what it will d
 
 # d2bs core commands
 
-#### chat commands
+### chat commands
+
 press and type:
 
 > * .start -
@@ -46,3 +47,25 @@ press and type:
 > * .reload - will stop and reload the scripts. you are able to change config while in game.
 > * .flushcache -
 > * .load -
+
+### white console(layer)
+
+display status messages out of game as well as in game:
+
+> * < HOME > to show/hide console just for viewing
+> * < ALT >+< HOME > to open the console for input, allows you to type commands into it
+> * < Page up >/< Page down > scrolls console text when it's open for input.
+> * the same chat commands without . prefix:
+> * start -
+> * stop - will stop the current scripts. the profile will crash and it will be restarted in few seconds
+> * reload - will stop and reload the scripts. you are able to change config while in game.
+> * flushcache -
+> * load
+> * include - other scripts can be loaded: include("common/prototypes.js");
+> * any other command is interpreted as a javascript string and will be executed (as per the old .exec).
+> * all output is directed to the console instead of to the screen.
+> * < Up arrow > will show the latest command that you typed in the console. Up/Down arrows will show different commands entered in the console
+> * you can type on the console different javascript lines:
+> * 
+> * 
+
