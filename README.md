@@ -41,8 +41,8 @@ Here is just a quick run through of what each current key is, and what it will d
 #### chat commands
 press and type:
 
-> .start -
-> .stop - will stop the current scripts. the profile will crash and it will be restarted in few seconds
-> .reload - will stop and reload the scripts. you are able to change config while in game.
-> .flushcache -
-> .load -
+> * .start -
+> * .stop - will stop the current scripts. the profile will crash and it will be restarted in few seconds
+> * .reload - will stop and reload the scripts. you are able to change config while in game.
+> * .flushcache -
+> * .load -
