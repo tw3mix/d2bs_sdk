@@ -1,4 +1,5 @@
-markdown live demo https://markdown-here.com/livedemo.html
+[1]:https://markdown-here.com/livedemo.html
+[markdown live demo][1] https://markdown-here.com/livedemo.html
 
 # d2bs hotkeys
 
