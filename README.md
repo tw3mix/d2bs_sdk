@@ -9,7 +9,7 @@ Here is just a quick run through of what each current key is, and what it will d
 
 | __Javacode - Key__ | # | __variable__ | __action__ |
 |---|---|---|---|
-|  \# Colum : T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts)  |
+|  \# Colum : T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts)  ¦  ¦  |
 | 17 - Ctrl |   |   |   |
 | 19 - Pause/Break  | T | togglePause() | Pause/Resume bot |
 | 32 - Space | U | FileTools.copy | copy the charconfig with name of char included |
