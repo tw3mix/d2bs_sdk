@@ -8,9 +8,9 @@ Here is just a quick run through of what each current key is, and what it will d
 ### default keys
 
 ---
-\# T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts)
+JS: T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts)
 
-| __Javacode - Key__ | # | __variable__ | __action__ |
+| __Javacode - Key__ | __JS__ | __Variable__ | __Action__ |
 |---|---|---|---|
 |   |   |   |   |
 | 17 - Ctrl |   |   |   |
