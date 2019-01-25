@@ -2,6 +2,11 @@
 
 Here is just a quick run through of what each current key is, and what it will do for bot
 
+markdown live demo https://markdown-here.com/livedemo.html
+
+Link: [Google][googlelink]
+[googlelink]: https://google.com "Go google"
+
 ### default keys
 
 ---
