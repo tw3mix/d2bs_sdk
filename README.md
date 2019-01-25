@@ -12,7 +12,7 @@ Here is just a quick run through of what each current key is, and what it will d
 
 | __Javacode - Key__ | # | __variable__ | __action__ |
 |---|---|---|---|
-| <td colspan=3> \# T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts)
+| \# T (ToolsThread.js) , M (MapThread.js) , U (UserAddon.js) , O (other scripts) ||||
 |   |   |   |   |
 | 17 - Ctrl |   |   |   |
 | 19 - Pause/Break  | T | togglePause() | Pause/Resume bot |
