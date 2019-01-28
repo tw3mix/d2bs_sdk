@@ -32,8 +32,6 @@
 	};
 ```
 
----
-
 ```javascript
 				case "2": // Go back to town and check quest
 					if (!Config.Rushee.Quester) {
