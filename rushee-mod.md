@@ -4,6 +4,27 @@
 # rushee fatch
 
 ```javascript
+	this.checkParty = function () {
+		var player, myPartyId;
+
+		player = getParty();
+		if (player) {
+			myPartyId = player.partyid;
+
+			while (player.getNext()) {
+				if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
+					clickParty(player, 2);
+					delay(100);
+					break;
+				}
+			}
+		}
+	};
+```
+
+---
+
+```javascript
 				case "2": // Go back to town and check quest
 					if (!Config.Rushee.Quester) {
 						switch (leader.area) {
