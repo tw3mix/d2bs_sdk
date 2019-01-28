@@ -60,3 +60,15 @@
 							break;
 ```
 
+```javascript
+				case "a2":
+					if (!this.changeAct(2)) {
+						break;
+					}
+
+					target = getUnit(1, NPC.Jerhyn);
+
+					if (target && getDistance(me, target) < 3) {
+						target.openMenu();
+					}
+```
