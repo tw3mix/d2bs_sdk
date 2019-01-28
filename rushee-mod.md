@@ -4,6 +4,15 @@
 # rushee fatch
 
 ```javascript
+	this.changeAct = function (act) {
+		...
+		...
+		if (!me.inTown && me.act !== 3) {
+			Pather.usePortal(null, leader.name);
+		}
+```
+
+```javascript
 	this.checkParty = function () {
 		var player, myPartyId;
 
