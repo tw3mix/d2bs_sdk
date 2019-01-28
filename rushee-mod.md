@@ -21,7 +21,8 @@
 			myPartyId = player.partyid;
 
 			while (player.getNext()) {
-				if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
+				if (player.partyflag === 2 &&
+					(myPartyId === 65535 || player.partyid !== myPartyId)) {
 					clickParty(player, 2);
 					delay(100);
 					break;
