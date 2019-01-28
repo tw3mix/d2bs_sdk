@@ -13,6 +13,18 @@
 ```
 
 ```javascript
+	addEventListener("chatmsg",
+		function (who, msg) {
+			if (msg === "rusher") {
+				Config.Leader = who;
+			}
+			if (who === Config.Leader) {
+				actions.push(msg);
+			}
+		});
+```
+
+```javascript
 	this.checkParty = function () {
 		var player, myPartyId;
 
