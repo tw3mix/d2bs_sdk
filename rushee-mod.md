@@ -45,12 +45,18 @@
 ```
 
 ```javascript
-				case "2": // Go back to town and check quest
+				case "1":
+					while (!leader.area) {
+						delay(500);
+					}
+
+					//print(leader.area);
+
 					if (!Config.Rushee.Quester) {
+						//print("not a quester");
 						switch (leader.area) {
-						// Non-questers can piggyback off quester out messages
-						case 61: // amulet
-						case 83: // travincal
+						case 74: // ARCANE_SANCTUARY
+						//case 83: // travincal
 							target = getUnit(1, NPC.Cain);
 
 							if (target && target.openMenu()) {
@@ -58,6 +64,11 @@
 							}
 
 							break;
+						}
+						actions.shift();
+
+						break;
+					}
 ```
 
 ```javascript
