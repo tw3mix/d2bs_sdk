@@ -1,5 +1,5 @@
 
-```
+```javascript
 js_strict(true);
 
 var Cache = new function() {
