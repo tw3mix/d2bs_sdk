@@ -166,7 +166,7 @@
 				
 				if (this.letRushComplete) {
 					delay(2000);
-					say("main roop: Rush complete~");
+					say("main loop: Rush complete~");
 					command = false;
 				}
 ```
