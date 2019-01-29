@@ -141,15 +141,6 @@
 ### RushThread
 
 ```javascript
-	this.ancients = function () {
-		if (me.diff === 2) {
-			say("Hell rush complete~");
-			delay(500);
-			quit();
-
-			return false;
-		}
-
 		if (!this.bumperCheck()) {
 			say("No eligible bumpers detected. Rush complete~");
 			delay(500);
