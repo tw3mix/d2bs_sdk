@@ -153,7 +153,7 @@
 		if (!this.bumperCheck()) {
 			say("No eligible bumpers detected. Rush complete~");
 			delay(500);
-			this.finishRun = true;
+			this._rushComplete_ = true;
 			//quit();
 
 			return false;
@@ -173,7 +173,7 @@
 
 				command = "go";
 				
-				if (this.finishRun) {
+				if (this._rushComplete_) {
 					delay(2000);
 					say("main roop: Rush complete~");
 					command = false;
