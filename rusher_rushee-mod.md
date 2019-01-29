@@ -40,6 +40,23 @@
 ```
 
 ```javascript
+	this.checkParty = function () {
+		var player, myPartyId;
+
+		player = getParty();
+		if (player) {
+			myPartyId = player.partyid;
+
+			while (player.getNext()) {
+				if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
+					clickParty(player, 2);
+					delay(100);
+					break;
+				}
+			}
+		}
+	};
+
 	addEventListener("chatmsg",
 		function (who, msg) {
 			if (msg === "rusher") {
@@ -49,26 +66,25 @@
 				actions.push(msg);
 			}
 		});
-```
 
-```javascript
-	this.checkParty = function () {
-		var player, myPartyId;
+	// START
+	if (me.inTown) {
+		Town.move("portalspot");
+	}
 
-		player = getParty();
-		if (player) {
-			myPartyId = player.partyid;
+	while (true) {
+		if (!Misc.inMyParty(Config.Leader)) {
+			say("Looking for Leader");
+			do {
+				this.checkParty();
+				delay(1500);
+			} while (!Misc.inMyParty(Config.Leader));
 
-			while (player.getNext()) {
-				if (player.partyflag === 2 &&
-					(myPartyId === 65535 || player.partyid !== myPartyId)) {
-					clickParty(player, 2);
-					delay(100);
-					break;
-				}
+			leader = this.getParty(Config.Leader);
+			if (leader) {
+				say("Leader found.");
 			}
 		}
-	};
 ```
 
 ```javascript
