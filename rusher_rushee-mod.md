@@ -48,10 +48,18 @@
 			myPartyId = player.partyid;
 
 			while (player.getNext()) {
-				if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
-					clickParty(player, 2);
-					delay(100);
-					break;
+				if (player.name === Config.Leader) {
+					if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
+						clickParty(player, 2);
+						delay(100);
+						break;
+					}
+					if (Config.Rushee.Quester && myPartyId !== 65535 &&
+						player.partyflag !== 4 && player.partyflag !== 2 && player.partyid === 65535) {
+						clickParty(player, 2);
+						delay(100);
+						break;
+					}
 				}
 			}
 		}
@@ -77,7 +85,7 @@
 			say("Looking for Leader");
 			do {
 				this.checkParty();
-				delay(1500);
+				delay(1000);
 			} while (!Misc.inMyParty(Config.Leader));
 
 			leader = this.getParty(Config.Leader);
