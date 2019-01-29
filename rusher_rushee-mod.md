@@ -134,3 +134,45 @@
 						target.openMenu();
 					}
 ```
+
+# RushThread
+
+```javascript
+	this.ancients = function () {
+		if (me.diff === 2) {
+			say("Hell rush complete~");
+			delay(500);
+			quit();
+
+			return false;
+		}
+
+		if (!this.bumperCheck()) {
+			say("No eligible bumpers detected. Rush complete~");
+			delay(500);
+			this.finishRun = true;
+			//quit();
+
+			return false;
+		}
+```
+
+```javascript
+				try {
+					this[sequence[current]]();
+				} catch (sequenceError) {
+					say(sequenceError.message);
+					say("2");
+					Town.goToTown();
+				}
+
+				current += 1;
+
+				command = "go";
+				
+				if (this.finishRun) {
+					delay(2000);
+					say("main roop: Rush complete~");
+					command = false;
+				}
+```
