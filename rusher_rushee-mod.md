@@ -145,7 +145,7 @@
 			say("No eligible bumpers detected. Rush complete~");
 			delay(500);
 			this.letRushComplete = true;
-			//quit();
+			//~~quit()~~;
 
 			return false;
 		}
