@@ -202,6 +202,15 @@
 				break;
 			}
 		}
+
+		try {
+			Attack.kill(243);
+		} catch (errorDiablo) {
+			say("diablo not found");
+			delay(3000);
+		}
+		say("2");
+		delay(1000);
 ```
 
 ```javascript
