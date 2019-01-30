@@ -195,7 +195,8 @@
 ```javascript
 // this.diablo = function () {
 // ...
-		tick = getTickCount();
+		var tick = getTickCount();
+		me.overhead("waiting 20 seconds");
 		while (!getUnit(1, 243)) {
 			delay(500);
 			if (getTickCount() - tick > 20000) {
