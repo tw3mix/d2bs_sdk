@@ -142,7 +142,7 @@
 
 ```javascript
 	this.playersInAct = function (act) {
-		var area, party,
+		var area, party, myPartyId,
 			areas = [0, 1, 40, 75, 103, 109];
 
 		if (!act) {
@@ -153,8 +153,9 @@
 		party = getParty();
 
 		if (party) {
+			myPartyId = party.partyid;
 			do {
-				if (party.name !== me.name && party.area < area) {
+				if (party.name !== me.name && party.area < area && party.partyid === myPartyId) {
 					return false;
 				}
 			} while (party.getNext());
