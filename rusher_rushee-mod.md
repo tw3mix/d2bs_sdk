@@ -40,6 +40,55 @@
 		if (!me.inTown && me.act !== 3) {
 			Pather.usePortal(null, leader.name);
 		}
+
+		if (me.act === act) {
+			return true;
+		}
+
+		try {
+			switch (act) {
+			case 2:
+				if (me.act >= 2) {
+					break;
+				}
+
+				Town.move(NPC.Warriv);
+
+				npc = getUnit(1, NPC.Warriv);
+
+				if (!npc || !npc.openMenu()) {
+					return false;
+				}
+
+				Misc.useMenu(0x0D36);
+
+				break;
+			case 3:
+				if (me.act >= 3) {
+					break;
+				}
+
+				if(!me.getQuest(15, 0)) {
+				
+					Pather.usePortal(50, Config.Leader);
+					Pather.moveToExit(40, true);
+
+					npc = getUnit(1, NPC.Jerhyn);
+
+					if (!npc || !npc.openMenu()) {
+						if(!me.getQuest(15, 0)) {
+							Pather.moveTo(5166, 5206);
+
+							return false;
+						}
+					}
+
+					me.cancel();
+					Pather.moveToExit(50, true);
+					Pather.usePortal(40, Config.Leader);
+				}
+
+				Town.move(NPC.Meshif);
 ```
 
 ```javascript
