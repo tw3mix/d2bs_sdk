@@ -272,6 +272,7 @@
 
 ```javascript
 				try {
+					delay(1000);
 					this[sequence[current]]();
 				} catch (sequenceError) {
 					if (sequenceError.message.indexOf("Attack.kill") > -1) {
