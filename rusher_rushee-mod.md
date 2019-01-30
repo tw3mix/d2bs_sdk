@@ -123,6 +123,22 @@
 
 						break;
 					}
+					
+					...
+					...
+
+					switch (leader.area) {
+					...
+					case 108: // Chaos Sanctuary
+						Pather.usePortal(108, Config.Leader);
+						Pather.moveTo(7762, 5268);
+						Packet.flash(me.gid);
+						delay(500);
+						Pather.walkTo(7763, 5267, 2);
+
+						//while (!getUnit(1, 243)) {
+							//delay(500);
+						//}
 ```
 
 ```javascript
