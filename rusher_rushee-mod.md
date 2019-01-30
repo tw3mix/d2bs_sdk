@@ -44,28 +44,38 @@
 
 ```javascript
 	this.checkParty = function () {
-		var player, myPartyId;
+		var player, myPartyId, clickAccept;
 
+		leader = null;
 		player = getParty();
 		if (player) {
 			myPartyId = player.partyid;
 
 			while (player.getNext()) {
 				if (player.name === Config.Leader) {
-					if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
-						clickParty(player, 2);
-						delay(100);
-						break;
+					if (myPartyId !== 65535 && myPartyId === player.partyid) {
+						//leader = player;
+						leader = getParty(player.name);
 					}
-					if (Config.Rushee.Quester && myPartyId !== 65535 &&
-						player.partyflag !== 4 && player.partyflag !== 2 && player.partyid === 65535) {
+					else if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
+						clickAccept = true;
 						clickParty(player, 2);
 						delay(100);
 						break;
 					}
 				}
+				if (Config.Rushee.Quester && myPartyId !== 65535 &&
+					player.partyflag !== 4 && player.partyflag !== 2 && player.partyid === 65535) {
+					clickParty(player, 2);
+					delay(100);
+				}
+			}
+			if (clickAccept) {
+				delay(100);
+				say("Leader found!");
 			}
 		}
+		return leader;
 	};
 
 	addEventListener("chatmsg",
@@ -84,18 +94,15 @@
 	}
 
 	while (true) {
-		if (!Misc.inMyParty(Config.Leader)) {
-			say("Looking for Leader");
-			do {
-				this.checkParty();
-				delay(1000);
-			} while (!Misc.inMyParty(Config.Leader));
 
-			leader = this.getParty(Config.Leader);
-			if (leader) {
-				say("Leader found.");
-			}
+		leader = this.checkParty();
+		if (!leader) {
+			delay(3000);
+			print("leader not found");
+			continue;
 		}
+
+		try {
 ```
 
 ```javascript
