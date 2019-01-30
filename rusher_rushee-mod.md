@@ -141,6 +141,30 @@
 ### RushThread
 
 ```javascript
+	this.playersInAct = function (act) {
+		var area, party,
+			areas = [0, 1, 40, 75, 103, 109];
+
+		if (!act) {
+			act = me.act;
+		}
+
+		area = areas[act];
+		party = getParty();
+
+		if (party) {
+			do {
+				if (party.name !== me.name && party.area < area) {
+					return false;
+				}
+			} while (party.getNext());
+		}
+
+		return true;
+	};
+```
+
+```javascript
 		if (!this.bumperCheck()) {
 			say("No eligible bumpers detected. Rush complete~");
 			delay(500);
@@ -170,3 +194,4 @@
 					command = false;
 				}
 ```
+
