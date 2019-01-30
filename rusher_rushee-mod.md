@@ -180,8 +180,16 @@
 				try {
 					this[sequence[current]]();
 				} catch (sequenceError) {
-					say(sequenceError.message);
-					say("2");
+					if (sequenceError.message.indexOf("Attack.kill") > -1) {
+						say("2");
+						delay(3000);
+						if ([37, 73, 102, 108].indexOf(me.area) > -1) {
+							say("a" + (me.act + 1));
+						} else {
+							say(sequenceError.message);
+						}
+					}
+
 					Town.goToTown();
 				}
 
