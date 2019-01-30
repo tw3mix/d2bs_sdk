@@ -177,6 +177,18 @@
 ```
 
 ```javascript
+// this.diablo = function () {
+// ...
+		tick = getTickCount();
+		while (!getUnit(1, 243)) {
+			delay(500);
+			if (getTickCount() - tick > 20000) {
+				break;
+			}
+		}
+```
+
+```javascript
 				try {
 					this[sequence[current]]();
 				} catch (sequenceError) {
@@ -203,4 +215,5 @@
 					command = false;
 				}
 ```
+
 
