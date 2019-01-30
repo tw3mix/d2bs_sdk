@@ -92,10 +92,10 @@
 ```
 
 ```javascript
+	this.leaderFounded = undefined;
 	this.checkParty = function () {
-		var player, myPartyId, clickAccept;
+		var player, myPartyId, leaderPlayer;
 
-		leader = null;
 		player = getParty();
 		if (player) {
 			myPartyId = player.partyid;
@@ -103,11 +103,9 @@
 			while (player.getNext()) {
 				if (player.name === Config.Leader) {
 					if (myPartyId !== 65535 && myPartyId === player.partyid) {
-						//leader = player;
-						leader = getParty(player.name);
+						leaderPlayer = getParty(player.name);
 					}
 					else if (player.partyflag === 2 && (myPartyId === 65535 || player.partyid !== myPartyId)) {
-						clickAccept = true;
 						clickParty(player, 2);
 						delay(100);
 						break;
@@ -119,12 +117,8 @@
 					delay(100);
 				}
 			}
-			if (clickAccept) {
-				delay(100);
-				say("Leader found!");
-			}
 		}
-		return leader;
+		return leaderPlayer;
 	};
 
 	addEventListener("chatmsg",
@@ -146,9 +140,14 @@
 
 		leader = this.checkParty();
 		if (!leader) {
-			delay(3000);
-			print("leader not found");
+			delay(1500);
+			this.leaderFounded = undefined;
 			continue;
+		}
+
+		if (this.leaderFounded === undefined) {
+			this.leaderFounded = true;
+			say("Leader found!");
 		}
 
 		try {
