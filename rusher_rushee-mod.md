@@ -137,7 +137,6 @@
 	}
 
 	while (true) {
-
 		leader = this.checkParty();
 		if (!leader) {
 			delay(1500);
