@@ -196,6 +196,36 @@
 ```
 
 ```javascript
+				case "2":
+				//...
+				//...
+					case 83: // Travincal
+						this.revive();
+
+						if (!me.inTown && !Pather.usePortal(75, Config.Leader)) {
+							break;
+						}
+
+						Town.move(NPC.Cain);
+
+						target = getUnit(1, NPC.Cain);
+
+						if (target && target.openMenu()) {
+							me.cancel();
+						} else {
+							break;
+						}
+
+						if (!this.checkQuest(21, 0)) {
+							D2Bot.printToConsole("Travincal quest failed", 9);
+							quit();
+						}
+
+						Town.move("portalspot");
+						actions.shift();
+```
+
+```javascript
 				case "a2":
 					if (!this.changeAct(2)) {
 						break;
