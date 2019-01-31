@@ -224,15 +224,25 @@
 
 ```javascript
 				case "a2":
-					if (!this.changeAct(2)) {
+				case "a3":
+				case "a4":
+				case "a5":
+					if (!this.changeAct(parseInt(actions[0][1], 10))) {
 						break;
 					}
-
-					target = getUnit(1, NPC.Jerhyn);
-
-					if (target && getDistance(me, target) < 3) {
-						target.openMenu();
+					
+					if (me.area === 40) {
+						target = getUnit(1, NPC.Jerhyn);
+						if (target && getDistance(me, target) < 3) {
+							target.openMenu();
+						}
+						me.cancel();
 					}
+
+					Town.move("portalspot");
+					actions.shift();
+
+					break;
 ```
 
 ### RushThread
