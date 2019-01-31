@@ -69,18 +69,15 @@
 				}
 
 				if(!me.getQuest(15, 0)) {
-				
 					Pather.usePortal(50, Config.Leader);
 					Pather.moveToExit(40, true);
 
 					npc = getUnit(1, NPC.Jerhyn);
 
 					if (!npc || !npc.openMenu()) {
-						if(!me.getQuest(15, 0)) {
 							Pather.moveTo(5166, 5206);
 
 							return false;
-						}
 					}
 
 					me.cancel();
