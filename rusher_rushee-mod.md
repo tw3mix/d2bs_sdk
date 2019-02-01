@@ -306,13 +306,14 @@
 ```
 
 ```javascript
+				delay(500);
+
 				try {
-					delay(1000);
 					this[sequence[current]]();
 				} catch (sequenceError) {
 					if (sequenceError.message.indexOf("Attack.kill") > -1) {
 						say("2");
-						delay(3000);
+						delay(2000);
 						if ([37, 73, 102, 108].indexOf(me.area) > -1) {
 							say("a" + (me.act + 1));
 						} else {
@@ -328,8 +329,6 @@
 				command = "go";
 				
 				if (this.letRushComplete) {
-					delay(2000);
-					say("main loop: Rush complete~");
 					command = false;
 				}
 ```
