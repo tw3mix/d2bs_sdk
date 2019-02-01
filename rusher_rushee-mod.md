@@ -234,7 +234,7 @@
 					if (me.area === 40) {
 						target = getUnit(1, NPC.Jerhyn);
 						if (target && getDistance(me, target) < 3) {
-							target.interact();
+							target.openMenu();
 						}
 						me.cancel();
 					}
