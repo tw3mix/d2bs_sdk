@@ -258,14 +258,6 @@
 					if (!this.changeAct(parseInt(actions[0][1], 10))) {
 						break;
 					}
-					
-					if (me.area === 40) {
-						target = getUnit(1, NPC.Jerhyn);
-						if (target && getDistance(me, target) < 3) {
-							target.openMenu();
-						}
-						me.cancel();
-					}
 
 					Town.move("portalspot");
 					actions.shift();
