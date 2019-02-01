@@ -295,11 +295,12 @@
 ### RushThread
 
 ```javascript
+	// new function
 	this.KillBoss = function (classId) {
 		try {
 			Attack.kill(classId);
 		} catch(e) {
-			print("ÿc1RushThread :: " + e.message);
+			print("ÿc1RushThread.KillBoss :: " + e.message);
 			delay(1500);
 		}
 	};
