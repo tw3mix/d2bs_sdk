@@ -86,6 +86,34 @@
 				}
 
 				Town.move(NPC.Meshif);
+				//...
+				//...
+				//...
+			delay(1000 + me.ping * 2);
+
+			while (!me.area) {
+				delay(500);
+			}
+
+			if (me.act < act) {
+				me.cancel();
+				Town.move("portalspot");
+				say("Act change failed.");
+				if (!this.checkQuest({2:7, 3:15, 4:23, 5:28}[act], 0)) {
+					while(me.act < act) {
+						me.overhead("Act change failed.");
+						delay(1500);
+					}
+				}
+
+				return false;
+			}
+
+			say("Act change done.");
+		} catch (e) {
+			print("this.changAct() :: " + e.message);
+			return false;
+		}
 ```
 
 ```javascript
