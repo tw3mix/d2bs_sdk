@@ -30,23 +30,23 @@ var Color = {
 	MGlow:'#',
 	LGlow:'*'
 };
-
 var ColorCode = {
-	White:'ÿc'+Color.White,
-	Red:'ÿc'+Color.Red,
-	Green:'ÿc'+Color.Green,
-	Blue:'ÿc'+Color.Blue,
-	Gold:'ÿc'+Color.Gold,
-	Gray:'ÿc'+Color.Gray,
-	Black:'ÿc'+Color.Black,
-	LightGold:'ÿc'+Color.LightGold,
-	Amber:'ÿc'+Color.Amber,
-	Yellow:'ÿc'+Color.Yellow,
-	DarkGreen:'ÿc'+Color.DarkGreen,
-	MossGreen:'ÿc'+Color.MossGreen,
-	Purple:'ÿc'+Color.Purple,
-	SGlow:'ÿc'+Color.SGlow,
-	MGlow:'ÿc'+Color.MGlow,
-	LGlow:'ÿc'+Color.LGlow
+	White:'ÿc0',
+	Red:'ÿc1',
+	Green:'ÿc2',
+	Blue:'ÿc3',
+	Gold:'ÿc4',
+	Gray:'ÿc5',
+	Black:'ÿc6',
+	LightGold:'ÿc7',
+	Amber:'ÿc8',
+	Yellow:'ÿc9',
+	DarkGreen:'ÿc:',
+	MossGreen:'ÿc<',
+	Purple:'ÿc;',
+	SGlow:'ÿc!',
+	MGlow:'ÿc#',
+	LGlow:'ÿc*'
 };
+
 ```
