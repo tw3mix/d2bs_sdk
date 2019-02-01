@@ -95,7 +95,7 @@
 					break;
 				}
 
-				if(!me.getQuest(15, 0)) {
+				if (!me.getQuest(15, 0)) {
 					Pather.usePortal(50, Config.Leader);
 					Pather.moveToExit(40, true);
 
