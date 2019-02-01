@@ -367,20 +367,12 @@
 
 ```javascript
 				delay(500);
-
 				try {
 					this[sequence[current]]();
 				} catch (sequenceError) {
-					if (sequenceError.message.indexOf("Attack.kill") > -1) {
-						say("2");
-						delay(2000);
-						if ([37, 73, 102, 108].indexOf(me.area) > -1) {
-							say("a" + (me.act + 1));
-						} else {
-							say(sequenceError.message);
-						}
-					}
-
+					say(sequenceError.message);
+					delay(1000);
+					say("2");
 					Town.goToTown();
 				}
 
