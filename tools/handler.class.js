@@ -1,15 +1,22 @@
 
-/*
-// 직접수정
+/*****************************************************************
+* 봇 코드에 직접 넣기 (샷 동영상처럼 샵봇에 응용하기)
+*****************************************************************/
 if (!Storage.Stash.CanFit({sizex: 2, sizey: 4}) && AutoMule.getMuleItems().length > 0) {
 	D2Bot.printToConsole("Mule triggered");
 	scriptBroadcast("mule");
 	scriptBroadcast("quit");
 	return true;
 }
-/*
-//enabledProfiles: [ (me.profile.match(/^xShop/)? me.profile : '') ],
 
+/*****************************************************************
+* enabledProfiles 프로필에 봇 입력하지 않아도 자동으로 입력하기.
+* MuleClaws 라고 적은 것은 ASD 같이 편한대로 치환해줘도 되며 일괄
+* 같아야함. 타 창고지기와는 달라야 함.
+* xShop 으로 시작하는 모든 profile 설정은 해당 창고지기로 자동 연결됨
+*****************************************************************/
+//////////////////////////////////////////////////////////////////
+//enabledProfiles: [ (me.profile.match(/^xShop/)? me.profile : '') ],
 enabledProfiles: (function(){
 	if (!isIncluded('handler.class.js')) include('handler.class.js');
 
@@ -40,7 +47,7 @@ enabledProfiles: (function(){
 	return muleList;
 
 })(),
-
+//////////////////////////////////////////////////////////////////
 
 /*
 	libs/handler.class.js 경로에 위치할 것. ANSI 인코딩 추천
