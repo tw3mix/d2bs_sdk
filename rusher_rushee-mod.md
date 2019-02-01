@@ -268,6 +268,18 @@
 ### RushThread
 
 ```javascript
+	this.KillBoss = function (classId) {
+		try {
+			Attack.kill(classId);
+		} catch(e) {
+			print("ÿc1RushThread :: " + e.message);
+			delay(1500);
+		}
+	};
+	// Attack.kill() ====> this.KillBoss() change
+```
+
+```javascript
 	this.playersInAct = function (act) {
 		var area, party, myPartyId,
 			areas = [0, 1, 40, 75, 103, 109];
