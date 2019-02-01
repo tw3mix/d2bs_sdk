@@ -1,3 +1,13 @@
+
+/*
+// 직접수정
+if (!Storage.Stash.CanFit({sizex: 2, sizey: 4}) && AutoMule.getMuleItems().length > 0) {
+	D2Bot.printToConsole("Mule triggered");
+	scriptBroadcast("mule");
+	scriptBroadcast("quit");
+	return true;
+}
+/*
 //enabledProfiles: [ (me.profile.match(/^xShop/)? me.profile : '') ],
 
 enabledProfiles: (function(){
