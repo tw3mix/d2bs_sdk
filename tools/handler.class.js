@@ -40,14 +40,22 @@ enabledProfiles: (function(){
 var cacheHandler = {
 	_init: false,
 	init: function() {
-		if (this._init===true) return;
+		if (this._init===true) {
+			return;
+		}
 		this._init = true;
+
 		var thisObj = this;
+	
 		addEventListener('copydata', function(mode,msg){
 			//print('mode: ' + mode + ' / msg: ' + msg);
-			if (mode!=61732) return;
+			if (mode!=61732) {
+				return;
+			}
+
 			var cache_value = null,
 				params = {}, args;
+
 			if (typeof(msg)=='string' && msg.match(/^cachehandler\:/)) {
 				params = JSON.parse(msg.replace(/^cachehandler\:/, ''));
 			}
@@ -88,10 +96,11 @@ var cacheHandler = {
 	},
 
 	delete: function(cache_key, profile) {
-		if(typeof(profile)!='string' || !profile.length) {
+		if (typeof(profile)!='string' || !profile.length) {
 			profile = me.profile;
 		}
 		this.init();
+
 		var thisObj = this;
 
 		this.get(cache_key, function(dummy, params){
@@ -145,6 +154,7 @@ var cacheHandler = {
 			args: [profile]
 		}));
 	},
+
 	callback_args: []
 };
 
