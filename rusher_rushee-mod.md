@@ -248,11 +248,15 @@
 ```
 
 ```javascript
-				case "2":
+				case "2": // Go back to town and check quest & revive;
+					// check death and revie (any other case delete this.revive();)
+					if (me.mode === 17) {
+						this.revive();
+					}
 				//...
 				//...
 					case 83: // Travincal
-						this.revive();
+						// this.revive();
 
 						if (!me.inTown && !Pather.usePortal(75, Config.Leader)) {
 							break;
