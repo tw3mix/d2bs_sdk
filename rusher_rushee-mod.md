@@ -38,7 +38,7 @@
 		var i,
 			npc = getUnit(1, NPC.Tyrael);
 
-		for (i = 0; i < 3 && npc; i += 1) {
+		for (i = 0; npc && i < 3; i += 1) {
 			if (getDistance(me, npc) > 3) {
 				Pather.moveToUnit(npc);
 			}
