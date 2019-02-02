@@ -298,7 +298,7 @@
 
 ```javascript
 	// new function
-	this.KillBoss = function (classId) {
+	this.killBoss = function (classId) {
 		try {
 			Attack.kill(classId);
 		} catch(e) {
@@ -306,7 +306,7 @@
 			delay(1000);
 		}
 	};
-	// Attack.kill() ====> this.KillBoss() change
+	// Attack.kill() ====> this.killBoss() change
 ```
 
 ```javascript
@@ -357,12 +357,7 @@
 			}
 		}
 
-		try {
-			Attack.kill(243);
-		} catch (errorDiablo) {
-			say("diablo not found");
-			delay(3000);
-		}
+		this.killBoss(243);
 		say("2");
 		delay(1000);
 ```
