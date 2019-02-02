@@ -4,6 +4,7 @@
 *	@desc		Rushee script that works with Rusher
 */
 
+//ㅁㅁㅁㅁ
 function Rushee() {
 	var act, leader, target,
 		actions = [];
