@@ -305,7 +305,7 @@
 			Attack.kill(classId);
 		} catch(e) {
 			print("ÿc1RushThread->KillBoss :: " + e.message + "(" + classId + ")");
-			delay(1500);
+			delay(1000);
 		}
 	};
 	// Attack.kill() ====> this.KillBoss() change
