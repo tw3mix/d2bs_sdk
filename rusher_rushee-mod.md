@@ -54,7 +54,7 @@
 			}
 		}
 
-		return Pather.usePortal(null) || Pather.usePortal(null, Config.Leader);
+		return Pather.usePortal(null, Config.Leader, Pather.getPortal(null));
 	};
 ```
 
