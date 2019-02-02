@@ -50,3 +50,14 @@ var ColorCode = {
 };
 
 ```
+
+```javascript
+function test(){
+   var aaa = 10;
+   (function(arg){
+      var aaa = 20;
+      console.log(aaa); // 20;
+      console.log(arg); // 10;
+   })(aaa);
+}
+```
