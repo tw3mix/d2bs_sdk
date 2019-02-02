@@ -38,21 +38,19 @@
 		var i,
 			npc = getUnit(1, NPC.Tyrael);
 
-		if (npc) {
-			for (i = 0; i < 3; i += 1) {
-				if (getDistance(me, npc) > 3) {
-					Pather.moveToUnit(npc);
-				}
+		for (i = 0; i < 3 && npc; i += 1) {
+			if (getDistance(me, npc) > 3) {
+				Pather.moveToUnit(npc);
+			}
 
-				npc.interact();
-				delay(1000 + me.ping);
+			npc.interact();
+			delay(1000 + me.ping);
+			me.cancel();
+
+			if (Pather.getPortal(null)) {
 				me.cancel();
 
-				if (Pather.getPortal(null)) {
-					me.cancel();
-
-					break;
-				}
+				break;
 			}
 		}
 
