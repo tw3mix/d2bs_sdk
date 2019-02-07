@@ -302,7 +302,7 @@
 		try {
 			Attack.kill(classId);
 		} catch(e) {
-			print("ÿc1RushThread->KillBoss :: " + e.message + "(" + classId + ")");
+			print("ÿc1RushThread->killBoss :: " + e.message + " classId:" + classId);
 			delay(1000);
 		}
 	};
