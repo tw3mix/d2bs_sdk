@@ -53,3 +53,16 @@
 		delay(1000);
 	}
 ```
+
+```javascript
+		if (lastGameStatus === "pending") {
+			isUp = "no";
+
+			if (StarterConfig.FTJRestartDelay > 0) {
+				ControlAction.timeoutDelay("Restart delay", StarterConfig.FTJRestartDelay * 1e3);
+				DataFile.updateStats("runs", gameCount + 1);
+				//setNextGame();
+				delay(500);
+				D2Bot.restart();
+			}
+```
