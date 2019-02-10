@@ -63,6 +63,7 @@ function test(){
 ```
 
 ```javascript
+// d2bs item.fname
 function statidToName(id, value) { 
 	return getLocaleString(getBaseStat(7, id, (value >= 0 ? "descstrpos" : "descstrneg"))); 
 } 
