@@ -61,3 +61,14 @@ function test(){
    })(aaa);
 }
 ```
+
+```javascript
+function statidToName(id, value) { 
+	return getLocaleString(getBaseStat(7, id, (value >= 0 ? "descstrpos" : "descstrneg"))); 
+} 
+/*
+	for each(var item in me.getItems()) 
+	for(var i = 0; i < 358; i++) 
+	print(statidToName(i, item.getStat(i)) + ' = ' + item.getStat(i));
+*/
+```
