@@ -66,3 +66,29 @@
 				D2Bot.restart();
 			}
 ```
+
+```javascript
+case 2: // Waiting In Line
+	string = "";
+	text = ControlAction.getText(4, 427, 234, 300, 100);
+
+	if (text) {
+		string = text[3].split("c0")[1].replace(/\s+/g, '');
+		var line = parseInt(string);
+
+		if (line) {
+			if (line < 2000) {
+				D2Bot.updateStatus("Waiting... Line: " + line);
+			} else {
+				print("Waiting line: " + line);
+				ControlAction.click(6, 433, 433, 96, 32); // Cancel creategame
+				ControlAction.click(6, 693, 490, 80, 20); // Quit from Lobby
+				delay(1000);
+				ControlAction.click(6, 33, 572, 128, 35); // Quit from char selection
+				ControlAction.timeoutDelay("Waiting Delay", 30 * 60 * 1e3); // Wait 30m delay
+			}
+		}
+	}
+
+	break;
+```
