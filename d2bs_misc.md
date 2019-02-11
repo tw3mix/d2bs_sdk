@@ -73,3 +73,41 @@ function statidToName(id, value) {
 	print(statidToName(i, item.getStat(i)) + ' = ' + item.getStat(i));
 */
 ```
+
+```
+varied = getBaseStat( basestat, classid, statnum );
+
+0 - items
+1 - monstats (&npcs)
+2 - skilldesc
+3 - skills
+4 - objects
+5 - missiles
+6 - monstats2
+7 - itemstatcost
+8 - levels
+9 - leveldefs
+10 - lvlmaze
+11 - lvlsub
+12 - lvlwarp
+13 - lvlprest
+14 - lvltypes
+15 - charstats
+16 - setitems
+17 - uniqueitems
+18 - sets
+19 - itemtypes
+20 - runes
+21 - cubemain
+22 - gems 
+23 - experience
+24 - pettype
+25 - SuperUniques
+
+Examples:
+// If not killable...
+if (getBaseStat(1, monster.classid, 20) == 0) return false;
+
+// Align, on our side?
+if (getBaseStat(1, monster.classid, 63)) return false;
+```
