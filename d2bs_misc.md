@@ -111,3 +111,31 @@ if (getBaseStat(1, monster.classid, 20) == 0) return false;
 // Align, on our side?
 if (getBaseStat(1, monster.classid, 63)) return false;
 ```
+
+```javascript
+	getRecipeFormulae: function (recipe) {
+		if (!recipe) {
+			return "Transmuting: ";
+		}
+
+		var index = recipe.Index,
+			craftItem = {1:"Helm", 2:"Boots", 3:"Gloves", 4:"Belt", 5:"Shield", 6:"Body", 7:"Amulet", 8:"Ring", 9:"Weapon"};
+
+
+		if (index >= 1 && index <= 9) {
+			return "HitPower." + craftItem[index] + ": ";
+		}
+		else if (index >= 10 && index <= 18) {
+			return "Blood." + craftItem[index - 9] + ": ";
+		}
+		else if (index >= 19 && index <= 27) {
+			return "Caster." + craftItem[index - 18] + ": ";
+		}
+		else if (index >= 28 && index <= 36) {
+			return "Safety." + craftItem[index - 27] + ": ";
+		}
+		else {
+			return "Transmuting: ";
+		}
+	},
+```
