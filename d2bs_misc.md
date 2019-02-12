@@ -123,7 +123,10 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 			craftItem = {1:"Helm", 2:"Boots", 3:"Gloves", 4:"Belt", 5:"Shield", 6:"Body", 7:"Amulet", 8:"Ring", 9:"Weapon"};
 
 
-		if (index >= 1 && index <= 9) {
+		if (index === 0) {
+			text = "Cubing Gem: ";
+		}
+		else if (index >= 1 && index <= 9) {
 			text = "HitPower." + craftItem[index] + ": ";
 		}
 		else if (index >= 10 && index <= 18) {
