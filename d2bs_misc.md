@@ -78,10 +78,10 @@ function statidToName(id, value) {
 var NTPossibleCubingGems = [
 /*
 skull, amethyst, sapphire, emerald, ruby, diamond, topaz */
-597,     557,      567,      572,     577,  582,     562, //chippped
-598,     558,      568,      573,     578,  583,     563, //flawed 
-599,     559,      569,      574,     579,  584,     564, //regular
-600,     560,      570,      575,     580,  585,     565, //flawless
+597,   557,      567,      572,     577,  582,     562, //chippped
+598,   558,      568,      573,     578,  583,     563, //flawed 
+599,   559,      569,      574,     579,  584,     564, //regular
+600,   560,      570,      575,     580,  585,     565, //flawless
 ];
 ```
 
