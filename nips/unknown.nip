@@ -1,0 +1,45 @@
+// ##### Circlets ###################### 서클렛
+[Type] == circlet && [Quality] == magic && [Flag] != ethereal # [Sockets] >= 3 && ([Dexterity] >= 30 || [MaxHP] >= 100 || [FRW] >= 30 || [FCR] >= 20) 
+[Type] == circlet && [Quality] == magic && [Flag] != ethereal # [FCR] >= 20 && [PaladinSkills] == 2 && [Sockets] >= 2
+[Type] == circlet && [Quality] == magic && [Flag] != ethereal # [Sockets] >= 2 && [AmazonSkills] == 2 && [FRW] >= 30  
+
+[Type] == circlet && [Quality] == rare && [Flag] != ethereal # [FCR] >= 20 && [Sockets] >= 2 && [AssassinSkills]+[DruidSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && ([Strength] >= 25 || [Dexterity] >= 15 || [FHR] >= 8 || [MaxHP] >= 55)
+[Type] == circlet && [Quality] == rare && [Flag] == ethereal # [FCR] >= 20 && [Sockets] >= 2 && [AssassinSkills]+[DruidSkills] == 2 && [ItemReplenishDurability] >= 1 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [AmazonSkills] == 2 && [FRW] >= 30 && [Dexterity] >= 20 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && ([FHR] >= 8 || [MaxHP] >= 55)
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [FCR] >= 20 && [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Dexterity] >= 15 && [MaxHP] >= 55
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [PaladinSkills] == 2 && [ItemToHitPercentPerLevel] >= 1 && [FRW] >= 30 && [Strength] >= 25 && [Dexterity] >= 15
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [PaladinSkills] == 2 && [ItemToHitPercentPerLevel] >= 1 && [FCR] >= 20 && ([FRW] >= 30 || [MaxHP] >= 55) && [Dexterity] >= 15
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [PaladinSkills] == 2 && [ItemToHitPercentPerLevel] >= 1 && [Strength] >= 25 && [Dexterity] >= 15 && [MaxHP] >= 55
+[Type] == circlet && [Quality] == rare # [PaladinSkills] == 2 && [Sockets] >= 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Strength] >= 25 && [Dexterity] >= 15 && [FRW] >= 30
+[Type] == circlet && [Quality] == rare # [PaladinSkills] == 2 && [Sockets] >= 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Dexterity] >= 15 && [FCR] >= 20 && ([FRW] >= 30 || [MaxHP] >= 55)
+[Type] == circlet && [Quality] == rare # [NecromancerSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Sockets] >= 2 && [Dexterity] >= 15 && [FCR] >= 20 && [MaxHP] >= 55
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [BarbarianSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Strength] >= 25 && [Dexterity] >= 15 && [FRW] >= 30
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Dexterity] >= 15 && [FRW] >= 30 && [FCR] >= 20
+[Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Strength] >= 25 && [Dexterity] >= 15 && [FRW] >= 30 
+
+// ##### Amulets ####################### 아뮬렛
+[Type] == amulet && [Quality] == magic # ([BarbarianSkills] >= 2 || [WarcriesSkillTab] >= 3) && [ItemGoldBonus] >= 80
+[Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && ([ManaLeech] >= 8 || [Strength] >= 30 || [MaxHP] >= 60) && [ItemGoldBonus] >= 70
+[Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && [FireResist] >= 18 && [LightResist] >= 18 && [ColdResist] >= 18 && [ItemGoldBonus] >= 70
+[Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && [FireResist]+[LightResist] >= 70 && [ItemGoldBonus] >= 70
+[Type] == amulet && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Dexterity] >= 15 && [MaxHP] >= 50
+[Type] == amulet && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [ToHit] >= 50 && [Strength] >= 15 && [Dexterity] >= 15 && ([MinDamage] >= 7 || [MaxDamage] >= 3)
+[Type] == amulet && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Dexterity] >= 15 && ([MinDamage] >= 7 || [MaxDamage] >= 3)
+[Type] == amulet && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [Strength] >= 15 && [Dexterity] >= 15 && [MaxHP] >= 50
+[Type] == amulet && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Dexterity] >= 15 && [MaxHP] >= 50
+[Type] == amulet && [Quality] == rare # [sorceressskills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Strength] >= 25 && [MaxHP] >= 50
+[Type] == amulet && [Quality] == rare # [NecromancerSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Dexterity] >= 15 && [MaxHP] >= 50 
+[Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [ToHit] >= 50 && [Strength] >= 15 && [Dexterity] >= 15 && ([MinDamage] >= 7 || [MaxDamage] >= 3) 
+[Type] == amulet && [Quality] == rare # [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [FCR] >= 10 && [Dexterity] >= 15 && [MaxHP] >= 50 
+[Type] == amulet && [Quality] == rare # [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [MaxMana] >= 80 && [Strength] >= 15 && [Dexterity] >= 15 && [MaxHP] >= 50 
+
+
+// ##### Rings #########################
+// 법사용 링의 경우 패캐는 기본에 20힘 높은피, 마나, 레지 (15덱스는 방패블록 맞추는분만 선택사항)
+[Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [MaxHP] >= 35 && [MaxMana] >= 75 && [FireResist]+[LightResist] >= 60
+[Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [MaxHP] >= 35 && [MaxMana] >= 75 && [FireResist] >= 25 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10
+[Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [LifeLeech] >= 8 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10 && [ToHit] >= 120
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [LifeLeech] >= 8 && [ManaLeech] >= 6 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10 && [ToHit] >= 120 && [MaxMana] >= 80
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [LifeLeech] >= 9 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10 && [ToHit] >= 120 && [Dexterity] >= 12 && [MaxMana] >= 80
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [MaxHP] >= 38 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10 && [ToHit] >= 120 && [Dexterity] >= 12
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [MaxHP] >= 38 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [ToHit] >= 120 && [Dexterity] >= 12 && [MaxMana] >= 80
