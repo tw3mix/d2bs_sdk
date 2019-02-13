@@ -143,6 +143,10 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 			text = "Socket." + socketItem[index - 45];
 		} else if (index >= 49 && index <= 51) {
 			text = "Reroll." + rerollItem[index - 49];
+		} else if (index === 52) {
+			text = "Cubing Rune";
+		} else if (index === 53) {
+			text = "Cubing Token";
 		} else {
 			text = "Transmuting";
 		}
