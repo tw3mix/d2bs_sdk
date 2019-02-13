@@ -120,28 +120,30 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 
 		var text = "",
 			index = recipe.Index,
-			craftItem = {1:"Helm", 2:"Boots", 3:"Gloves", 4:"Belt", 5:"Shield", 6:"Body", 7:"Amulet", 8:"Ring", 9:"Weapon"};
-
+			craftItem = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
+			classGrade = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
+			socketItem = ["Shield","Weapon","Armor","Helm"];
 
 		if (index === 0) {
-			text = "Cubing Gem: ";
-		}
-		else if (index >= 1 && index <= 9) {
-			text = "HitPower." + craftItem[index] + ": ";
-		}
-		else if (index >= 10 && index <= 18) {
-			text = "Blood." + craftItem[index - 9] + ": ";
-		}
-		else if (index >= 19 && index <= 27) {
-			text = "Caster." + craftItem[index - 18] + ": ";
-		}
-		else if (index >= 28 && index <= 36) {
-			text = "Safety." + craftItem[index - 27] + ": ";
-		}
-		else {
-			text = "Transmuting: ";
+			text = "Cubing Gem";
+		} else if (index >= 1 && index <= 9) {
+			text = "HitPower." + craftItem[index - 1];
+		} else if (index >= 10 && index <= 18) {
+			text = "Blood." + craftItem[index - 10];
+		} else if (index >= 19 && index <= 27) {
+			text = "Caster." + craftItem[index - 19];
+		} else if (index >= 28 && index <= 36) {
+			text = "Safety." + craftItem[index - 28];
+		} else if (index >= 37 && index <= 40) {
+			text = "Unique." + classGrade[index - 37];
+		} else if (index >= 41 && index <= 44) {
+			text = "Rare." + classGrade[index - 41];
+		} else if (index >= 45 && index <= 48) {
+			text = "Socket." + socketItem[index - 45];
+		} else {
+			text = "Transmuting";
 		}
 
-		return text;
+		return text + ": ";
 	},
 ```
