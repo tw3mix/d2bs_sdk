@@ -122,7 +122,8 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 			index = recipe.Index,
 			craftItem = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
 			classGrade = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
-			socketItem = ["Shield","Weapon","Armor","Helm"];
+			socketItem = ["Shield","Weapon","Armor","Helm"],
+			rerollItem = ["Magic","Rare","HighRare"];
 
 		if (index === 0) {
 			text = "Cubing Gem";
@@ -140,6 +141,8 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 			text = "Rare." + classGrade[index - 41];
 		} else if (index >= 45 && index <= 48) {
 			text = "Socket." + socketItem[index - 45];
+		} else if (index >= 49 && index <= 51) {
+			text = "Reroll." + rerollItem[index - 49];
 		} else {
 			text = "Transmuting";
 		}
