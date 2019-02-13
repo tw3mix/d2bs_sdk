@@ -125,12 +125,35 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 ```
 
 ```javascript
+	gradeGem: function (classid) {
+		var i,
+			gemList = [561,566,571,576,581,586,601],
+			gemGrade = ["Perfect","Flawless","Normal","Flawed","Chipped"];
+
+		for (i = 0; i < gemList.length; i += 1) {
+			if (classid < gemList[i]) {
+				return gemGrade[gemList[i] - classid];
+			}
+		}
+		return classid;
+	},
+	gradeRune: function (classid) {
+		if (classid <= 623) {// El - Dol
+			return "Low";
+		} else if (classid <= 632) {// Hel - Mal
+			return "Middle";
+		} else {
+			return "High";
+		}
+		return "High";
+	},
 	getRecipeFormulae: function (recipe) {
 		if (!recipe) {
 			return "Transmuting: ";
 		}
 
-		var text = "",
+		var i, text,
+			classid = recipe.Ingredients[0],
 			index = recipe.Index,
 			craftItem = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
 			classGrade = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
@@ -138,7 +161,7 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 			rerollItem = ["Magic","Rare","HighRare"];
 
 		if (index === 0) {
-			text = "Cubing Gem";
+			text = "Gem." + this.gradeGem(classid);
 		} else if (index >= 1 && index <= 9) {
 			text = "HitPower." + craftItem[index - 1];
 		} else if (index >= 10 && index <= 18) {
@@ -156,7 +179,7 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 		} else if (index >= 49 && index <= 51) {
 			text = "Reroll." + rerollItem[index - 49];
 		} else if (index === 52) {
-			text = "Cubing Rune";
+			text = "Rune." + this.gradeRune(classid);
 		} else if (index === 53) {
 			text = "Cubing Token";
 		} else {
