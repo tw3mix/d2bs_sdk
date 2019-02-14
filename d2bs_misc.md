@@ -126,26 +126,23 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 
 ```javascript
 	gradeGem: function (classid) {
-		var i,
-			gemList = [561,566,571,576,581,586,601],
-			gemGrade = ["Perfect","Flawless","Normal","Flawed","Chipped"];
+		var i, gemList = [561,566,571,576,581,586,601];
 
 		for (i = 0; i < gemList.length; i += 1) {
 			if (classid < gemList[i]) {
-				return gemGrade[gemList[i] - classid];
+				return gemList[i] - classid;
 			}
 		}
-		return classid;
+		return -1;
 	},
 	gradeRune: function (classid) {
 		if (classid <= 623) {// El - Dol
-			return "Low";
+			return 0;
 		} else if (classid <= 632) {// Hel - Mal
-			return "Middle";
-		} else {
-			return "High";
+			return 1;
+		} else {// Ist - Zod
+			return 2;
 		}
-		return "High";
 	},
 	getRecipeFormulae: function (recipe) {
 		if (!recipe) {
@@ -153,15 +150,16 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 		}
 
 		var i, text,
-			classid = recipe.Ingredients[0],
 			index = recipe.Index,
 			craftItem = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
 			classGrade = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
 			socketItem = ["Shield","Weapon","Armor","Helm"],
-			rerollItem = ["Magic","Rare","HighRare"];
+			rerollItem = ["Magic","Rare","HighRare"],
+			gemGradeList = ["Perfect","Flawless","Normal","Flawed","Chipped"],
+			runeGradeList = ["Low","Middle","High"];
 
 		if (index === 0) {
-			text = "Gem." + this.gradeGem(classid);
+			text = "Gem." + gemGradeList[this.gradeGem(recipe.Ingredients[0])];
 		} else if (index >= 1 && index <= 9) {
 			text = "HitPower." + craftItem[index - 1];
 		} else if (index >= 10 && index <= 18) {
@@ -179,13 +177,13 @@ if (getBaseStat(1, monster.classid, 63)) return false;
 		} else if (index >= 49 && index <= 51) {
 			text = "Reroll." + rerollItem[index - 49];
 		} else if (index === 52) {
-			text = "Rune." + this.gradeRune(classid);
+			text = "Rune." + runeGradeList[this.gradeRune(recipe.Ingredients[0])];
 		} else if (index === 53) {
-			text = "Cubing Token";
+			text = "Token";
 		} else {
-			text = "Transmuting";
+			text = "LowToNorm";
 		}
 
-		return text + ": ";
+		return "Cubing<" + text + ">: ";
 	},
 ```
