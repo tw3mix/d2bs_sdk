@@ -12,6 +12,41 @@ JSAPI_FUNC(unit_interact) {
 
 
 ```javascript
+var BodyLocation = {
+	NotEquipped:0,
+	Helm:1,
+	Amulet:2,
+	Armor:3,
+	LeftSlotI:4,
+	RightSlotI:5,
+	RightRing:7,
+	LeftRing:6,
+	Belt:8,
+	Boots:9,
+	Gloves:10,
+	LeftSlotII:11,
+	RightSlotII:12
+};
+var ItemLocation = {
+	Ground:0,
+	Equip:1,
+	Belt:2,
+	Inventory:3,
+	Shop:4,
+	Trade:5,
+	Cube:6,
+	Stash:7
+};
+var ItemQuality = {
+	Inferior: 1,
+	Normal: 2,
+	Superior: 3,
+	Magic: 4,
+	Set: 5,
+	Rare: 6,
+	Unique: 7,
+	Crafted: 8
+};
 var Color = {
 	White:0,
 	Red:1,
