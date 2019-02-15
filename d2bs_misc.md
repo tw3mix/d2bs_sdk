@@ -118,7 +118,7 @@ var NTPossibleCubingGems = [
     560,      565,   570,      575,     580,  585,     600, //flawless
 //  561,      566,   571,      576,     581,  586,     601, //perfect
 ];
-
+var unidSomeLocale = {"amu": 2212, "rin": 2214, "jew": 20433, "cm1": 20435, "cm2": 20436, "cm3": 20437};
 ```
 
 ```
