@@ -71,7 +71,13 @@
 		}
 
 		var i, j, items, string, result, tempArray, descCubing, recipeIndex,
-			localeSID = {"amu": 2212, "rin": 2214, "jew": 20433, "cm1": 20435, "cm2": 20436, "cm3": 20437};
+			localeSID = {
+				"amu": 2212, "rin": 2214, "jew": 20433,// Amulet/Ring/Jewel
+				"cm1": 20435, "cm2": 20436, "cm3": 20437,// SmallCharm/LageCharm/GrandCharm
+				"vbl": 1969, "zvb": 2062, "uvc": 20380,// Caster belt : LightBelt/SharkskinBelt/VampirefangBelt
+				"vgl": 1959, "xvg": 2072, "uvg": 20370,// Boold gloves : HeavyGloves/SharkskinGloves/VampireboneGloves
+				"mgl": 1960, "xmg": 2071, "umg": 20371// HitPower gloves : ChainGloves/HeavyBracers/Vambraces
+			};
 
 		this.update();
 		// Randomize the recipe array to prevent recipe blocking (multiple caster items etc.)
