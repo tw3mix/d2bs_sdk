@@ -18,7 +18,7 @@ var Cache = new function() {
 	};
 };
 ```
-```html
+
 <h2>Example of code</h2>
 
 <pre>
@@ -31,4 +31,4 @@ var Cache = new function() {
         </div>
     </div>
 </pre>
-```
+
