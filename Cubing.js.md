@@ -7,7 +7,6 @@
 				return gemList[i] - classid;
 			}
 		}
-		return -1;
 	},
 	gradeRune: function (classid) {
 		if (classid <= 623) {// El - Dol
@@ -18,7 +17,7 @@
 			return 2;
 		}
 	},
-	getRecipeFormulae: function (recipe) {
+	getCubingClass: function (recipe) {
 		if (!recipe) {
 			return "Transmuting: ";
 		}
@@ -70,7 +69,7 @@
 			return false;
 		}
 
-		var i, j, items, string, result, tempArray, descCubing, recipeIndex,
+		var i, j, items, string, result, tempArray,
 			localeSID = {
 				"amu": 2212, "rin": 2214, "jew": 20433,// Amulet/Ring/Jewel
 				"cm1": 20435, "cm2": 20436, "cm3": 20437,// SmallCharm/LageCharm/GrandCharm
@@ -93,24 +92,47 @@
 					return false;
 				}
 
-				descCubing = this.getRecipeFormulae(tempArray[i]);
-				recipeIndex = tempArray[i].Index;
+				var classCubing, index, colorConsole, itemArray, overlap;
+
+				classCubing = this.getCubingClass(tempArray[i]);
+				index = tempArray[i].Index;
+
+				if (index >= 1 && index <= 36) {
+					colorConsole = 6;
+				} else if (index === 52) {
+					colorConsole = 8;
+				} else {
+					colorConsole = 5;
+				}
+
 
 				this.cursorCheck();
 
 				i = -1;
 
+				itemArray = [];
 				while (items.length) {
 					if (items[0].quality === 4 && localeSID[items[0].code]) {
-						string += getLocaleString(localeSID[items[0].code]);
+						itemArray.push(getLocaleString(localeSID[items[0].code]));
 					} else {
-						string += items[0].name.trim();
+						itemArray.push(items[0].name.trim());
 					}
-					string += (items.length > 1) ? " + " : "";
 					Storage.Cube.MoveTo(items[0]);
 					items.shift();
 				}
 
+				overlap = 1;
+				while (itemArray.length) {
+					if (itemArray.length > 1 && itemArray[0] === itemArray[1]) {
+						overlap += 1;
+					} else {
+						string += (itemArray[0] + (overlap > 1 ? "(x" +  overlap + ")" : ""));
+						string += (itemArray.length > 1) ? " + " : ""; 
+						overlap = 1;
+					}
+					itemArray.shift();
+				}
+				
 				if (!this.openCube()) {
 					return false;
 				}
@@ -119,12 +141,28 @@
 				delay(700 + me.ping);
 				print("ÿc4Cubing: " + string);
 				if (Config.ShowCubingInfo) {
-					if (recipeIndex === 0) {
-						string = string.split(" + ")[0] + " x 3";
-					}
-					string = "Cubing<" + descCubing + ">: " + string;
-					D2Bot.printToConsole(string, (recipeIndex >= 1 && recipeIndex <= 36) ? 6 : 5, descCubing, "Cubing");
+					string = "Cubing<" + classCubing + ">: " + string;
+					D2Bot.printToConsole(string, colorConsole, "Act " + me.act, "Cubing");
 				}
 
 				this.update();
+
+				items = me.findItems(-1, -1, 6);
+
+				if (items) {
+					for (j = 0; j < items.length; j += 1) {
+						result = Pickit.checkItem(items[j]);
+
+						switch (result.result) {
+						case 0:
+							/*
+							if (items[j].quality === 8) {
+								Misc.logItem("###", items[j]);
+							}
+							*/
+
+							Misc.itemLogger("Dropped", items[j], "doCubing");
+							items[j].drop();
+
+							break;
 ```
