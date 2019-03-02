@@ -1,31 +1,31 @@
 ```javascript
 	gradeGem: function (classid) {
-		var i, gemList = [561,566,571,576,581,586,601],
-			gemClass = ["Amethyst","Topaz","Sapphire","Emerald","Ruby","Diamond","Skull"],
-			gemGrade = ["Perfect","Flawless","Normal","Flawed","Chipped"];
+		var i, gems = [561,566,571,576,581,586,601];
 
-		for (i = 0; i < gemList.length; i += 1) {
-			if (classid < gemList[i]) {
-				return gemClass[i];
-				//return gemGrade[gemList[i] - classid];
+		for (i = 0; i < gems.length; i += 1) {
+			if (classid < gems[i]) {
+				return ["Amethyst","Topaz","Sapphire","Emerald","Ruby","Diamond","Skull"][i];
+				//return ["Perfect","Flawless","Normal","Flawed","Chipped"][gems[i] - classid];
 			}
 		}
 		return "None";
 	},
 	gradeRune: function (classid) {
-		var runeGrade = ["Low","Middle","High"],
-			runeAll = ["El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol","Hel","Io","Lum","Ko","Fal",
-					"Lem","Pul","Um","Mal","Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"];
-					// classid: 610 ~ 642
+		var runes = [
+				"El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol",
+				"Hel","Io","Lum","Ko","Fal", "Lem","Pul","Um","Mal",
+				"Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"
+			];
 
-		return runeAll[classid - 609];
+		return runes[classid - 609];// classid: 610 ~ 642
 
+		var grade = ["Low","Middle","High"];
 		if (classid <= 623) {
-			return runeGrade[0];// Low: El - Dol
+			return grade[0];// Low: El - Dol
 		} else if (classid <= 632) {
-			return runeGrade[1];// Middle: Hel - Mal
+			return grade[1];// Middle: Hel - Mal
 		} else {
-			return runeGrade[2];// High: Ist - Zod
+			return grade[2];// High: Ist - Zod
 		}
 	},
 	getCubingClass: function (recipe) {
@@ -33,31 +33,31 @@
 			return "Transmuting: ";
 		}
 
-		var i, text,
+		var text,
 			index = recipe.Index,
-			craftItem = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
-			classUpto = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
-			socketItem = ["Shield","Weapon","Armor","Helm"],
-			rerollItem = ["Magic","Rare","HighRare"];
+			craft = ["Helm","Boots","Gloves","Belt","Shield","Body","Amulet","Ring","Weapon"],
+			lift = ["Weapon.ToExceptional","Weapon.ToElite","Armor.ToExceptional","Armor.ToElite"],
+			socket = ["Shield","Weapon","Armor","Helm"],
+			reroll = ["Magic","Rare","HighRare"];
 
 		if (index === 0) {
 			text = "Gem." + this.gradeGem(recipe.Ingredients[0]);
 		} else if (index >= 1 && index <= 9) {
-			text = "HitPower." + craftItem[index - 1];
+			text = "HitPower." + craft[index - 1];
 		} else if (index >= 10 && index <= 18) {
-			text = "Blood." + craftItem[index - 10];
+			text = "Blood." + craft[index - 10];
 		} else if (index >= 19 && index <= 27) {
-			text = "Caster." + craftItem[index - 19];
+			text = "Caster." + craft[index - 19];
 		} else if (index >= 28 && index <= 36) {
-			text = "Safety." + craftItem[index - 28];
+			text = "Safety." + craft[index - 28];
 		} else if (index >= 37 && index <= 40) {
-			text = "Unique." + classUpto[index - 37];
+			text = "Unique." + lift[index - 37];
 		} else if (index >= 41 && index <= 44) {
-			text = "Rare." + classUpto[index - 41];
+			text = "Rare." + lift[index - 41];
 		} else if (index >= 45 && index <= 48) {
-			text = "Socket." + socketItem[index - 45];
+			text = "Socket." + socket[index - 45];
 		} else if (index >= 49 && index <= 51) {
-			text = "Reroll." + rerollItem[index - 49];
+			text = "Reroll." + reroll[index - 49];
 		} else if (index === 52) {
 			text = "Rune." + this.gradeRune(recipe.Ingredients[0]);
 		} else if (index === 53) {
