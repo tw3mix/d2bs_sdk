@@ -156,6 +156,17 @@ var ColorCode = {
 	MGlow:'ÿc#',
 	LGlow:'ÿc*'
 };
+var ItemColor = {
+	inferior: 5,
+	normal: 0,
+	superior: 3,
+	magic: 3,
+	set: 2,
+	rare: 9,
+	unique: 4,
+	crafted: 8
+};
+var ItemColor = [0,5,0,3,3,2,9,4,8];
 
 ```
 
