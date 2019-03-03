@@ -12,6 +12,79 @@ JSAPI_FUNC(unit_interact) {
 
 
 ```javascript
+var GameLocation = {
+	Lobby:1,InLine:2,Chat:3,Create:4,Join:5,Ladder:6,Channel:7,MainMenu:8,Login:9,
+	LoginError:10,UnableToConnect:11,CharSelect:12,RealmDown:13,Disconnected:14,NewChar:15,
+	CharSelectPleaseWait:16,LostConnection:17,D2Splash:18,CdKeyInUse:19,Difficulty:20,
+	MainMenuConnecting:21,InvalidCdKey:22,/*Connecting:23,*/ServerDown:24,PleaseWait:25,GameExist:26,Gateway:27,
+	GameDoesNotExist:28,CharCreate:29,CharCreateAlreadyExists:30,AgreeToTerms:31,NewAccount:32,
+	PleaseRead:33,RegisterEmail:34,Credits:35,Cinematics:36,GameIsFull:38,OtherMultiplayer:39,
+	TcpIp:40,EnterIpAddress:41,CharSelectNoChars:42,CharSelectChangeRealm:43};
+
+var Class = {
+	Amazon: 0,
+	Sorceress: 1,
+	Necromancer: 2,
+	Paladin: 3,
+	Barbarian: 4,
+	Druid: 5,
+	Assassin: 6
+};
+
+var Type = {
+	Player: 0,
+	Monster: 1,
+	Npc: 1,
+	Object: 2,
+	Missile: 3,
+	Item: 4,
+	Tile: 5
+};
+var Party = {None:65535};
+
+var UIFlags = {
+	Inventory: 0x01,
+	Character: 0x02,
+	QuickSkill: 0x03,
+	Skill: 0x04,
+	ChatBox: 0x05,
+	NPCMenu: 0x08,
+	EscMenu: 0x09,
+	Automap: 0x0A,
+	ConfigControls: 0x0B,
+	NPCShop: 0x0C,
+	ShowItems: 0x0D,
+	Cash: 0x0E,
+	Quest: 0x0F,
+	QuestLogButton: 0x11,
+	StatusArea: 0x12,
+	Waypoint: 0x14,
+	MiniPanel: 0x15,
+	Party: 0x16,
+	TradePrompt: 0x17,
+	MessageLog: 0x18,
+	Stash: 0x19,
+	Cube: 0x1A,
+	ShowBelt: 0x1F,
+	Help: 0x21,
+	MercScreen: 0x24,
+	ScrollOfInfuiss: 0x25
+};
+
+var Shop = {
+	Sell:1,
+	Buy:2,
+	ShiftBuy:6
+};
+
+var CursorType = {
+	Norm1:1,
+	Norm2:2,
+	Norm3:3,
+	Norm4:4,
+	Unk1:5,
+	Identify:6
+};
 var BodyLocation = {
 	NotEquipped:0,
 	Helm:1,
