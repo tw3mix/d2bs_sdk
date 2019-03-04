@@ -12,6 +12,11 @@ JSAPI_FUNC(unit_interact) {
 
 
 ```javascript
+var DataModeId = {
+	D2BOT_JOIN: 1,
+	D2BOT_GAMEINFO: 2,
+	D2BOT_REQUESTGAME: 3,
+};
 var GameLocation = {
 	Lobby:1,InLine:2,Chat:3,Create:4,Join:5,Ladder:6,Channel:7,MainMenu:8,Login:9,
 	LoginError:10,UnableToConnect:11,CharSelect:12,RealmDown:13,Disconnected:14,NewChar:15,
