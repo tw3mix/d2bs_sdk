@@ -21,6 +21,9 @@
 
 ### D2BotMule
 ```javascript
+var startTick;
+//...
+//...
 				case "done":
 					MuleLogger.logChar();
 
