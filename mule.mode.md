@@ -21,5 +21,32 @@
 
 ### D2BotMule
 ```javascript
+				case "done":
+					MuleLogger.logChar();
+
+					obj = MuleData.read();
+
+					if (checkAnniTorch() && obj.torchChars.indexOf(me.name) === -1) {
+						obj.torchChars.push(me.name);
+					}
+
+					MuleData.write(obj);
+					D2Bot.printToConsole("Done muling.", 7);
+					sendCopyData(null, master, 10, JSON.stringify({status: "quit"}));
+					//delay(500);
+					if (!muleObj.stopProfile) {
+						master = "";
+						status = "";
+						while (!master) {
+							delay(1000);
+							D2Bot.updateStatus("Stalling mule quit");
+						}
+						continue;
+					}
+					
+					//D2Bot.stop(me.profile, true);
+
+					//return;
+					break;
 
 ```
