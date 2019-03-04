@@ -34,12 +34,17 @@
 					D2Bot.printToConsole("Done muling.", 7);
 					sendCopyData(null, master, 10, JSON.stringify({status: "quit"}));
 					//delay(500);
+
 					if (!muleObj.stopProfile) {
 						master = "";
-						status = "";
+						status = "end";
 						while (!master) {
 							delay(1000);
-							D2Bot.updateStatus("Stalling mule quit");
+							if (getTickCount() - tick > 15 * 60e3) {
+								sendPacket(1, 0x40);
+								tick = getTickCount() + rand(0, 20e3);
+							}
+							D2Bot.updateStatus("Stalling mule quit " + timer(startTick));
 						}
 						continue;
 					}
