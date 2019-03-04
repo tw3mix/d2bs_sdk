@@ -1,36 +1,38 @@
 ```javascript
-	gradeGem: function (classid) {
-		var i, gems = [561,566,571,576,581,586,601];
-
-		for (i = 0; i < gems.length; i += 1) {
-			if (classid < gems[i]) {
-				return ["Amethyst","Topaz","Sapphire","Emerald","Ruby","Diamond","Skull"][i];
-				//return ["Perfect","Flawless","Normal","Flawed","Chipped"][gems[i] - classid];
-			}
-		}
-		return "None";
-	},
-	gradeRune: function (classid) {
-		var runes = [
-				"El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol",
-				"Hel","Io","Lum","Ko","Fal", "Lem","Pul","Um","Mal",
-				"Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"
-			];
-
-		return runes[classid - 609];// classid: 610 ~ 642
-
-		var grade = ["Low","Middle","High"];
-		if (classid <= 623) {
-			return grade[0];// Low: El - Dol
-		} else if (classid <= 632) {
-			return grade[1];// Middle: Hel - Mal
-		} else {
-			return grade[2];// High: Ist - Zod
-		}
-	},
 	getCubingClass: function (recipe) {
 		if (!recipe) {
 			return "Transmuting: ";
+		}
+
+		function gradeGem (classid) {
+			var i, gems = [561,566,571,576,581,586,601];
+
+			for (i = 0; i < gems.length; i += 1) {
+				if (classid < gems[i]) {
+					return ["Amethyst","Topaz","Sapphire","Emerald","Ruby","Diamond","Skull"][i];
+					//return ["Perfect","Flawless","Normal","Flawed","Chipped"][gems[i] - classid];
+				}
+			}
+			return "None";
+		}
+
+		function gradeRune (classid) {
+			var runes = [
+					"El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol",
+					"Hel","Io","Lum","Ko","Fal", "Lem","Pul","Um","Mal",
+					"Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"
+				];
+
+			return runes[classid - 609];// classid: 610 ~ 642
+
+			var grade = ["Low","Middle","High"];
+			if (classid <= 623) {
+				return grade[0];// Low: El - Dol
+			} else if (classid <= 632) {
+				return grade[1];// Middle: Hel - Mal
+			} else {
+				return grade[2];// High: Ist - Zod
+			}
 		}
 
 		var text,
@@ -41,7 +43,7 @@
 			reroll = ["Magic","Rare","HighRare"];
 
 		if (index === 0) {
-			text = "Gem." + this.gradeGem(recipe.Ingredients[0]);
+			text = "Gem." + gradeGem(recipe.Ingredients[0]);
 		} else if (index >= 1 && index <= 9) {
 			text = "HitPower." + craft[index - 1];
 		} else if (index >= 10 && index <= 18) {
@@ -59,7 +61,7 @@
 		} else if (index >= 49 && index <= 51) {
 			text = "Reroll." + reroll[index - 49];
 		} else if (index === 52) {
-			text = "Rune." + this.gradeRune(recipe.Ingredients[0]);
+			text = "Rune." + gradeRune(recipe.Ingredients[0]);
 		} else if (index === 53) {
 			text = "Token";
 		} else {
