@@ -11,6 +11,18 @@
 
 ### D2BotMule
 ```javascript
+//...
+//...
+	// automule specific
+	case 10: // mule request
+		obj = JSON.parse(msg);
+
+		if (status === "end") {
+			D2Bot.restart();
+		}
+//...
+//...
+//...
 function timer(tick) {
 	if (!tick) {
 		return "";
