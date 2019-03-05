@@ -11,6 +11,27 @@
 
 ### D2BotMule
 ```javascript
+function timer(tick) {
+	if (!tick) {
+		return "";
+	}
+
+	var min, sec;
+
+	min = Math.floor((getTickCount() - tick) / 60000).toString();
+	if (min <= 9) {
+		min = "0" + min;
+	}
+
+	sec = (Math.floor((getTickCount() - tick) / 1000) % 60).toString();
+	if (sec <= 9) {
+		sec = "0" + sec;
+	}
+
+	return " (" + min + ":" + sec + ")";
+}
+//...
+//...
 var startTick;
 //...
 //...
@@ -37,7 +58,7 @@ var startTick;
 								sendPacket(1, 0x40);
 								tick = getTickCount() + rand(0, 20e3);
 							}
-							D2Bot.updateStatus("Stalling mule quit " + timer(startTick));
+							D2Bot.updateStatus("Stalling for expiration date" + timer(startTick));
 						}
 						continue;
 					}
