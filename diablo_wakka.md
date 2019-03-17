@@ -59,6 +59,32 @@ removeEventListener("chatmsg", this.chatEvent);
 
 ### wakka
 ```javascript
+	this.checkBoss = function (name) {
+		var i, boss,
+			glow = getUnit(2, 131);
+
+		if (glow || getUnit(1, name)) {
+			for (i = 0; i < 10; i += 1) {
+				delay(500);
+
+				if (me.getStat(12) >= stopLvl) {
+					D2Bot.stop();
+				}
+
+				boss = getUnit(1, name);
+
+				if (boss && boss.mode === 12) {
+					return true;
+				}
+			}
+
+			return true;
+		}
+
+		return false;
+	};
+...
+...
 		if (getDistance(me, monList[0]) < 25 && !checkCollision(me, monList[0], 0x4)) {
 			Attack.deploy(monList[0], 25, 4, 20);
 			while (monList.length) {
