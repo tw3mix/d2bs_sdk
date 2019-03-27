@@ -1,5 +1,7 @@
 # Quest
 
+monster : `getUnit(1, -1, -1, gid);`
+
 start time : `me.gamestarttime`
 
 cow king quest : `me.getQuest (4, 10)`
