@@ -5,7 +5,7 @@ function main () {
 
 	var handle,
 		ingame,
-		lastGameName,
+		lastGame,
 		isUp = "no";
 
 	function locationAction(location) {
@@ -15,13 +15,13 @@ function main () {
 		
 		switch (location) {
 			case 4:
-				ControlAction.setText(1, 432, 162, 158, 20, lastGameName[0]);
-				ControlAction.setText(1, 432, 217, 158, 20, lastGameName[1]);
+				ControlAction.setText(1, 432, 162, 158, 20, lastGame[0]);
+				ControlAction.setText(1, 432, 217, 158, 20, lastGame[1]);
 				break;
 
 			case 5:
-				ControlAction.setText(1, 432, 148, 155, 20, lastGameName[0]);
-				ControlAction.setText(1, 606, 148, 155, 20, lastGameName[1]);
+				ControlAction.setText(1, 432, 148, 155, 20, lastGame[0]);
+				ControlAction.setText(1, 606, 148, 155, 20, lastGame[1]);
 				break;
 		}
 
@@ -70,8 +70,8 @@ function main () {
 	D2Bot.init();
 	load("tools/heartbeat.js");
 
-	lastGameName = DataFile.getObj().lastGameName || "/";
-	lastGameName = lastGameName.split("/");
+	lastGame = DataFile.getObj().lastGame || "/";
+	lastGame = lastGame.split("/");
 
 	while (true) {
 		while (me.ingame) {
@@ -80,9 +80,9 @@ function main () {
 
 				if (!ingame) {
 					ingame = true;
-					lastGameName[0] = me.gamename;
-					lastGameName[1] = me.gamepassword;
-					DataFile.updateStats("lastGameName", me.gamename + "/" + me.gamepassword);
+					lastGame[0] = me.gamename;
+					lastGame[1] = me.gamepassword;
+					DataFile.updateStats("lastGame", me.gamename + "/" + me.gamepassword);
 				}
 			}
 
