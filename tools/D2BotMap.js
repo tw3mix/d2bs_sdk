@@ -29,6 +29,10 @@ function main () {
 				}
 				break;
 		}
+
+		while (getLocation() === location) {
+			delay(500);
+		}
 	}
 
 	function copyDataEvent (mode, msg) {
