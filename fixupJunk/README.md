@@ -1,5 +1,6 @@
-# d2bs hotkeys
+# skills.txt
 
-Here is just a quick run through of what each current key is, and what it will do for bot
+data / global / excel / skills.txt
+usage: game.ext -direct
+purpose: enchat in town
 
-![default key](/image/defaultkey.png "d2bs default key")
