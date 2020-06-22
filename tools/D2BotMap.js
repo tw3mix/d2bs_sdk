@@ -80,9 +80,11 @@ function main () {
 
 				if (!ingame) {
 					ingame = true;
-					lastGame[0] = me.gamename;
-					lastGame[1] = me.gamepassword;
-					DataFile.updateStats("lastGame", me.gamename + "/" + me.gamepassword);
+					if (lastGame[0] !== me.gamename.toLowerCase()) {
+						lastGame[0] = me.gamename.toLowerCase();
+						lastGame[1] = me.gamepassword.toLowerCase();
+						DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
+					}
 				}
 			}
 
