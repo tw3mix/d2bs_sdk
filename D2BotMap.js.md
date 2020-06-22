@@ -6,40 +6,30 @@ function main () {
 
 	var handle,
 		ingame,
+		lastGame,
 		isUp = "no";
 
 	function locationAction(location) {
 		if (me.ingame) {
 			return;
 		}
-
-		var i, control, string, text;
 		
 		switch (location) {
 			case 4:
-				if (!ControlAction.getText(1, 432, 162, 158, 20)) {
-					text = DataFile.getObj().lastGameName;
-					if (text) {
-						text = text.split("/");
-						ControlAction.setText(1, 432, 162, 158, 20, text[0]);
-						ControlAction.setText(1, 432, 217, 158, 20, text[1]);
-					}
-				}
+				ControlAction.setText(1, 432, 162, 158, 20, lastGame[0]);
+				ControlAction.setText(1, 432, 217, 158, 20, lastGame[1]);
 				break;
+
 			case 5:
-				if (!ControlAction.getText(1, 432, 148, 155, 20)) {
-					text = DataFile.getObj().lastGameName;
-					if (text) {
-						text = text.split("/");
-						ControlAction.setText(1, 432, 148, 155, 20, text[0]);
-						ControlAction.setText(1, 606, 148, 155, 20, text[1]);
-					}
-				}
+				ControlAction.setText(1, 432, 148, 155, 20, lastGame[0]);
+				ControlAction.setText(1, 606, 148, 155, 20, lastGame[1]);
 				break;
 		}
-		/* Location time out */
-		while (getLocation() === location) {
-			delay(500);
+
+		if (location === 4 || location === 5) {
+			while (getLocation() === location) {
+				delay(500);
+			}
 		}
 	}
 
@@ -81,6 +71,9 @@ function main () {
 	D2Bot.init();
 	load("tools/heartbeat.js");
 
+	lastGame = DataFile.getObj().lastGame || "/";
+	lastGame = lastGame.split("/");
+
 	while (true) {
 		while (me.ingame) {
 			if (me.gameReady) {
@@ -88,7 +81,9 @@ function main () {
 
 				if (!ingame) {
 					ingame = true;
-					DataFile.updateStats("lastGameName", me.gamename + "/" + me.gamepassword);
+					lastGame[0] = me.gamename;
+					lastGame[1] = me.gamepassword;
+					DataFile.updateStats("lastGame", me.gamename + "/" + me.gamepassword);
 				}
 			}
 
@@ -102,5 +97,6 @@ function main () {
 		delay(1000);
 	}
 }
+
 
 ```
