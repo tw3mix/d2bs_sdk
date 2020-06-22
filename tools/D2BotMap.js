@@ -5,7 +5,7 @@ function main () {
 
 	var handle,
 		ingame,
-		lastGame,
+		lastGame = "/",
 		isUp = "no";
 
 	function locationAction(location) {
@@ -70,7 +70,7 @@ function main () {
 	D2Bot.init();
 	load("tools/heartbeat.js");
 
-	lastGame = DataFile.getObj().lastGame || "/";
+	//lastGame = DataFile.getObj().lastGame || "/";
 	lastGame = lastGame.split("/");
 
 	while (true) {
@@ -83,7 +83,7 @@ function main () {
 					if (lastGame[0] !== me.gamename.toLowerCase()) {
 						lastGame[0] = me.gamename.toLowerCase();
 						lastGame[1] = me.gamepassword.toLowerCase();
-						DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
+						//DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
 					}
 				}
 			}
