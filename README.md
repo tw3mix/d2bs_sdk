@@ -4,6 +4,7 @@
 # D2_ColorCodes
 
 ![d2_colorCodes](/image/D2_ColorCodes.jpg "d2 color code")
+`ÿc0 ÿc1 ÿc2 ÿc3 ÿc4`
 
 # d2bs hotkeys
 
