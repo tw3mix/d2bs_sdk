@@ -8,7 +8,7 @@ var HUD = {
 		this.hooks.push(new Box (614, 571, 34, 16, 0, 1, 2, false, this.click));
 		this.hooks.push(new Frame (613, 571, 34, 16, 2));
 		this.hooks.push(new Text("HUD", 614, 585, 0, 1, 2));
-		this.hooks[2].zorder = 0;
+		this.hooks[0].zorder = 0;
 	},
 
 	click: function () {
