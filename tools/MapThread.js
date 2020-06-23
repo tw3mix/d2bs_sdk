@@ -280,6 +280,7 @@ var Hooks = {
 				this.flush();
 
 				var i, exits, wp, poi,
+					questAreas = [17, 20, 56, 94, 114],
 					nextAreas = [];
 
 				// Specific area override
@@ -297,6 +298,8 @@ var Hooks = {
 					for (i = 0; i < exits.length; i += 1) {
 						if (me.area === 46) {
 							this.add(exits[i].x, exits[i].y, exits[i].target === getRoom().correcttomb ? 0x69 : 0x99);
+						} else if (questAreas.indexOf(exits[i].target) > -1 && me.area < exits[i].target ) {
+							this.add(exits[i].x, exits[i].y, 0x7D);
 						} else if (exits[i].target === nextAreas[me.area] && nextAreas[me.area]) {
 							this.add(exits[i].x, exits[i].y, 0x1F);
 						} else if (exits[i].target === Hooks.tele.prevAreas.indexOf(me.area) && nextAreas[me.area]) {
