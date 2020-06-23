@@ -834,7 +834,6 @@ var HUD = {
 
 	click: function () {
 		hooksVisible = !hooksVisible;
-		print("MapThread :: hooksVisible: " + hooksVisible);
 	},
 
 	setVisible: function (vBool) {
