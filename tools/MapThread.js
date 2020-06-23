@@ -1,28 +1,4 @@
-var hudVisible = false;
-
-var HUD = {
-	hooks: [],
-	visible: true,
-
-	init: function () {
-		this.hooks.push(new Box (614, 571, 34, 16, 0, 1, 2, false, this.click));
-		this.hooks.push(new Frame (613, 571, 34, 16, 2));
-		this.hooks.push(new Text("HUD", 614, 585, 0, 1, 2));
-		this.hooks[0].zorder = 0;
-	},
-
-	click: function () {
-		hudVisible = !hudVisible;
-		print("MapThread :: hudVisible: " + hudVisible);
-	},
-
-	setVisible: function (vBool) {
-		this.visible = vBool;
-		this.hooks[0].visible = vBool;
-		this.hooks[1].visible = vBool;
-		this.hooks[2].visible = vBool;
-	}
-};
+var hooksVisible = false;
 
 var Hooks = {
 	monsters: {
@@ -173,10 +149,10 @@ var Hooks = {
 				this.add("ip");
 			}
 
-			if (this.visible !== hudVisible) {
-				this.visible = hudVisible;
-				this.getHook("monsterStatus").hook.visible = hudVisible;
-				this.getHook("vectorStatus").hook.visible = hudVisible;
+			if (this.visible !== hooksVisible) {
+				this.visible = hooksVisible;
+				this.getHook("monsterStatus").hook.visible = hooksVisible;
+				this.getHook("vectorStatus").hook.visible = hooksVisible;
 			}
 		},
 
@@ -268,9 +244,11 @@ var Hooks = {
 		hooks: [],
 		currArea: 0,
 		enabled: true,
+		exceptionAreas: [1, 40, 75, 103, 109, 37, 102, 107, 108, 131],
+		questAreas: [17, 20, 56, 94, 114],
 
 		check: function () {
-			if (!this.enabled) {
+			if (!this.enabled || this.exceptionAreas.indexOf(me.area) > -1) {
 				this.flush();
 
 				return;
@@ -280,7 +258,6 @@ var Hooks = {
 				this.flush();
 
 				var i, exits, wp, poi,
-					questAreas = [17, 20, 56, 94, 114],
 					nextAreas = [];
 
 				// Specific area override
@@ -298,7 +275,7 @@ var Hooks = {
 					for (i = 0; i < exits.length; i += 1) {
 						if (me.area === 46) {
 							this.add(exits[i].x, exits[i].y, exits[i].target === getRoom().correcttomb ? 0x69 : 0x99);
-						} else if (questAreas.indexOf(exits[i].target) > -1 && me.area < exits[i].target ) {
+						} else if (this.questAreas.indexOf(exits[i].target) > -1 && me.area < exits[i].target ) {
 							this.add(exits[i].x, exits[i].y, 0x7D);
 						} else if (exits[i].target === nextAreas[me.area] && nextAreas[me.area]) {
 							this.add(exits[i].x, exits[i].y, 0x1F);
@@ -558,12 +535,12 @@ var Hooks = {
 				this.currArea = me.area;
 			}
 
-			if (this.visible !== hudVisible) {
+			if (this.visible !== hooksVisible) {
 				var i;
 
-				this.visible = hudVisible;
+				this.visible = hooksVisible;
 				for (i = 0; i < this.hooks.length; i += 1) {
-					this.hooks[i].hook.visible = hudVisible;
+					this.hooks[i].hook.visible = hooksVisible;
 				}
 			}
 		},
@@ -841,6 +818,30 @@ var Hooks = {
 		this.tele.flush();
 
 		return true;
+	}
+};
+
+var HUD = {
+	hooks: [],
+	visible: true,
+
+	init: function () {
+		this.hooks.push(new Box (614, 571, 34, 16, 0, 1, 2, false, this.click));
+		this.hooks.push(new Frame (613, 571, 34, 16, 2));
+		this.hooks.push(new Text("HUD", 614, 585, 0, 1, 2));
+		this.hooks[0].zorder = 0;
+	},
+
+	click: function () {
+		hooksVisible = !hooksVisible;
+		print("MapThread :: hooksVisible: " + hooksVisible);
+	},
+
+	setVisible: function (vBool) {
+		this.visible = vBool;
+		this.hooks[0].visible = vBool;
+		this.hooks[1].visible = vBool;
+		this.hooks[2].visible = vBool;
 	}
 };
 
