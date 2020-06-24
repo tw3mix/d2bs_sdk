@@ -830,6 +830,7 @@ var HUD = {
 		this.hooks.push(new Frame (613, 571, 34, 16, 2));
 		this.hooks.push(new Text("HUD", 614, 585, 0, 1, 2));
 		this.hooks[0].zorder = 0;
+		print("Click on ÿc;[ÿc,H U Dÿc;] ÿc0box with turn on map to display helper commands");
 	},
 
 	click: function () {
