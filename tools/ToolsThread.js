@@ -535,6 +535,59 @@ function main() {
 		}
 	};
 
+/************************************************************************/
+	var PartyCount = 0,
+		PartyTick = getTickCount();
+
+	if (!Config.PublicMode && !FileTools.exists("libs/config/" + me.charname + ".json")) {
+		PartyCount = 1;
+	}
+
+	this.publicParty = function () {
+		if (getTickCount() - PartyTick < 1500 || !PartyCount) {
+			return;
+		}
+
+		var player, myPartyId, flagPlayer;
+
+		PartyTick = getTickCount();
+		player = getParty();
+		i = 0;
+
+		if (player) {
+			myPartyId = player.partyid;
+
+			if (myPartyId !== 65535) {
+				PartyCount -= 1;
+				return;
+			}
+
+			while (player.getNext()) {
+				i += 1;
+				if (player.partyflag === 2) {
+					flagPlayer = player;
+					if (player.partyid !== 65535 && player.partyid !== myPartyId) {
+						clickParty(player, 2);
+						flagPlayer = null;
+						delay(100);
+						break;
+					}
+				}
+			}
+
+			if (flagPlayer && i === 1) {
+				clickParty(flagPlayer, 2);
+				delay(100);
+			}
+		}
+	};
+
+	if (!me.playertype && me.charlvl < 80) {
+		Config.LifeChicken = 0;
+		print("ÿc3ToolsThread ÿc1:: Chicken offed to lvl 80"); 
+	}
+/************************************************************************/
+
 	// Cache variables to prevent a bug where d2bs loses the reference to Config object
 	Config = Misc.copy(Config);
 	tick = getTickCount();
@@ -552,11 +605,6 @@ function main() {
 
 	if (Config.QuitListMode > 0) {
 		this.initQuitList();
-	}
-
-	if (!me.playertype && me.charlvl < 60) {
-		Config.LifeChicken = 0;
-		print("<<< ToolsThread : chicken offed >>>"); 
 	}
 
 	// Start
@@ -653,6 +701,8 @@ function main() {
 
 			quitFlag = true;
 		}
+
+		this.publicParty();
 
 		if (quitFlag && canQuit && (typeof quitListDelayTime === "undefined" || getTickCount() >= quitListDelayTime)) {
 			print("ÿc8Run duration ÿc2" + ((getTickCount() - me.gamestarttime) / 1000));
