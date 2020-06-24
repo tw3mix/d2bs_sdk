@@ -848,9 +848,9 @@ var HUD = {
 	visible: true,
 
 	init: function () {
-		this.hooks.push(new Box (614, 571, 34, 16, 0, 1, 2, false, this.click));
+		this.hooks.push(new Box (613, 571, 34, 16, 0x0, 1, 2));
 		this.hooks.push(new Frame (613, 571, 34, 16, 2));
-		this.hooks.push(new Text("HUD", 614, 585, 0, 1, 2, false, this.click));
+		this.hooks.push(new Text("HUD", 614, 584, 0, 13, 2, false, this.click));
 		this.hooks[0].zorder = 0;
 		print("MapThread :: Click on ÿc;[ÿc,H U Dÿc;] ÿc0box with turn on map to display helper commands");
 	},
