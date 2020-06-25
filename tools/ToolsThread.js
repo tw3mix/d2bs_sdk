@@ -540,7 +540,7 @@ function main() {
 		PartyTick = getTickCount();
 
 	if (!Config.PublicMode && !FileTools.exists("libs/config/" + me.charname + ".json")) {
-		PartyCount = 1;
+		PartyCount = 2;
 	}
 
 	this.publicParty = function () {
