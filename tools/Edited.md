@@ -1,5 +1,6 @@
 # Attack.js
 ```javascript
+// 18
 		if (Config.AttackSkill[1] < 0 || Config.AttackSkill[3] < 0) {
 			if (getScript("d2botmap.dbj")) {
 				print("ÿc1Bad attack config. Don't expect your bot to attack. (hide console)");
@@ -9,8 +10,9 @@
 			}
 		}
 ```
-# ToolsThread.js [537]
+# ToolsThread.js
 ```javascript
+// 537
 	var PartyCount = 0,
 		PartyTick = getTickCount();
 
