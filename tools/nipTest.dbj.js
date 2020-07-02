@@ -51,7 +51,7 @@ var shouldRun = true;
  * @desc array of colored result values for printing on screen
  * @name screenResults
  */
-var screenResults = ["ÿc9Maybeÿc0", "ÿc1Discardÿc0", "ÿc2Keepÿc0"];
+var screenResults = ["Ã¿c9MaybeÃ¿c0", "Ã¿c1DiscardÃ¿c0", "Ã¿c2KeepÃ¿c0"];
 
 /**
  * @desc array of non-colored result values for printing in file
@@ -123,7 +123,7 @@ function ImproveFName(checkString) {
 	while ((undef = checkString.indexOf("undefined")) != -1)
 		checkString = checkString.substring(0,undef) + checkString.substring(undef+9);
 	// remove color codes and return the result
-	return checkString.replace(/ÿc(.)/g, "");
+	return checkString.replace(/Ã¿c(.)/g, "");
 }
 
 /*
@@ -143,7 +143,7 @@ function statidToName(id, value) {
  * @returns none
  */
 function traverse_items() {
-	print("ÿc3===========================================================");
+	print("Ã¿c3===========================================================");
 	delay(500);
 	var outputFile = File.open("output/" + (me.account ? me.account : "SINGLEPLAYER") + "-" + me.name + "-nipTest.htm", FILE_WRITE);
 	if(outputFile){
@@ -159,7 +159,7 @@ function traverse_items() {
 					var report = njipCheckGoodItem( _items[i], NJIP_CHECK_REPORT );
 					print("njipCheckGoodItem() Results for " + ImproveFName(_items[i].fname) + ": " + screenResults[report.result+1] + ( report.result ? " (line #" + report.lineno + " of '" + report.file + "')" : " (No Item Match in Files!)" ) );
 					if(outputFile){
-						outputFile.write("njipCheckGoodItem() Results for " + ImproveFName(_items[i].fname) + ": " + String(results[report.result+1]).replace(/ÿc(.)/g, "") + ( report.result ? " (line #" + report.lineno + " of '" + report.file + "')" : " (No Item Match in Files!)" ) + "<br>\n");
+						outputFile.write("njipCheckGoodItem() Results for " + ImproveFName(_items[i].fname) + ": " + String(results[report.result+1]).replace(/Ã¿c(.)/g, "") + ( report.result ? " (line #" + report.lineno + " of '" + report.file + "')" : " (No Item Match in Files!)" ) + "<br>\n");
 					}
 					delay(500);
 				}
@@ -172,7 +172,7 @@ function traverse_items() {
 		outputFile.write("<BR><CENTER>* Nip file test results created by nipTest.dbj *</CENTER></BODY></HTML><br>\n");
 		outputFile.close();
 	}
-	print("ÿc3===========================================================");
+	print("Ã¿c3===========================================================");
 }
 
 /**
@@ -191,7 +191,7 @@ function dumpItemStats(dumpType){
 			statFile.write("===========================================================<br>\n");
 			statFile.write("Outputting stats for item -> " + ImproveFName(unit.fname) + " using getStat(" + statType + ")<br>\n");
 		}
-		print("ÿc3===========================================================");
+		print("Ã¿c3===========================================================");
 		print("Outputting stats for item -> " + ImproveFName(unit.fname) + " using getStat(" + statType + ")");
 		var statList = unit.getStat(statType);
 		if(statList) {
@@ -206,7 +206,7 @@ function dumpItemStats(dumpType){
 				}
 			}
 		}
-		print("ÿc3===========================================================");
+		print("Ã¿c3===========================================================");
 		if(statFile){
 			statFile.write("===========================================================<br>\n");
 			statFile.close();
