@@ -2,7 +2,7 @@
 ```javascript
 	function gamble (classid) {
 		var i, npc, item,
-      goldReserve = 1e5;
+			goldReserve = 1e5;
 
 		classid = classid || 522; // ring(522) amulet(520)
 		npc = Town.initNPC("Gamble", "gamble 8 times at least");
