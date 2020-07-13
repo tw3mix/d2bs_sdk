@@ -433,28 +433,26 @@ var Hooks = {
 				break;
 			}
 
-
 			if (me.area === 74) {
 				switch (unit.roomx * 5 + unit.x) {
 				case 25011:
-					unit = {x: 25081, y: 5446};
+					unit = {x: 25061, y: 5446}; //25081, 5446
 					break;
 				case 25866:
-					unit = {x: 25830, y: 5447};
+					unit = {x: 25830, y: 5447}; // 25840, 5447
 					break;
 				case 25431:
 					switch (unit.roomy * 5 + unit.y) {
 					case 5011:
-						unit = {x: 25449, y: 5081};
+						unit = {x: 25448, y: 5061}; // 25449, 5081
 						break;
 					case 5861:
-						unit = {x: 25447, y: 5822};
+						unit = {x: 25447, y: 5832}; // 25447, 5822
 						break;
 					}
 					break;
 				}
 			}
-
 
 			if (unit) {
 				if (unit instanceof PresetUnit) {
