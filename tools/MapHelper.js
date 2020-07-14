@@ -48,14 +48,10 @@ function main() {
 		}
 
 		if (action) {
-			while (!me.area || !me.gameReady) {
-				delay(80);
-			}
-
 			try {
 				obj = JSON.parse(action);
 
-				if (obj) {
+				if (obj && me.area) {
 					switch (obj.type) {
 					case "area":
 						Pather.moveToExit(obj.dest, true, true);
