@@ -50,6 +50,12 @@ var Type = {
 	Tile: 5
 };
 var Party = {None:65535};
+var PartyFlag = {
+	0: "none",
+	1: "in party",
+	2: "invite",
+	4: "hostal",
+};
 
 var UIFlags = {
 	Inventory: 0x01,
