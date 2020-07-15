@@ -51,10 +51,10 @@ var Type = {
 };
 var Party = {None:65535};
 var PartyFlag = {
-	0: "none",
-	1: "in party",
-	2: "invite",
-	4: "hostal",
+	none: 0,
+	inparty: 1,
+	invite: 2,
+	hostal: 4, //?
 };
 
 var UIFlags = {
