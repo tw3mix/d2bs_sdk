@@ -51,7 +51,7 @@ var Type = {
 };
 var Party = {None:65535};
 var PartyFlag = {
-	none: 0,
+	invite: 0, // none
 	inparty: 1,
 	accept: 2,
 	cancel: 4,
