@@ -54,7 +54,7 @@ function main() {
 				if (obj && me.area) {
 					switch (obj.type) {
 					case "area":
-						Pather.moveToExit(obj.dest, true, true);
+						Pather.moveToExit(obj.dest, true);
 
 						break;
 					case "unit":
