@@ -942,11 +942,15 @@ var ControlButton = {
 		}
 	},
 
+	flush: function () {
+		while (this.hooks.length) {
+			this.hooks.shift().remove();
+		}
+	},
+
 	checkVisible: function () {
 		if (getUIFlag(0x09)) {
-			while (this.hooks.length) {
-				this.hooks.shift().remove();
-			}
+			this.flush();
 		} else {
 			if (!this.hooks.length) {
 				this.add();
