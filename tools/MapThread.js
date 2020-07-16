@@ -559,9 +559,14 @@ var Hooks = {
 						obj.type = "spot";
 						obj.dest = "stash";
 						break;
+					default:
+						obj = null;
 					}
 
-					scriptBroadcast(JSON.stringify(obj));
+					if (obj) {
+						scriptBroadcast(JSON.stringify(obj));
+					}
+
 					this.action = null;
 				} else {
 					switch (this.action) {
