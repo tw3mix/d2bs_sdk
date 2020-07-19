@@ -1,4 +1,4 @@
-# gamble
+### gamble
 ```javascript
 	function gamble (classid) {
 		var i, npc, item,
@@ -57,4 +57,20 @@
 					break;
 				}
 			}
+```
+### near monster
+```javascript
+    const monsterNear = () => {
+        const unit = getUnit(1);
+ 
+        if (unit) {
+            do {
+                if (Attack.checkMonster(unit) && getDistance(me, unit) < 20) {
+                    return true;
+                }
+            } while(unit.getNext());
+        }
+ 
+        return false;
+    };
 ```
