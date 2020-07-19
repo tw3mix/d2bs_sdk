@@ -1,5 +1,8 @@
 ### gamble
 ```javascript
+/********
+* gamble
+*********/
 	function gamble (classid) {
 		var i, npc, item,
 			goldReserve = 1e5;
@@ -37,6 +40,9 @@
 ```
 ### arcane area coord
 ```javascript
+/********
+* arcane area coord
+*********/
 			if (me.area === 74) {
 				switch (unit.roomx * 5 + unit.x) {
 				case 25011:
@@ -60,6 +66,9 @@
 ```
 ### near monster
 ```javascript
+/********
+* near monster
+*********/
     const monsterNear = () => {
         const unit = getUnit(1);
  
