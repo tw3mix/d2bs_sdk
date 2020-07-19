@@ -1,4 +1,4 @@
-// ##### Circlets ###################### 서클렛
+// ##### Circlets ######################
 [Type] == circlet && [Quality] == magic && [Flag] != ethereal # [Sockets] >= 3 && ([Dexterity] >= 30 || [MaxHP] >= 100 || [FRW] >= 30 || [FCR] >= 20) 
 [Type] == circlet && [Quality] == magic && [Flag] != ethereal # [FCR] >= 20 && [PaladinSkills] == 2 && [Sockets] >= 2
 [Type] == circlet && [Quality] == magic && [Flag] != ethereal # [Sockets] >= 2 && [AmazonSkills] == 2 && [FRW] >= 30  
@@ -17,7 +17,7 @@
 [Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Dexterity] >= 15 && [FRW] >= 30 && [FCR] >= 20
 [Type] == circlet && [Quality] == rare # [Sockets] >= 2 && [AmazonSkills] == 2 && [FireResist] >= 15 && [LightResist] >= 15 && [ColdResist] >= 15 && [Strength] >= 25 && [Dexterity] >= 15 && [FRW] >= 30 
 
-// ##### Amulets ####################### 아뮬렛
+// ##### Amulets #######################
 [Type] == amulet && [Quality] == magic # ([BarbarianSkills] >= 2 || [WarcriesSkillTab] >= 3) && [ItemGoldBonus] >= 80
 [Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && ([ManaLeech] >= 8 || [Strength] >= 30 || [MaxHP] >= 60) && [ItemGoldBonus] >= 70
 [Type] == amulet && [Quality] == rare # [BarbarianSkills] >= 2 && [FireResist] >= 18 && [LightResist] >= 18 && [ColdResist] >= 18 && [ItemGoldBonus] >= 70
@@ -35,7 +35,6 @@
 
 
 // ##### Rings #########################
-// 법사용 링의 경우 패캐는 기본에 20힘 높은피, 마나, 레지 (15덱스는 방패블록 맞추는분만 선택사항)
 [Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [MaxHP] >= 35 && [MaxMana] >= 75 && [FireResist]+[LightResist] >= 60
 [Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [MaxHP] >= 35 && [MaxMana] >= 75 && [FireResist] >= 25 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10
 [Type] == ring && [Quality] == rare # [FCR] >= 10 && [Strength] >= 20 && [LifeLeech] >= 8 && [FireResist] >= 10 && [LightResist] >= 10 && [ColdResist] >= 10 && [PoisonResist] >= 10 && [ToHit] >= 120
