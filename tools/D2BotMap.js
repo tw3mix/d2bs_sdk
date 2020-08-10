@@ -12,23 +12,23 @@ function main () {
 		if (me.ingame) {
 			return;
 		}
-		
-		switch (location) {
-			case 4:
-				ControlAction.setText(1, 432, 162, 158, 20, lastGame[0]);
-				ControlAction.setText(1, 432, 217, 158, 20, lastGame[1]);
-				break;
 
-			case 5:
-				ControlAction.setText(1, 432, 148, 155, 20, lastGame[0]);
-				ControlAction.setText(1, 606, 148, 155, 20, lastGame[1]);
-				break;
+		switch (location) {
+		case 4:
+			ControlAction.setText(1, 432, 162, 158, 20, lastGame[0]);
+			ControlAction.setText(1, 432, 217, 158, 20, lastGame[1]);
+			break;
+
+		case 5:
+			ControlAction.setText(1, 432, 148, 155, 20, lastGame[0]);
+			ControlAction.setText(1, 606, 148, 155, 20, lastGame[1]);
+			break;
 		}
 
-		if (location === 4 || location === 5) {
-			while (getLocation() === location) {
-				delay(500);
-			}
+		//print("location: " + location);
+
+		while (getLocation() === location) {
+			delay(500);
 		}
 	}
 
@@ -80,11 +80,10 @@ function main () {
 
 				if (!ingame) {
 					ingame = true;
-					if (lastGame[0] !== me.gamename.toLowerCase()) {
-						lastGame[0] = me.gamename.toLowerCase();
-						lastGame[1] = me.gamepassword.toLowerCase();
-						//DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
-					}
+
+					lastGame[0] = me.gamename.toLowerCase();
+					lastGame[1] = me.gamepassword.toLowerCase();
+					//DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
 				}
 			}
 
