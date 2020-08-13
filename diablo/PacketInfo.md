@@ -2,7 +2,7 @@
 
 server -> client
 
-`
+~~~
 Number   Size   Effect:            Usage:
 ----------------------------------------------------------------------------
 00   1   Game Loading      00
@@ -187,4 +187,4 @@ b1    53   <Unknown>                      ---------
 b2    *    <Unknown>                      ---------
 b3    5   IP Ban?                      b3 [DWORD Param?]
 b4    *   <Unknown>                       ---------`
-`
+~~~
