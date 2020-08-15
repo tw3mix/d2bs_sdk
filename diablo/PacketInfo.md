@@ -44,7 +44,7 @@ Number   Size   Effect:            Usage:
 24   90   <Unknown>         ----------
 25   90   <Unknown>         ----------
 26   *   Game Chat      26 [WORD Chat Kind] [WORD Unknown (0x02)]  00 00 00 00 [BYTE 0x05 = Normal Chat || 0x01 = Whisper] [Char Name] 00 [Message] 00
-26 05   *   Overhead      26 05 00 00 [BYTE Unit Type] [DWORD Unit Id]  [WORD Unknown] 00 [Message] 00
+26 05   *   Overhead      26 05 0c [BYTE Unit Type] [DWORD Unit Id]  [WORD Unknown(00 00)] 00 [Message] 00
 27   40   NPC Info      27 [BYTE Unit Type] [DWORD Unit Id]  [BYTES[34] Unknown]
 28   103   Quest Info      <Research Incomplete>
 29   97   Game Quest Info   <Research Incomplete>
