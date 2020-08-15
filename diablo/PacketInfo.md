@@ -170,7 +170,7 @@ a0   10   (DWORD)Merc Attribute   a0 [BYTE Attribute] [DWORD Merc Id] [DWORD Amo
 a1   7   (BYTE)Merc Add Exp.   ----------
 a2   8  (WORD)Merc Add Exp.   ----------
 a3   24   <Unknown>                   ----------
-a4  3   <Unknown>         ----------
+a4  3   Baal laughs       ----------
 a5  8   <Unknown>         ----------
 a6  *   <Unknown>         ----------
 a7   7   Delayed State      a7 [BYTE Unit Type] [DWORD Unit Id] [BYTE State]
