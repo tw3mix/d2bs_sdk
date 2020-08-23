@@ -32,7 +32,7 @@ Number   Size   Effect:            Usage:
 15   11   Reassign Player   15 [BYTE Unit Type] [DWORD Unit Id] [WORD  X] [WORD Y] [BYTE 0x01 = True || 0x00 = False]
 16   *   <Unknown>         ----------
 17   -    <Unused>         ----------
-18   15   <Unknown>         ----------
+18   15   PlayerHPMP         18 [BITS[15]HP][BITS[15]MP][BITS[15]Stamina][BITS[7]HPRegen][BITS[7]MPRegen][BITS[16]x][BITS[16]y][BITS[8]Vx][BITS[8]Vy]
 19   2   (BYTE)Gold to Inv.   19 [BYTE Amount]
 1a   2   (BYTE)Add Exp.      1a [BYTE Amount]
 1b   3   (WORD)Add Exp.   1b [WORD Amount]   
@@ -49,19 +49,19 @@ Number   Size   Effect:            Usage:
 26   *   Game Chat      26 [WORD Chat Kind] [WORD Unknown (0x02)]  00 00 00 00 [BYTE 0x05 = Normal Chat || 0x01 = Whisper] [Char Name] 00 [Message] 00
 26 05   *   Overhead      26 05 0c [BYTE Unit Type] [DWORD Unit Id]  [WORD Unknown(00 00)] 00 [Message] 00
 27   40   NPC Info      27 [BYTE Unit Type] [DWORD Unit Id]  [BYTES[34] Unknown]
-28   103   Quest Info      <Research Incomplete>
+28   103   Quest Info      28 [BYTE UpdatedType][DWORD UnitGid][BYTE Timer]ARRAY[96]([BYTE QuestBit])
 29   97   Game Quest Info   <Research Incomplete>
 2a   15   NPC Transaction   2a [BYTE Trade Type] [BYTE Result? - 0x00 =  Purchased || 0x01 = Sold || 0x0c = Insuffecient Gold] [DWORD Unknown] [DWORD  Merchandise Id] [DWORD Gold in Inventory]
 2b   -   <Unused>         ----------   
 2c   8   Play Sound      2c [BYTE Unit Type] [DWORD Unit Id] [WORD  Sound]
 2d   -   <Unused>      ----------   
 2e   -   <Unused>      ----------
-2f   -   <Unused>           ----------
+2f   -   <Unused>      ----------
 30   -   <Unused>      ----------
-31   -   <Unused>           ----------
+31   -   <Unused>      ----------
 32   -   <Unused>      ----------
-33   -   <Unused>           ----------
-34   -   <Unused>           ----------
+33   -   <Unused>      ----------
+34   -   <Unused>      ----------
 35   -   <Unused>      ----------
 36   -   <Unused>      ----------
 37   -   <Unused>      ----------
@@ -72,8 +72,8 @@ Number   Size   Effect:            Usage:
 3c   -   <Unused>      ----------
 3d   -   <Unused>       ----------
 3e   *   Update Item Stats   <Research Incomplete>
-3f   8   Use Stackable Item   ----------
-40   13   <Unknown>      ----------
+3f   8   Use Stackable Item   3f [BYTE SellIcon][DWORD ItemGid][WORD SkillId]
+40   13   <Unknown>      40 [DOWRD ItemGid][DOWRD Unknown][DWORD Unknown]
 41   -   <Unused>      ----------
 42   6   Clear Cursor      42 [BYTE Unit Type] [DWORD Player Id]
 43   -   <Unused>      ----------
@@ -89,24 +89,24 @@ Number   Size   Effect:            Usage:
 4d   17   Unit Cast Skill      4d [BYTE Unit Type] [DWORD Unit Id] [DWORD  Skill] [BYTE Unknown] [WORD X] [WORD Y] 00 00
 4e   7   Merc For Hire      4e [WORD Merc Id?] [DWORD Unknown]
 4f   1   Start Merc List      4f
-50   15   -----         <Needs Research>
+50   15   Quest Special         [DWORD MessageType][WORD[6] Argument]
 51   14   Assign Object      51 [BYTE Object Type] [DWORD Object Id]  [WORD Object Code] [WORD X] [WORD Y] [BYTE State] [BYTE Interaction Type]
 52   42   Quest Log Info      <Research Incomplete>
-53   10   Player Slot Refresh   53 [DWORD Slot #] [BYTE Unknown 0x00 || 0x80]  [DWORD Tickcount?]
+53   10   Player Slot Refresh(???)   53 [DWORD Slot #] [BYTE Unknown 0x00 || 0x80]  [DWORD Tickcount?]
 54   10   <Unknown>      ----------
 55   3   <Unknown>      ----------
 56   -   <Unused>      ----------
-57   -   <Unused>      ----------
-58   14   <Unknown>      ----------
+57   14   NPC Enchants(???)      ----------
+58   7   Open User Interface(???)      58 [DWORD UnitGid][BYTE UIType][BYTE Bool]
 59   26   Assign Player      59 [DWORD Unit Id] [BYTE Char Type]  [NULLSTRING[16] Char Name] [WORD X] [WORD Y]
 5a   40   Event Messages      *
 5b   36   Player In Game      5b [WORD Packet Length] [DWORD Player Id] [BYTE Char Type] [NULLSTRING[16] Char Name] [WORD Char Lvl] [WORD Party Id] 00 00 00 00 00 00 00 00
 5c   5   Player Left Game   5c [DWORD Player Id]
 5d   5   Quest Item State   5d [BYTE Unknown (Id?)]  [DWORD State?]
-5e   38   <Unknown>      ----------
+5e   38   Game Quest Availability      5e [BYTE[37] Quest]
 5f   5   <Unknown>         ----------
 60   7   Townportal State      60 [BYTE State] [BYTE Area Id] [DWORD Unit Id]
-61   2   <Unknown>         61 [BYTE Unknown]
+61   2   CanGoToAct         61 [BYTE Act]
 62   7   <Unknown>      ----------
 63   *   Waypoint Menu      63 [DWORD Unit Id] [BYTES* Available Waypoints]
 64   -  <Unused>      ----------
@@ -135,7 +135,7 @@ Number   Size   Effect:            Usage:
 7b   8   Assign Skill Hotkey   7b [BYTE Slot] [BYTE Skill] [BYTE 0x00 = Right || 0x80 = Left] FF FF FF FF
 7c   6   Use Scroll      7c [BYTE Type] [DWORD Item Id]
 7d   18   Set Item State      ---------
-7e   5   <Unknown>                 ---------
+7e   5   CMNCOF                 7e [BYTE[4] Unused]
 7f   10   Ally Party Info      7f  [BYTE Unit Type] [WORD Unit Life] [DWORD Unit Id] [DWORD Unit Area Id]   
 80  -   <Unused>         ----------
 81   20   Assign Merc      81 [BYTE Unknown] [WORD Merc Kind?] [DWORD Owner Id] [DWORD Merc Id] [DWORD Unknown] [DWORD Unknown]
@@ -154,17 +154,17 @@ Number   Size   Effect:            Usage:
 8e   10   Corpse Assign      8e [BYTE 0x00 = Unassign || 0x01 = Assign] [DWORD Owner Id] [DWORD Corpse Id]
 8f   33   Pong         8f [BYTES[32] 0x00]
 90   13   Party Automap Info   90 [DWORD Player Id] [DWORD Player X] [DWORD Player Y]
-91  26   <Unknown>         ----------
-92  6   <Unknown>         ----------
+91  26   Set NPC Gossip (Act)         91 [BYTE Act][WORD[12] str/NPC ID]
+92  6   Remove Unit Display         92 [BYTE UnitType][DWORD UnitGid]
 93  8   <Unknown>         ----------
 94   *   Base Skill Levels      94 [BYTE Amount of Skills] [DWORD Player Id] (for each skill->) [WORD Skill] [BYTE Level]
 95   13   Life and Mana Update   95 [WORD Unit Life] [WORD Unit Mana] [WORD Unit Stamina] [WORD X] [WORD Y] [WORD Unknown]
 96   9   Walk Verify      96 [WORD Stamina] [WORD X] [WORD Y] [WORD State]
 97   1   Weapon Switch      97
-98   7   <Unknown>         ----------
-99   16   Skill Triggered      ----------
-9a   17   <Unknown>         ----------
-9b   7   (Merc Related?)         <Research Needed> 9b [WORD Unknown] [DWORD Unknown]
+98   7   UpdateNPCUnknownField40         98 [DWORD UnitGid][WORD Value]
+99   16   Skill Cast on Unit      ----------
+9a   17   Skill Cast on X and Y         ----------
+9b   7   MercReviveCost         9b [WORD MercNameId][DWORD ReviveCost]
 9c   *   Item Action (World)   *
 9d   *   Item Action (Owned)   *
 9e   7   (BYTE)Merc Attribute   9e [BYTE Attribute] [DWORD Merc Id]  [BYTE Amount]
@@ -172,9 +172,9 @@ Number   Size   Effect:            Usage:
 a0   10   (DWORD)Merc Attribute   a0 [BYTE Attribute] [DWORD Merc Id] [DWORD Amount]
 a1   7   (BYTE)Merc Add Exp.   ----------
 a2   8  (WORD)Merc Add Exp.   ----------
-a3   24   <Unknown>                   ----------
-a4  3   Next Baal Wave NPC ClassId       ----------
-a5  8   <Unknown>         ----------
+a3   24   Skill Aura Stat   ----------
+a4  3   Next Baal Wave NPC ClassId   ----------
+a5  8   State Skill Move   ----------
 a6  *   <Unknown>         ----------
 a7   7   Delayed State      a7 [BYTE Unit Type] [DWORD Unit Id] [BYTE State]
 a8   *   Set State      a8 [BYTE Unit Type] [DWORD Unit Id] [BYTE Packet Length] [BYTE State] [VOID State Effects]
@@ -186,10 +186,10 @@ ad  9   <Unknown>         ----------
 ae   *   Warden Request      ae [WORD Packet Length Excluding Header] [VOID Data]
 af   2   Connection Info      af [BYTE ProtocolVer]
 b0   1   Game Connection Terminated   b0
-b1    53   <Unknown>                      ---------
-b2    *    <Unknown>                      ---------
-b3    5   IP Ban?                      b3 [DWORD Param?]
-b4    *   <Unknown>                       ---------`
+b1   0   <UnKnown>                      ---------
+b2   53   GamesInfo                      ---------
+b3   *   DownloadSave                      b3 [DWORD Param?]
+b4   5   TimeOut                       ---------`
 ~~~
 
 client -> server
