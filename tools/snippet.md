@@ -1,3 +1,11 @@
+### initialize array in javascript
+```javascript
+var intBox =  Array.apply(null, new Array(5)).map(Number.prototype.valueOf,0);
+// [0, 0, 0, 0, 0]
+
+var stringBox = Array.apply(null, new Array(3)).map(String.prototype.valueOf,"hi")
+// ["hi","hi","hi"]
+```
 ### gamble
 ```javascript
 /********
