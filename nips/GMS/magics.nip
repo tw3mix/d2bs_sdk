@@ -1,0 +1,584 @@
+;----------------;
+;-----CHARMS-----;
+;----------------;
+
+;---AMAZON SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddbowandcrossbowskilltab = 1 : FHR >= 7 ; Bow Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddbowandcrossbowskilltab = 1 : MaxHP >= 20 ; Bow Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddbowandcrossbowskilltab = 1 : FRW >= 5 ; Bow Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddbowandcrossbowskilltab = 1 : Dexterity = 6 ; Bow Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddbowandcrossbowskilltab = 1 : Strength = 6 ; Bow Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddpassiveandmagicskilltab = 1 : FHR >= 7 ; Passive Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddpassiveandmagicskilltab = 1 : MaxHP >= 20 ; Passive Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddpassiveandmagicskilltab = 1 : FRW >= 5 ; Passive Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddpassiveandmagicskilltab = 1 : Dexterity = 6 ; Passive Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddpassiveandmagicskilltab = 1 : Strength = 6 ; Passive Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddjavelinandspearskilltab = 1 : FHR >= 7 ; Java Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddjavelinandspearskilltab = 1 : MaxHP >= 20 ; Java Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddjavelinandspearskilltab = 1 : FRW >= 5 ; Java Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddjavelinandspearskilltab = 1 : Dexterity = 6 ; Java Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddjavelinandspearskilltab = 1 : Strength = 6 ; Java Skiller 6 Str
+
+;---SORCERESS SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddfireskilltab = 1 ; Fire Skiller
+Name = grandcharm : Quality = magic : itemaddlightningskilltab = 1 ; Light Skiller		 
+Name = grandcharm : Quality = magic : itemaddcoldskilltab = 1 ; Cold Skiller
+
+;---NECROMANCER SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddpoisonandboneskilltab = 1 : FHR >= 7 ; P&B Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddpoisonandboneskilltab = 1 : MaxHP >= 20 ; P&B Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddpoisonandboneskilltab = 1 : FRW >= 5 ; P&B Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddpoisonandboneskilltab = 1 : Dexterity = 6 ; P&B Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddpoisonandboneskilltab = 1 : Strength = 6 ; P&B Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddnecromancersummoningskilltab = 1 : FHR >= 7 ; Summon Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddnecromancersummoningskilltab = 1 : MaxHP >= 20 ; Summon Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddnecromancersummoningskilltab = 1 : FRW >= 5 ; Summon Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddnecromancersummoningskilltab = 1 : Dexterity = 6 ; Summon Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddnecromancersummoningskilltab = 1 : Strength = 6 ; Summon Skiller 6 Str
+
+;---PALADIN SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddoffensiveaurasskilltab = 1 : FHR >= 7 ; Off Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddoffensiveaurasskilltab = 1 : MaxHP >= 20 ; Off Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddoffensiveaurasskilltab = 1 : FRW >= 5 ; Off Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddoffensiveaurasskilltab = 1 : Dexterity = 6 ; Off Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddoffensiveaurasskilltab = 1 : Strength = 6 ; Off Skiller 6 Str
+Name = grandcharm : Quality = magic : itemadddefensiveaurasskilltab = 1 : FHR >= 7 ; Def Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemadddefensiveaurasskilltab = 1 : MaxHP >= 20 ; Def Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemadddefensiveaurasskilltab = 1 : FRW >= 5 ; Def Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemadddefensiveaurasskilltab = 1 : Dexterity = 6 ; Def Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemadddefensiveaurasskilltab = 1 : Strength = 6 ; Def Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddpalicombatskilltab = 1 ; Combat Skiller
+
+;---BARBARIAN SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddbarbcombatskilltab = 1 : FHR >= 7 ; Combat Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddbarbcombatskilltab = 1 : MaxHP >= 20 ; Combat Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddbarbcombatskilltab = 1 : FRW >= 5 ; Combat Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddbarbcombatskilltab = 1 : Dexterity = 6 ; Combat Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddbarbcombatskilltab = 1 : Strength = 6 ; Combat Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddmasteriesskilltab = 1 : FHR >= 7 ; Masterie Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddmasteriesskilltab = 1 : MaxHP >= 20 ; Masterie Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddmasteriesskilltab = 1 : FRW >= 5 ; Masterie Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddmasteriesskilltab = 1 : Dexterity = 6 ; Masterie Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddmasteriesskilltab = 1 : Strength = 6 ; Masterie Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddwarcriesskilltab = 1 : FHR >= 7 ; Wc Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddwarcriesskilltab = 1 : MaxHP >= 20 ; Wc Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddwarcriesskilltab = 1 : FRW >= 5 ; Wc Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddwarcriesskilltab = 1 : Dexterity = 6 ; Wc Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddwarcriesskilltab = 1 : Strength = 6 ; Wc Skiller 6 Str
+
+;---DRUID SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemadddruidsummoningskilltab = 1 : FHR >= 7 ; Summon Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemadddruidsummoningskilltab = 1 : MaxHP >= 20 ; Summon Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemadddruidsummoningskilltab = 1 : FRW >= 5 ; Summon Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemadddruidsummoningskilltab = 1 : Dexterity = 6 ; Summon Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemadddruidsummoningskilltab = 1 : Strength = 6 ; Summon Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddshapeshiftingskilltab= 1 : FHR >= 7 ; Shape Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddshapeshiftingskilltab= 1 : MaxHP >= 20 ; Shape Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddshapeshiftingskilltab= 1 : FRW >= 5 ; Shape Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddshapeshiftingskilltab= 1 : Dexterity = 6 ; Shape Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddshapeshiftingskilltab= 1 : Strength = 6 ; Shape Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddelementalskilltab = 1 : FHR >= 7 ; Ele Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddelementalskilltab = 1 : MaxHP >= 20 ; Ele Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddelementalskilltab = 1 : FRW >= 5 ; Ele Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddelementalskilltab = 1 : Dexterity = 6 ; Ele Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddelementalskilltab = 1 : Strength = 6 ; Ele Skiller 6 Str
+
+;---ASSASSIN SKILLERS---;
+
+Name = grandcharm : Quality = magic : itemaddtrapsskilltab = 1 : FHR >= 7 ; Trap Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddtrapsskilltab = 1 : MaxHP >= 20 ; Trap Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddtrapsskilltab = 1 : FRW >= 5 ; Trap Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddtrapsskilltab = 1 : Dexterity = 6 ; Trap Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddtrapsskilltab = 1 : Strength = 6 ; Trap Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddshadowdisciplinesskilltab = 1 : FHR >= 7 ; Shadow Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddshadowdisciplinesskilltab = 1 : MaxHP >= 20 ; Shadow Skiller 20 + Life
+Name = grandcharm : Quality = magic : itemaddshadowdisciplinesskilltab = 1 : FRW >= 5 ; Shadow Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddshadowdisciplinesskilltab = 1 : Dexterity = 6 ; Shadow Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddshadowdisciplinesskilltab = 1 : Strength = 6 ; Shadow Skiller 6 Str
+Name = grandcharm : Quality = magic : itemaddmartialartsskilltab = 1 : FHR >= 7 ; Martial Skiller 7+ FHR
+Name = grandcharm : Quality = magic : itemaddmartialartsskilltab = 1 : MaxHP >= 20 ; Martial Skiller 20+ Life
+Name = grandcharm : Quality = magic : itemaddmartialartsskilltab = 1 : FRW >= 5 ; Martial Skiller 5+ FRW
+Name = grandcharm : Quality = magic : itemaddmartialartsskilltab = 1 : Dexterity = 6 ; Martial Skiller 6 Dext
+Name = grandcharm : Quality = magic : itemaddmartialartsskilltab = 1 : Strength = 6 ; Martial Skiller 6 Str
+
+;---RESIST G.CHARMS---;
+
+Name = GrandCharm : Quality = Magic : 39 = 15 : 41 = 15 : 43 = 15 : 45 = 15 ;
+Name = GrandCharm : Quality = Magic : 39 >= 12 : 41 >= 12 : 43 >= 12 : 45 >= 12 : Frw = 7
+Name = GrandCharm : Quality = Magic : 39 >= 12 : 41 >= 12 : 43 >= 12 : 45 >= 12 : Fhr = 12
+Name = GrandCharm : Quality = Magic : 39 >= 12 : 41 >= 12 : 43 >= 12 : 45 >= 12 : MaxHP >= 30
+
+;---MAX DAMAGE G.CHARMS---;
+
+Name = grandcharm : Quality = magic : Max Damage >= 9 : MaxHP >= 30
+Name = grandcharm : Quality = Magic : Max Damage >= 9 : Tohit >= 50
+Name = grandcharm : Quality = Magic : Max Damage >= 9 : Tohit >= 50 : MaxHP >= 20
+Name = grandcharm : Quality = Magic : Max Damage = 10 : MaxHP >= 25
+Name = grandcharm : Quality = Magic : Max Damage >= 9 : FHR = 12
+Name = grandcharm : Quality = Magic : Max Damage >= 9 : FRW = 7
+Name = grandcharm : Quality = Magic : Max Damage >= 9 : tohit >= 20 : FHR = 12
+
+;-----LIFE/MANA G.CHARMS-----;
+
+Name = GrandCharm : Quality = Magic : MaxHP >= 40 : mana >= 35
+Name = GrandCharm : Quality = Magic : itemgoldbonus = 40
+
+;---RESIST L.CHARMS---;
+
+Name = Largecharm : Quality = Magic : 39 = 8 : 41 = 8 : 43 = 8 : 45 = 8
+Name = Largecharm : Quality = Magic : 39 >= 5 : 41 >= 5 : 43 >= 5 : 45 >= 5 : MaxHP >= 25
+Name = Largecharm : Quality = Magic : 39 >= 8 : 41 >= 8 : 43 >= 8 : 45 >= 8 : FHR = 8 
+
+;---MAX DAMAGE L.CHARMS---;
+
+Name = Largecharm : Quality = Magic : Max Damage >= 5 : MaxHP >= 30
+Name = Largecharm : Quality = Magic : Max Damage = 6 : MaxHP >= 25
+Name = Largecharm : Quality = Magic : Max Damage >= 5 : FHR = 8
+Name = Largecharm : Quality = Magic : Max Damage >= 5 : tohit >= 25 : MaxHP >= 20
+Name = Largecharm : Quality = Magic : Max Damage >= 5 : tohit >= 25 : FHR = 8
+Name = Largecharm : Quality = Magic : Max Damage >= 5 : tohit >= 25 : FRW = 5
+
+;---MISC LIFE/STATS S.CHARMS---;
+
+Name = smallcharm : Quality = magic : MaxHP = 20
+Name = smallcharm : Quality = magic : 80 = 7 ; +7 % mf small charm
+Name = smallcharm : Quality = magic : MaxHP >= 15 : Frw = 3 
+Name = smallcharm : Quality = magic : MaxHP >= 15 : Fhr = 5 
+Name = smallcharm : Quality = magic : MaxHP >= 14 : MaxMana >= 12
+Name = Smallcharm : Quality = Magic : itemgoldbonus = 10
+
+;---ALL RESIST S.CHARMS---;
+
+Name = smallcharm : Quality = magic : 39 >= 5 : 41 >= 5 : 43 >= 5 : 45 >= 5 
+Name = smallcharm : Quality = magic : 39 >= 3 : 41 >= 3 : 43 >= 3 : 45 >= 3 : MaxHP >= 10
+Name = smallcharm : Quality = magic : 39 >= 3 : 41 >= 3 : 43 >= 3 : 45 >= 3 : FRW = 3
+Name = smallcharm : Quality = magic : 39 >= 3 : 41 >= 3 : 43 >= 3 : 45 >= 3 : FHR = 5
+Name = smallcharm : Quality = magic : 39 >= 3 : 41 >= 3 : 43 >= 3 : 45 >= 3 :  80 >= 5
+Name = smallcharm : Quality = magic : 39 >= 3 : 41 >= 3 : 43 >= 3 : 45 >= 3 : Strength = 2
+
+;---RESIST FIRE/COLD/LIGHT/POISON S.CHARMS---;
+
+Name = smallcharm : Quality = magic : 39 >= 10 : MaxHP >= 10
+Name = smallcharm : Quality = magic : 39 >= 10 : FRW = 3
+Name = smallcharm : Quality = magic : 39 >= 10 : FHR = 5
+Name = smallcharm : Quality = magic : 39 >= 10 : 80 >= 5
+Name = smallcharm : Quality = magic : 39 >= 10 : Strength = 2
+
+Name = smallcharm : Quality = magic : 41 >= 10 : MaxHP >= 10
+Name = smallcharm : Quality = magic : 41 >= 10 : FRW = 3
+Name = smallcharm : Quality = magic : 41 >= 10 : FHR = 5
+Name = smallcharm : Quality = magic : 41 >= 10 : 80 >= 5
+Name = smallcharm : Quality = magic : 41 >= 10 : Strength = 2  
+
+Name = smallcharm : Quality = magic : 43 >= 10 : MaxHP >= 10
+Name = smallcharm : Quality = magic : 43 >= 10 : FRW = 3
+Name = smallcharm : Quality = magic : 43 >= 10 : FHR = 5
+Name = smallcharm : Quality = magic : 43 >= 10 : 80 >= 5
+Name = smallcharm : Quality = magic : 43 >= 10 : Strength = 2  
+
+Name = smallcharm : Quality = magic : 45 >= 10 : MaxHP >= 10
+Name = smallcharm : Quality = magic : 45 >= 10 : FRW = 3
+Name = smallcharm : Quality = magic : 45 >= 10 : FHR = 5
+Name = smallcharm : Quality = magic : 45 >= 10 : 80 >= 5
+Name = smallcharm : Quality = magic : 45 >= 10 : Strength = 2    
+
+;---MAX DAMAGE S.CHARMS---;
+
+Name = smallcharm : Quality = magic : Max Damage = 3 : tohit = 20
+Name = Smallcharm : Quality = Magic : Max Damage >= 3 : tohit >= 10 : FHR = 5
+Name = Smallcharm : Quality = Magic : Max Damage >= 3 : tohit >= 10 : MaxHP >= 10
+Name = Smallcharm : Quality = Magic : Max Damage >= 3 : tohit >= 10 : FRW >= 3
+
+;---POISON S.CHARMS---;
+
+Name = smallcharm : Quality = Magic : 57 >= 101
+
+;----------------;
+;-----JEWELS-----;
+;----------------;
+
+;---CRAFTING---;
+
+;Type = Jewel : Quality = Magic
+
+;---OTHERS---;
+
+;Name = jewel : Quality = magic : enhanceddamage = 40
+;Name = jewel : Quality = magic : maxdamage >= 28 
+;Name = jewel : Quality = magic : mindamage >= 18
+;Name = jewel : Quality = magic : maxdamage = 20
+Name = jewel : Quality = magic : 39 = 15 : 41 = 15 : 43 = 15 : 45 = 15
+Name = jewel : Quality = magic : 39 = 30 
+Name = jewel : Quality = magic : 41 = 30 
+Name = jewel : Quality = magic : 43 = 30
+Name = jewel : Quality = magic : 45 = 30
+Name = jewel : Quality = magic : enhanceddamage >= 38 : strength >= 8
+Name = jewel : Quality = magic : enhanceddamage >= 38 : dexterity >= 8 
+Name = jewel : Quality = magic : enhanceddamage >= 35 : maxdamage >= 12
+Name = jewel : Quality = magic : enhanceddamage >= 39 : mindamage >= 8
+Name = jewel : Quality = magic : enhanceddamage >= 39 : fhr = 7 
+Name = jewel : Quality = magic : 91 = -15 : enhanceddamage >= 39 
+Name = jewel : Quality = magic : IAS > 15 : enhanceddamage >= 30 
+Name = jewel : Quality = magic : IAS >= 15 : maxdamage >= 15
+Name = jewel : Quality = magic : IAS >= 15 : mindamage >= 10
+Name = jewel : Quality = magic : 91 = -15 : maxdamage >= 15
+Name = jewel : Quality = magic : 91 = -15 : mindamage >= 10 
+Name = jewel : Quality = magic : 91 = -15 : dexterity >= 9
+Name = jewel : Quality = magic : 91 = -15 : strength >= 9
+Name = jewel : Quality = magic : 91 = -15 : fhr = 7 
+Name = jewel : Quality = magic : maxhp >= 20 : fhr = 7 
+Name = jewel : Quality = magic : 39 >= 15 : 41 >= 15 : 43 >= 15 : 45 >= 15 : fhr = 7 
+Name = Jewel : Quality = Magic : Maxhp = 20 : 39 = 15 : 41 = 15 : 43 = 15 : 45 = 15
+Name = Jewel : Quality = Magic : fhr = 7 : 39 = 15 : 41 = 15 : 43 = 15 : 45 = 15
+
+;---------------------;
+;-----DRUID PELTS-----;
+;---------------------;
+
+;---GRIZZLY---;
+
+Name = Wolf Head : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Hawk Helm : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Antlers : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Falcon Mask : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Spirit Mask : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Alpha Helm : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Griffon Headdress : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Hunter's Guise : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2 
+Name = Sacred Feathers : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Totemic Mask : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Blood Spirit : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Sun Spirit : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Earth Spirit : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Sky Spirit :  Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Dream Spirit : Quality = Magic : skillSummonGrizzly = 3 : Druid skills = 2
+
+;---TORNADO---;
+   
+Name = Wolf Head : Quality = Magic : skillTornado = 3 : Druid skills = 2    
+Name = Hawk Helm : Quality = Magic : skillTornado = 3 : Druid skills = 2    
+Name = Antlers : Quality = Magic : skillTornado = 3 : Druid skills = 2     
+Name = Falcon Mask : Quality = Magic : skillTornado = 3 : Druid skills = 2   
+Name = Spirit Mask : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Alpha Helm : Quality = Magic : skillTornado = 3 : Druid skills = 2     
+Name = Griffon Headdress : Quality = Magic : skillTornado = 3 : Druid skills = 2       
+Name = Hunter's Guise : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Sacred Feathers : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Totemic Mask : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Blood Spirit : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Sun Spirit : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Earth Spirit : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Sky Spirit : Quality = Magic : skillTornado = 3 : Druid skills = 2        
+Name = Dream Spirit : Quality = Magic : skillTornado = 3 : Druid skills = 2                  
+Name = Blood Spirit : Quality = Magic : skillTornado = 3 : elementalskilltab = 3    
+Name = Sun Spirit : Quality = Magic : skillTornado = 3 : elementalskilltab = 3      
+Name = Earth Spirit : Quality = Magic : skillTornado = 3 : elementalskilltab = 3        
+Name = Sky Spirit : Quality = Magic : skillTornado = 3 : elementalskilltab = 3      
+Name = Dream Spirit : Quality = Magic : skillTornado = 3 : elementalskilltab = 3
+
+;---FIRECLAW---;
+                  
+Name = Wolf Head : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Hawk Helm : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Antlers : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Falcon Mask : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Spirit Mask : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Alpha Helm : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Griffon Headdress : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Hunter's Guise : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Sacred Feathers : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Totemic Mask : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Blood Spirit : Quality = Magic : skillFireclaws = 3 : Druid skills = 2 
+Name = Sun Spirit : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Earth Spirit : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+Name = Sky Spirit : Quality = Magic : skillFireclaws = 3 : Druid skills = 2 
+Name = Dream Spirit : Quality = Magic : skillFireclaws = 3 : Druid skills = 2
+
+;---------------------------------;
+;-----CIRCLETS/DIADEMS/TIARAS-----;
+;---------------------------------;
+
+;--- +2 CLASS SPECIFIC/MOD ---;
+
+Type = Circlet : Quality = Magic : Amazon skills = 2 : FRW = 30  
+Type = Circlet : Quality = Magic : Assassin skills = 2 : FCR = 20       
+Type = Circlet : Quality = Magic : Sorceress skills = 2 : FCR = 20  
+Type = Circlet : Quality = Magic : Druid skills = 2 : FCR = 20  
+Type = Circlet : Quality = Magic : Necromancer skills = 2 : FCR = 20   
+Type = Circlet : Quality = Magic : Paladin skills = 2 : FCR = 20
+
+;--- +3 TREE SPECIFIC/MOD ---;
+        
+Type = Circlet : Quality = Magic : trapsskilltab = 3 : FCR = 20 
+Type = Circlet : Quality = Magic : fireskilltab = 3 : FCR = 20   
+Type = Circlet : Quality = Magic : fireskilltab = 3 : maxhp >= 85   
+Type = Circlet : Quality = Magic : coldskilltab = 3 : FCR = 20   
+Type = Circlet : Quality = Magic : coldskilltab = 3 : maxhp >= 85  
+Type = Circlet : Quality = Magic : lightningskilltab = 3 : FCR = 20   
+Type = Circlet : Quality = Magic : lightningskilltab = 3 : maxhp >= 85  
+Type = Circlet : Quality = Magic : elementalskilltab = 3 : FCR = 20   
+Type = Circlet : Quality = Magic : elementalskilltab = 3 : maxhp >= 85   
+Type = Circlet : Quality = Magic : poisonandBoneskilltab = 3 : FCR = 20  
+Type = Circlet : Quality = Magic : poisonandBoneskilltab = 3 : maxhp >= 85   
+Type = Circlet : Quality = Magic : palicombatskilltab = 3 : FCR = 20 
+Type = Circlet : Quality = Magic : palicombatskilltab = 3 : maxhp >= 85
+
+;---JEWELERS---;
+   
+Type = Circlet : Quality = Magic : Sockets = 3 : FRW = 30   
+Type = Circlet : Quality = Magic : Sockets = 3 : maxhp >= 85  
+Type = Circlet : Quality = Magic : Sockets = 3 : Dexterity >= 20
+
+;-----------------;
+;-----SHIELDS-----;
+;-----------------;
+
+Name = Monarch : Quality = Magic : Sockets = 4 : 91 >= 20   
+Name = Monarch : Quality = Magic : Sockets = 4 : 99 >= 17    
+Name = Monarch : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Monarch : Quality = Magic : Sockets = 4 : 7 >= 40 
+Name = Ward : Quality = Magic : Sockets = 4 : 102 = 30
+
+;---PALADIN---;
+
+Name = Sacred Targe : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Sacred Targe : Quality = Magic : Sockets = 4 : Paladin skills = 2 : 102 = 30
+Name = Sacred Targe : Quality = Magic : Sockets = 4 : Palicombatskilltab >= 2 : 102 = 30
+Name = Sacred Rondache : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Sacred Rondache : Quality = Magic : Sockets = 4 : Paladin skills = 2 : 102 = 30
+Name = Sacred Rondache : Quality = Magic : Sockets = 4 : Palicombatskilltab >= 2 : 102 = 30
+Name = Kurast Shield : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Kurast Shield : Quality = Magic : Sockets = 4 : Paladin skills = 2 : 102 = 30
+Name = Kurast Shield : Quality = Magic : Sockets = 4 : Palicombatskilltab >= 2 : 102 = 30
+Name = Zakarum Shield : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Zakarum Shield : Quality = Magic : Sockets = 4 : Paladin skills = 2 : 102 = 30
+Name = Zakarum Shield : Quality = Magic : Sockets = 4 : Palicombatskilltab >= 2 : 102 = 30
+Name = Vortex Shield : Quality = Magic : Sockets = 4 : 102 = 30
+Name = Vortex Shield : Quality = Magic : Sockets = 4 : Paladin skills = 2 : 102 = 30
+Name = Vortex Shield : Quality = Magic : Sockets = 4 : Palicombatskilltab >= 2 : 102 = 30
+
+;---NECRO---;
+
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : Sockets = 2 
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : FHR = 17
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : FHR = 17
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespear = 3 : FHR = 17
+Type = Necromanceritem : Quality = Magic : Necromancer Skills = 2 : Skillbonespirit = 3 : FHR = 17
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : FHR = 17
+Type = Necromanceritem : Quality = Magic : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : FHR = 17
+
+;----------------;
+;-----ARMORS-----;
+;----------------;
+
+;---81+ LIFE 4 SOX ARMOR---;
+
+Name = Dusk Shroud : Quality = Magic : Sockets = 4 : maxhp >= 81    
+Name = Wyrmhide : Quality = Magic : Sockets = 4 : maxhp >= 81    
+Name = Scarab Husk : Quality = Magic : Sockets = 4 : maxhp >= 81   
+Name = Archon Plate : Quality = Magic : Sockets = 4 : maxhp >= 81     
+Name = Wirefleece : Quality = Magic : Sockets = 4 : maxhp >= 81     
+Name = Great Hauberk : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Gothic Plate : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Full Plate Mail : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Ancient Armor : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Chaos Armor : Quality = Magic : Sockets = 4 : maxhp >= 81   
+Name = Embossed Plate : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Ornate Plate : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Boneweave : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Balrog Skin : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Kraken Shell : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Lacquered Plate : Quality = Magic : Sockets = 4 : maxhp >= 81
+Name = Sacred Armor : Quality = Magic : Sockets = 4 : maxhp >= 81
+
+;---24 FHR 4 SOX ARMOR---;
+
+Name = Dusk Shroud : Quality = Magic : Sockets = 4 : 99 = 24       
+Name = Wyrmhide : Quality = Magic : Sockets = 4 : 99 = 24     
+Name = Scarab Husk : Quality = Magic : Sockets = 4 : 99 = 24      
+Name = Archon Plate : Quality = Magic : Sockets = 4 : 99 = 24    
+Name = Wirefleece : Quality = Magic : Sockets = 4 : 99 = 24     
+Name = Great Hauberk : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Gothic Plate : Quality = Magic : Sockets = 4 : 99 = 24  
+Name = Full Plate Mail : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Ancient Armor : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Chaos Armor : Quality = Magic : Sockets = 4 : 99 = 24 
+Name = Embossed Plate : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Ornate Plate : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Boneweave : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Balrog Skin : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Kraken Shell : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Lacquered Plate : Quality = Magic : Sockets = 4 : 99 = 24
+Name = Sacred Armor : Quality = Magic : Sockets = 4 : 99 = 24
+
+;----------------------------;
+;-----BARBARIAN BO HELMS-----;
+;----------------------------;
+
+Name = Jawbone Cap : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Jawbone Cap : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Jawbone Cap : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Fanged helm : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Fanged helm : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Fanged helm : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Horned Helm : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Horned Helm : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Horned Helm : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Assault Helmet : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Assault Helmet : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Assault Helmet : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Avenger guard : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Avenger guard : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Avenger guard : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Jawbone Visor : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Jawbone Visor : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Jawbone Visor : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Lion helm : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Lion helm : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Lion helm : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Rage Mask : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Rage Mask : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Rage Mask : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Savage Helmet : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Savage Helmet : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Savage Helmet : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Slayer Guard : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Slayer Guard : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Slayer Guard : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2 
+Name = Carnage Helm : Quality = Magic : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Carnage Helm : Quality = Magic : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Carnage Helm : Quality = Magic : skillbattleorders = 3 : barbarianskills = 2
+
+;----------------;
+;-----GLOVES-----;
+;----------------; 
+
+Type = Gloves : Quality = Magic : javelinandspearskilltab = 3 : IAS = 20 ;
+Type = Gloves : Quality = Magic : bowandcrossbowskilltab = 3 : IAS = 20 ;
+Type = Gloves : Quality = Magic : passiveandmagicskilltab = 3 : IAS = 20 ;
+Type = Gloves : Quality = Magic : MartialArtsskilltab = 3 : IAS = 20 ;
+
+;------------------------;
+;-----SORCERESS ORBS-----;
+;------------------------; 
+
+;---FIREBALL/LIGHTNING/BLIZZARD/FROZEN ORB + ALL/TREE 20 FCR---;
+
+Type = Sorceressitem : Quality = Magic : skillfireball >= 2 : fireskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillfireball = 3 : fireskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillfireball = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skilllightning >= 2 : lightningskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skilllightning = 3 : lightningskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skilllightning = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillblizzard >= 2 : coldskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillblizzard = 3 : coldskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillblizzard = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillfrozenorb >= 2 : coldskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillfrozenorb = 3 : coldskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Magic : skillfrozenorb = 3 : sorceressskills = 2 : FCR >= 20
+
+;---ENCHANT---;
+
+Type = Sorceressitem : Quality = Magic : skillenchant >= 2 : fireskilltab = 3
+Type = Sorceressitem : Quality = Magic : skillenchant = 3 : fireskilltab >= 2
+Type = Sorceressitem : Quality = Magic : skillenchant = 3 : sorceressskills = 2
+
+;------------------------;
+;-----ASSASSIN CLAWS-----;
+;------------------------;
+
+;--- +5/+6 LS ---;
+
+Type = Assassinitem : Quality = Magic : Assassin skills = 2 : skilllightningsentry = 3
+Type = Assassinitem : Quality = Magic : itemaddtrapsskilltab = 3 : skilllightningsentry >= 2
+Type = Assassinitem : Quality = Magic : itemaddtrapsskilltab = 2 : skilllightningsentry = 3
+Type = Assassinclaw : Quality = Magic : Assassin skills = 2 : skilllightningsentry = 3
+Type = Assassinclaw : Quality = Magic : itemaddtrapsskilltab = 3 : skilllightningsentry >= 2
+Type = Assassinclaw : Quality = Magic : itemaddtrapsskilltab = 2 : skilllightningsentry = 3
+
+;-------------------------;
+;-----AMAZON JAVELINS-----;
+;-------------------------;
+
+;---4-6 JAV SKILLS 30+ IAS---;
+
+Name = Maiden Javelin : Quality = magic : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Maiden Javelin : Quality = magic : javelinandspearskilltab >= 4 : IAS >= 30
+Name = Ceremonial Javelin : Quality = magic : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Ceremonial Javelin : Quality = magic : javelinandspearskilltab >= 4 : IAS >= 30
+Name = Matriarchal Javelin : Quality = magic : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Matriarchal Javelin : Quality = magic : javelinandspearskilltab >= 4 : IAS >= 30
+
+;---------------;
+;-----RINGS-----;
+;---------------;
+
+Type = Ring : Quality = Magic : 80 = 40   
+Type = Ring : Quality = Magic : FCR = 10 : MaxMana = 120 
+
+;-----------------;
+;-----AMULETS-----;
+;-----------------;
+
+;---CLASS/TREE SPECIFIC +2/+3---;
+
+Type = Amulet : Quality = Magic : Assassin skills = 2 : MaxHP >= 90  
+Type = Amulet : Quality = Magic : Druid skills = 2 : MaxHP >= 90   
+Type = Amulet : Quality = Magic : Necromancer skills = 2 : MaxHP >= 90  
+Type = Amulet : Quality = Magic : Paladin skills = 2 : 80 >= 20   
+Type = Amulet : Quality = Magic : Paladin skills = 2 : MaxHP >= 90  
+Type = Amulet : Quality = Magic : palicombatskilltab = 3 : FCR >= 10 
+Type = Amulet : Quality = Magic : palicombatskilltab = 3 : MaxHP >= 90   
+Type = Amulet : Quality = Magic : palicombatskilltab = 3 : 80 >= 20    
+Type = Amulet : Quality = Magic : trapsskilltab = 3 : FCR >= 10   
+Type = Amulet : Quality = Magic : trapsskilltab = 3 : MaxHP >= 90    
+Type = Amulet : Quality = Magic : fireskilltab = 3 : FCR >= 10     
+Type = Amulet : Quality = Magic : fireskilltab = 3 : MaxHP >= 90  
+Type = Amulet : Quality = Magic : coldskilltab = 3 : FCR >= 10      
+Type = Amulet : Quality = Magic : coldskilltab = 3 : MaxHP >= 90    
+Type = Amulet : Quality = Magic : lightningskilltab = 3 : FCR >= 10    
+Type = Amulet : Quality = Magic : lightningskilltab = 3 : MaxHP >= 90   
+Type = Amulet : Quality = Magic : poisonandboneskilltab = 3 : FCR >= 10   
+Type = Amulet : Quality = Magic : poisonandboneskilltab = 3 : MaxHP >= 90
+Type = Amulet : Quality = Magic : elementalskilltab = 3 : FCR >= 10  
+Type = Amulet : Quality = Magic : elementalskilltab = 3 : MaxHP >= 90  
+Type = Amulet : Quality = Magic : warcriesskilltab = 3 : FCR >= 10
+
+;---CRAFTING---;
+
+;Name = Amulet : Quality = Magic : Ilvl >= 94
