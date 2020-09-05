@@ -1,0 +1,660 @@
+;----------------;
+;-----JEWELS-----;
+;----------------;
+
+Name = jewel : Quality = rare : 39 >= 27 : strength >= 7 : dexterity >= 7 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 8 : 41 >= 25 : 43 >=8 : 45 >= 8 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 25 : 41 >= 8 : 43 >=8 : 45 >= 8 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 8 : 41 >= 8 : 43 >=25 : 45 >= 8 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 9 : 41 >= 9 : 43 >=9 : 45 >= 25 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 12 : 41 >= 12 : 43 >=12 : 45 >= 12 : FHR >=7
+Name = jewel : Quality = rare : 39 >= 8 : 41 >= 8 : 43 >=8 : 45 >= 8 : fhr = 7
+Name = jewel : Quality = rare : 39 >= 8 : 41 >= 8 : 43 >=8 : 45 >= 8 : strength >= 8
+Name = jewel : Quality = rare : 39 >= 8 : 41 >= 8 : 43 >=8 : 45 >= 8 : dexterity >= 8
+Name = jewel : Quality = rare : maxdamage >= 25
+Name = jewel : Quality = rare : mindamage >= 16
+Name = jewel : Quality = rare : enhanceddamage >= 25 : strength >= 8
+Name = jewel : Quality = rare : enhanceddamage >= 25 : dexterity >= 8    
+Name = jewel : Quality = rare : enhanceddamage >= 28 : fhr = 7   
+Name = jewel : Quality = rare : 91 = -15 : enhanceddamage >= 29
+Name = jewel : Quality = rare : 91 = -15 : 39 >= 10 : 41 >= 10 : 43 >= 10 : 45 >= 10
+Name = jewel : Quality = rare : 91 = -15 : maxdamage >= 10
+Name = jewel : Quality = rare : 91 = -15 : mindamage >= 9
+Name = jewel : Quality = rare : 91 = -15 : strength >= 8
+Name = jewel : Quality = rare : 91 = -15 : dexterity >= 8
+Name = jewel : Quality = rare : 91 = -15 : fhr = 7    
+Name = jewel : Quality = rare : 91 = -15 : strength >= 5 : dexterity >= 5
+Name = jewel : Quality = rare : 91 = -15 : strength >= 5 : 39 >= 10
+Name = jewel : Quality = rare : 91 = -15 : dexterity >= 5 : 39 >= 10
+Name = jewel : Quality = rare : 91 = -15 : dexterity >= 5 : 19 >= 50
+Name = jewel : Quality = rare : enhanceddamage >= 25 : 19 >= 50 : strength >= 5
+Name = jewel : Quality = rare : enhanceddamage >= 25 : 19 >= 50 : dexterity >= 5
+Name = jewel : Quality = rare : maxhp >= 20 : fhr = 7 
+Name = jewel : Quality = rare : 39 >= 15 : 41 >= 15 : 43 >= 15 : 45 >= 15 : fhr = 7
+
+;---------------;
+;-----RINGS-----;
+;---------------;
+
+Type = Ring : Quality = rare : 80 > 30
+Type = Ring : Quality = rare : manaleech >= 5	: lifeleech > 5
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Fireresist >= 15 : Coldresist >= 15 : Dexterity >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Fireresist >= 15 : Coldresist >= 15 : Strength >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Coldresist >= 15 : lightresist >= 15 : Strength >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Coldresist >= 15 : lightresist >= 15 : Dexterity >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : lightresist >= 15 : Fireresist >= 15 : Strength >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : lightresist >= 15 : Fireresist >= 15 : Dexterity >= 10
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Strength >= 15
+Type = Ring : Quality = rare : FCR = 10 : maxhp >= 20 : Dexterity >= 10
+Type = Ring : Quality = Rare : Dexterity >= 15 : Strength >= 10 : MaxHP >= 15
+Type = Ring : Quality = Rare : FCR = 10 : MaxHP   >= 30 : Strength >= 10
+Type = Ring : Quality = Rare : FCR = 10 : MaxHP   >= 30 : Dexterity >= 10
+Type = Ring : Quality = Rare : Dexterity >= 15 : Strength >= 15 
+Type = Ring : Quality = Rare : Dexterity >= 15 : MaxHP >= 30 
+Type = Ring : Quality = Rare : Dexterity >= 15 : Lifeleech >= 6
+Type = Ring : Quality = Rare : Strength >= 15 : Lifeleech >= 6
+
+;-----------------;
+;-----AMULETS-----;
+;-----------------;
+
+;---50+ MF---;
+
+Type = Amulet : Quality = rare : 80 = 50
+
+;--- +2 CHAR SPECIFIC ---;
+
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : Assassin skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : sorceress skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : druid skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : necromancer skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : paladin skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : amazon skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : barbarian skills = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+
+;--- +2 TREE SPECIFIC ---;
+
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : palicombatskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : trapsskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : fireskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : coldskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : lightningskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : poisonandboneskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : elementalskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : Dexterity >= 10
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Dexterity >= 15 : MaxHP >= 30
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Dexterity >= 15 : 39 >= 10 : 41 >= 10 : 43 >=10 : 45 >= 10
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Dexterity >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Dexterity >= 15 : Coldresist >= 25 : Lightresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : Lightresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Fireresist >= 25
+Type = Amulet : Quality = rare : warcriesskilltab = 2 : FCR = 10 : Strength >= 15 : Coldresist >= 25 : Lightresist >= 25
+
+;---------------------;
+;-----DRUID PELTS-----;
+;---------------------;
+
+;---GRIZZLY PELT---;
+
+Name = Wolf Head : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Hawk Helm : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Antlers : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Falcon Mask : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Spirit Mask : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Alpha Helm : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Griffon Headdress : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Hunter's Guise : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2 
+Name = Sacred Feathers : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Totemic Mask : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Blood Spirit : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Sun Spirit : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+Name = Earth Spirit : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Sky Spirit :  Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2  
+Name = Dream Spirit : Quality = rare : skillSummonGrizzly = 3 : Druid skills = 2   
+
+;---TORNADO PELT---;
+
+Name = Wolf Head : Quality = rare : skillTornado = 3 : Druid skills = 2    
+Name = Hawk Helm : Quality = rare : skillTornado = 3 : Druid skills = 2    
+Name = Antlers : Quality = rare : skillTornado = 3 : Druid skills = 2     
+Name = Falcon Mask : Quality = rare : skillTornado = 3 : Druid skills = 2   
+Name = Spirit Mask : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Alpha Helm : Quality = rare : skillTornado = 3 : Druid skills = 2     
+Name = Griffon Headdress : Quality = rare : skillTornado = 3 : Druid skills = 2       
+Name = Hunter's Guise : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Sacred Feathers : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Totemic Mask : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Blood Spirit : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Sun Spirit : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Earth Spirit : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Sky Spirit : Quality = rare : skillTornado = 3 : Druid skills = 2        
+Name = Dream Spirit : Quality = rare : skillTornado = 3 : Druid skills = 2                 
+
+;---FIRECLAW PELT---;
+
+Name = Wolf Head : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Hawk Helm : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Antlers : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Falcon Mask : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Spirit Mask : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Alpha Helm : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Griffon Headdress : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Hunter's Guise : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Sacred Feathers : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Totemic Mask : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Blood Spirit : Quality = rare : skillFireclaws = 3 : Druid skills = 2 
+Name = Sun Spirit : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Earth Spirit : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+Name = Sky Spirit : Quality = rare : skillFireclaws = 3 : Druid skills = 2 
+Name = Dream Spirit : Quality = rare : skillFireclaws = 3 : Druid skills = 2
+
+;---------------------------------;
+;-----CIRCLETS/DIADEMS/TIARAS-----;
+;---------------------------------;
+
+;--- +2 CLASS SKILL/20 FCR CIRCLET ---;
+
+Type = Circlet : Quality = Rare : Assassinskills = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Assassinskills = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Assassinskills = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10 
+Type = Circlet : Quality = Rare : Druid skills = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Druid skills = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Druid skills = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Sorceress skills = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Sorceress skills = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Sorceress skills = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Necromancer skills = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Necromancer skills = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Necromancer skills = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Paladin skills = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Paladin skills = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Paladin skills = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Amazon skills = 2 : FRW = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Amazon skills = 2 : FRW = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : Amazon skills = 2 : FRW = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : Amazon skills = 2 : FRW = 30 : Sockets = 2
+
+;--- +2 TREE SKILLS/20 FCR CIRCLET ---;
+
+Type = Circlet : Quality = Rare : lightningskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : coldskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : fireskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : poisonandBoneskilltab   = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : elementalskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : palicombatskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : trapsskilltab = 2 : FCR = 20 : Sockets = 2
+Type = Circlet : Quality = Rare : lightningskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : coldskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : fireskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : poisonandBoneskilltab   = 2 : FCR = 20  : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : elementalskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : palicombatskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : trapsskilltab = 2 : FCR = 20 : Strength >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : lightningskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : coldskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : fireskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : poisonandBoneskilltab   = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : elementalskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : palicombatskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+Type = Circlet : Quality = Rare : trapsskilltab = 2 : FCR = 20 : Dexterity >= 15 : Maxhp >= 10
+
+;---VISIONARY CIRCLET---;
+
+Type = Circlet : Quality = Rare : FHR >= 10 : MaxHP >= 20 : 225 > 1 : Sockets = 2 : Strength >= 10
+Type = Circlet : Quality = Rare : FHR >= 10 : MaxHP >= 20 : 225 > 1 : Sockets = 2 : Dexterity >= 10
+Type = Circlet : Quality = Rare : FHR >= 10 : MaxHP >= 20 : 225 > 1 : Sockets = 2 : 39 >= 20 : 41 >= 20 : 43 >= 20 : 45 >= 20
+Type = Circlet : Quality = Rare : MaxHP >= 30 : 225 > 1 : Strength >= 15 : Dexterity >= 15 : Sockets = 2
+
+;---------------;
+;-----HELMS-----;
+;---------------;
+
+;---VISIONARY PRIMAL---;
+
+Type = Primalhelm : Quality = Rare : FHR >= 10 : MaxHP >= 20 : 225 > 1 : Sockets = 2
+Type = Primalhelm : Quality = Rare :  225 > 1 : barbarianskills = 2
+
+;---VISIONARY HELMETS---;
+
+Type = Helm : Quality = Rare : FHR >= 10 : MaxHP >= 20 : 225 > 1 : Sockets = 2
+
+;----------------------------;
+;-----BARBARIAN BO HELMS-----;
+;----------------------------;
+
+Name = Jawbone Cap : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Jawbone Cap : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Jawbone Cap : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Fanged helm : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Fanged helm : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Fanged helm : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Horned Helm : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Horned Helm : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Horned Helm : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Assault Helmet : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Assault Helmet : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Assault Helmet : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Avenger guard : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Avenger guard : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Avenger guard : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Jawbone Visor : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Jawbone Visor : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Jawbone Visor : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Lion helm : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Lion helm : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Lion helm : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Rage Mask : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Rage Mask : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Rage Mask : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Savage Helmet : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Savage Helmet : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Savage Helmet : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Slayer Guard : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Slayer Guard : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Slayer Guard : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2 
+Name = Carnage Helm : Quality = Rare : skillbattleorders >= 2 : warcriesskilltab = 3
+Name = Carnage Helm : Quality = Rare : skillbattleorders = 3 : warcriesskilltab = 2
+Name = Carnage Helm : Quality = Rare : skillbattleorders = 3 : barbarianskills = 2
+
+;----------------;
+;-----GLOVES-----;
+;----------------;
+
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : Strength >= 10 : Dexterity >= 10 : Fireresist >= 25 : Coldresist >= 25
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : Strength >= 10 : Dexterity >= 10 : Lightresist >= 25 : Coldresist >= 25
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : Strength >= 10 : Dexterity >= 10 : Fireresist >= 25 : Lightresist >= 25
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddbowandcrossbowskilltab = 2 : Dexterity >= 10 : Strength >= 10
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddpassiveandmagicskilltab = 2 : Dexterity >= 10 : Strength >= 10
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddjavelinandspearskilltab = 2 : Dexterity >= 10 : Strength >= 10
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddbowandcrossbowskilltab = 2 : Strength >= 10 : Dexterity >= 10 
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddpassiveandmagicskilltab = 2 : Strength >= 10 : Dexterity >= 10 
+Type = Gloves : Flag != Eth : Quality = Rare : IAS = 20 : itemaddjavelinandspearskilltab = 2 : Strength >= 10 : Dexterity >= 10
+
+;---------------;
+;-----BOOTS-----;
+;---------------;
+
+Type = Boots : Flag != Eth : Quality = Rare : FRW >=20 : FHR >= 20 : 41 >= 25 : 43 >= 25
+Type = Boots : Flag != Eth : Quality = Rare : FRW >=20 : FHR >= 20 : 41 >= 25 : 39 >= 25
+Type = Boots : Flag != Eth : Quality = Rare : 43 >= 25 : 39 >= 25 : FHR >= 10 : FRW >= 10
+Type = Boots : Flag != Eth : Quality = Rare : 41 >= 25 : 43 >= 25 : 39 >= 25 : FHR >= 10 : FRW >= 10
+Type = Boots : Flag != Eth : Quality = Rare : 41 >= 25 : 39 >= 25 : 45 >= 28 : FHR >= 10 : FRW >= 10
+Type = Boots : Flag != Eth : Quality = Rare : 39 >= 25 : 43 >= 25 : 45 >= 28 : FHR >= 10 : FRW >= 10
+Type = Boots : Flag != Eth : Quality = Rare : 41 >= 25 : 43 >= 25 : 45 >= 28 : FHR >= 10 : FRW >= 10
+Type = Boots : Flag != Eth : Quality = Rare : Strength >= 8 : Dexterity >= 8 : FHR >= 10 : FRW >= 10
+
+;---------------;
+;-----BELTS-----;
+;---------------;
+
+Type = Belt : Flag != Eth : Quality = Rare : FHR = 24 : strength >= 20 : MaxHP >= 40
+Type = Belt : Flag != Eth : Quality = Rare : FHR = 24 : strength >= 25 : MaxHP >= 40
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 28 : MaxHP >= 40
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 39 >=25
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 41 >=25
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 43 >=28
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 39 >=15 : 41 >=15
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 39 >=15 : 43 >=20
+Type = Belt : Flag != Eth : Quality = Rare : FHR >= 17 : strength >= 22 : MaxHP >= 40 : 43 >=20 : 41 >=15
+
+;-----------------;
+;-----WEAPONS-----;
+;-----------------;
+
+;---FOOLS 1H AXE---;
+
+Name = Tomahawk : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Tomahawk : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Tomahawk : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Tomahawk : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Tomahawk : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Tomahawk : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Small Crescent : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Small Crescent : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Small Crescent : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Small Crescent : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Small Crescent : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Small Crescent : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Ettin Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Ettin Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Ettin Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Ettin Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Ettin Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Ettin Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Spike : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Spike : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Spike : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Spike : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Spike : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Spike : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = berserker axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = berserker axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = berserker axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = berserker axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = berserker axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = berserker axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Hatchet : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Hatchet : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Hatchet : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Hatchet : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Hatchet : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Hatchet : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Cleaver : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Cleaver : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Cleaver : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Cleaver : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Cleaver : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Cleaver : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Twin Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Twin Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Twin Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Twin Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Twin Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Twin Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Crowbill : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Crowbill : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Crowbill : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Crowbill : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Crowbill : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Crowbill : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Naga : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Naga : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Naga : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Naga : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Naga : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Naga : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = hand Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = hand Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = hand Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = hand Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = hand Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = hand Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Double Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Double Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Double Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Double Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Double Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Double Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Military Pick : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Military Pick : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Military Pick : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = Military Pick : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Military Pick : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = Military Pick : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Axe : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Axe : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Axe : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Name = War Axe : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Axe : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Name = War Axe : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+
+;---FOOLS 1H/2H SWORD---;
+
+Type = Sword : Flag != eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Type = Sword : Flag = eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Type = Sword : Flag = eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Type = Sword : Flag = eth : Quality = Rare : 218 >= 1 : IAS >= 20 : Enhanced Damage >= 100
+Type = Sword : Flag != eth : Quality = Rare : 225 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+Type = Sword : Flag != eth : Quality = Rare : 224 >= 1 : IAS >= 20 : Enhanced Damage >= 200
+
+;---ETH 350+ ED SWORD w/ 20 IAS---;
+
+Type = Sword : Flag = eth : Quality = Rare : IAS >= 20 : Enhanced Damage >= 350
+
+;------------------------;
+;-----SORCERESS ORBS-----;
+;------------------------; 
+
+;---FIREBALL/LIGHTNING/BLIZZARD/FROZEN ORB + ALL/TREE 20 FCR---;
+
+Type = Sorceressitem : Quality = Rare : skillfireball >= 2 : fireskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillfireball = 3 : fireskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillfireball = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skilllightning >= 2 : lightningskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skilllightning = 3 : lightningskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skilllightning = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillblizzard >= 2 : coldskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillblizzard = 3 : coldskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillblizzard = 3 : sorceressskills = 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillfrozenorb >= 2 : coldskilltab = 3 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillfrozenorb = 3 : coldskilltab >= 2 : FCR >= 20
+Type = Sorceressitem : Quality = Rare : skillfrozenorb = 3 : sorceressskills = 2 : FCR >= 20
+
+;---ENCHANT---;
+
+Type = Sorceressitem : Quality = Rare : skillenchant >= 2 : fireskilltab = 3
+Type = Sorceressitem : Quality = Rare : skillenchant = 3 : fireskilltab >= 2
+Type = Sorceressitem : Quality = Rare : skillenchant = 3 : sorceressskills = 2
+
+;------------------------;
+;-----ASSASSIN CLAWS-----;
+;------------------------;
+
+;---FOOLS---;
+
+Name = Runic Talons : Quality = Rare : 224 >= 1 : Ias >= 20
+Name = Feral Claws : Quality = Rare : 224 >= 1 : Ias >= 20
+Name = Runic Talons : Quality = Rare : 225 >= 1 : Ias >= 20
+Name = Feral Claws : Quality = Rare : 225 >= 1 : Ias >= 20
+Name = Wrist Sword : Quality = Rare : 225 >= 1 : Ias >= 20
+Name = Battle Cestus : Quality = Rare : 224 >= 1 : Ias >= 20
+Name = Wrist Sword : Quality = Rare : 224 >= 1 : Ias >= 20
+Name = Battle Cestus : Quality = Rare : 225 >= 1 : Ias >= 20
+
+;--- +5/+6 LS ---;
+
+Type = Assassinitem : Quality <= Rare : Assassin skills = 2 : skilllightningsentry = 3
+Type = Assassinitem : Quality <= Rare : itemaddtrapsskilltab = 3 : skilllightningsentry >= 2
+Type = Assassinitem : Quality <= Rare : itemaddtrapsskilltab = 2 : skilllightningsentry = 3
+Type = Assassinclaw : Quality <= Rare : Assassin skills = 2 : skilllightningsentry = 3
+Type = Assassinclaw : Quality <= Rare : itemaddtrapsskilltab = 3 : skilllightningsentry >= 2
+Type = Assassinclaw : Quality <= Rare : itemaddtrapsskilltab = 2 : skilllightningsentry = 3
+
+;-------------------------;
+;-----AMAZON JAVELINS-----;
+;-------------------------;
+
+;---4-6 JAV SKILLS 30+ IAS JAVELINS---;
+
+Name = Maiden Javelin : Quality = rare : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Maiden Javelin : Quality = rare : javelinandspearskilltab >= 4 : IAS >= 30
+Name = Ceremonial Javelin : Quality = rare : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Ceremonial Javelin : Quality = rare : javelinandspearskilltab >= 4 : IAS >= 30
+Name = Matriarchal Javelin : Quality = rare : javelinandspearskilltab >= 2 : Amazon skills = 2 : IAS >= 30
+Name = Matriarchal Javelin : Quality = rare : javelinandspearskilltab >= 4 : IAS >= 30
+
+;-----------------;
+;-----SHIELDS-----;
+;-----------------;
+
+;---MISC---;
+
+Type = Shield : Quality = Rare : FHR >= 17 : Sockets = 2 : toblock = 20 : 102 = 30
+
+;---NECRO---;
+
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : Sockets = 2 
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Fireresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Lightresist >= 20 : Coldresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2  : Lightresist >= 20 : Fireresist >= 20
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : toblock = 20 : 102 = 30
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespear = 3 : FHR = 17
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab >= 2 : Skillbonespirit = 3 : FHR = 17
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespear = 3 : FHR = 17
+Type = Necromanceritem : Quality = Rare : Necromancer Skills = 2 : Skillbonespirit = 3 : FHR = 17
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespear >= 2 : FHR = 17
+Type = Necromanceritem : Quality = Rare : poisonandBoneskilltab = 3 : Skillbonespirit >= 2 : FHR = 17
