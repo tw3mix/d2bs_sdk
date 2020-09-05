@@ -1,0 +1,215 @@
+;---------------;
+;-----HELMS-----;
+;---------------;
+
+Name = Shako : Quality = Unique	: 31 >= 141 ; Harlequin Crest/Shako Perfect
+Name = Grim Helm : Quality = Unique : Life Leech >= 8 : Mana Leech >= 8 : DamageResist = 20 ; Vampire Gaze
+Name = Grim Helm : Quality = Unique : Flag = Eth ; Vampire Gaze
+Name = Spired Helm : Quality = Unique : Dexterity > 5 ; Nightwing's Veil
+Name = Demonhead : Quality = Unique : 0 = 30 : 60 = 10 ; Andariel's Visage 30str/10ll
+Name = Demonhead : Quality = Unique : Flag = Eth ; Andariel's Visage Ethereal
+Name = Bone Visage : Quality = Unique : Sockets = 2 : Strength > 30 ; Giant Skull 2sox/30str
+Name = Tiara : Quality = Unique : 39 = 70 : 41 = 70 : 43 = 70 : 45 = 70 ; Kira's Guardian 70 All Resistances
+Name = Diadem : Quality = Unique ; Griffon's Eye
+Name = Corona : Quality = Unique ; Crown of ages
+
+;---------------;
+;-----BOOTS-----;
+;---------------;
+
+;Name = Demonhide Boots : Quality = Unique : itemgoldbonus = 70
+Name = Sharkskin Boots : Flag != Eth : Quality = Unique : MaxHP = 65 ; Waterwalk 65 life
+Name = Battle Boots : Quality = Unique : Flag != Eth : 80 >= 50 ; Wartraveler 50 mf
+Name = War Boots : Quality = Unique : Flag != Eth : Enhanced Defense = 200 ; Gore Rider
+Name = Scarabshell Boots : Quality = Unique : Strength = 15 : Vitality >= 15 : Flag != Eth ; Sandstorm Treks 15str/15vita non eth
+Name = Scarabshell Boots : Quality = Unique : Flag = Eth ; Sandstorm Treks Ethereal
+Name = Boneweave Boots : Quality = Unique : Flag != Eth : skillskeletonmastery = 2 : Strength = 20 ; Marrowwalk
+Name = Myrmidon Greaves : Quality = Unique : Flag != Eth : Dexterity = 25 ; Shadow Dancer 25 dexterity
+
+;---------------;
+;-----BELTS-----;
+;---------------;
+
+Name = Heavy Belt : Quality = Unique : Flag != Eth : itemgoldbonus = 80 ; Goldwrap 80 eg
+Name = Demonhide Sash : Flag != Eth : Quality = Unique : Life Leech = 8 : DamageResist = 15 : magicdamagereduction = 15 : Enhanced Defense = 180 ; String of Ears
+Name = War Belt : Quality = Unique : Flag != Eth : Enhanced Defense = 200 ; Thundergod's Vigor 200 ed
+Name = Spiderweb Sash : Quality = Unique : Flag != Eth ; Arachnid Mesh
+Name = Mithril Coil : Quality = Unique : Flag != Eth : Vitality = 40 : DamageResist = 15 ; Verdungo's Hearty Cord 40/15
+;Name = Vampirefang Belt : Flag != Eth : Quality = Unique ; Nosferatu's Coil
+
+;----------------;
+;-----ARMORS-----;
+;----------------;
+
+Name = Dusk Shroud : Quality = Unique : skillfirebolt = 3 : passivefiremastery = 15 ; Ormus' Robes 3 Firebolt/15% Fire Dmg
+Name = Dusk Shroud : Quality = Unique : skilliceblast = 3 : passivecoldmastery = 15 ; Ormus' Robes 3 Iceblast/15% Cold Dmg
+Name = Dusk Shroud : Quality = Unique : skillfireball = 3 : passivefiremastery = 15 ; Ormus' Robes 3 Fireball/15% Fire Dmg
+Name = Dusk Shroud : Quality = Unique : skillenchant = 3 : passivefiremastery = 15 ; Ormus' Robes 3 Enchant/15% Fire Dmg
+Name = Dusk Shroud : Quality = Unique : skillchainlightning = 3 : passiveltngmastery = 15 ; Ormus' Robes 3 Chain Lightning/15% Light Dmg
+Name = Dusk Shroud : Quality = Unique : SkillMeteor = 3 : passivefiremastery = 15 ; Ormus' Robes 3 Meteor/15% Fire Dmg
+Name = Dusk Shroud : Quality = Unique : skillblizzard = 3  : passivecoldmastery = 15 ; Ormus' Robes 3 Blizzard/15% Cold Dmg
+Name = Dusk Shroud : Quality = Unique : passivecoldmastery = 15 : passivefiremastery = 15 : passiveltngmastery = 15 ; Ormus' Robes 15% Fire Dmg/15% Cold Dmg/15% Light Dmg
+Name = Balrog Skin : Quality = Unique : itemallskills = 2 ; Arkaine's Valor +2 Skills
+Name = Kraken Shell : Quality = Unique : DamageResist = 25 : Strength >= 45 ; Leviathan
+Name = Shadow Plate : Quality = Unique : Flag = Eth ; Eth Steel Carapace
+Name = Sacred Armor : Quality = Unique ; Templar's Might or Tyrael's Might
+Name = Mesh Armor : Quality = Unique : Enhanced Defense = 220 ; Shaftstop
+Name = Russet Armor : Quality = Unique : Flag = Eth ; Eth Skullder's Ire
+Name = Serpentskin Armor : Quality = Unique : 39 = 35 : 41 = 35 : 43 = 35 : 45 = 35 ; Skin of the Vipermagi 35 all resitances
+
+;-----------------;
+;-----SHIELDS-----;
+;-----------------;
+
+;Name = Round Shield : Quality = Unique ; Moser's Blessed Circle
+;Name = Troll Nest : Quality = Unique ; Head Hunter's Glory
+Name = Monarch : Quality = Unique : 31 = 148 ; Perf Stormshield
+
+;-----------------;
+;-----WEAPONS-----;
+;-----------------;
+
+;Name = Champion Sword : Quality = Unique ;: Enhanced Damage > 230 ; Doombringer
+;Name = Colossus Blade : Quality = Unique ;: Enhanced Damage > 200 ; The Grandfather
+;Name = Phase Blade : Quality = Unique : Level req = 85 ; Azurewrath
+;Name = Ettin Axe : Quality = Unique : Sockets = 5: Flag = Eth ; Rune Master
+;Name = Berserker Axe : Quality = Unique ; Death Cleaver
+;Name = Silver-Edged Axe : Quality = Unique ; Ethereal Edge
+;Name = Decapitator : Quality = Unique ; Hellslayer
+;Name = Champion Axe : Quality = Unique ; Messerschmidt's Reaver
+;Name = Glorious Axe : Quality = Unique ; Executioner's Justice
+;Name = Crusader Bow : Quality = Unique ; Eaglehorn
+;Name = Ward Bow : Quality = Unique ; Widowmaker
+;Name = Hydra Bow : Quality = Unique ; Windforce
+;Name = Ballista : Quality = Unique ; Buriza-Do Kyanon
+;Name = Dagger : Quality = Unique ; Gull
+;Name = Bone Knife : Quality = Unique ; Wizardspike
+;Name = Fanged Knife : Quality = Unique ; Fleshripper
+;Name = Legend Spike : Quality = Unique ; Ghostflame
+;Name = Winged Harpoon : Quality = Unique ; Gargoyle's Bite
+;Name = Ghost Glaive : Quality = Unique ; Wraith Flight
+;Name = Devil Star : Quality = Unique ; Baranar's Star
+;Name = Scourge : Quality = Unique : 93 = 50 ; Horizon's Tornado
+Name = Scourge : Quality = Unique : Flag = Eth : 93 = 30 ; Eth Stormlash
+;Name = Legendary Mallet : Quality = Unique : 0 >= 20 ; Stone Crusher
+;Name = Legendary Mallet : Quality = Unique : 6 = 12800 ; Schaefer's Hammer
+;Name = Thunder Maul : Quality = Unique : 105 = 10 ; Earth Shifter
+;Name = Thunder Maul : Quality = Unique : 0 = 25 ; The Cranium Basher
+;Name = Ogre axe : Quality = Unique : Enhanced Damage > 290 ; Bonehew
+;Name = Thresher : Quality = Unique ; The Reaper's Toll
+Name = Cryptic Axe : Quality = Unique : Flag = Eth ; Eth Tomb Reaver
+;Name = Giant Thresher : Quality = Unique ; Stormspire
+;Name = Divine Scepter : Quality = Unique ; Hand of Blessed Light
+;Name = Mighty Scepter : Quality = Unique : 93 = 20 ; Heaven's Light
+;Name = Mighty Scepter : Quality = Unique : 91 = -60 ; The Redeemer
+;Name = Caduceus : Quality = Unique ; Astreon's Iron Ward
+;Name = Fuscina : Quality = Unique ; Kelpie Snare
+;Name = Lance : Quality = Unique ; Spire of Honor
+;Name = Hyperion Spear : Quality = Unique ; Arioc's Needle
+;Name = Mancatcher : Quality = Unique ; Viperfork
+;Name = War Pike : Quality = Unique ; Steel Pillar
+;Name = Elder Staff : Quality = Unique ; Ondal's Wisdom
+;Name = Archon Staff : Quality = Unique ; Mang Song's Lesson
+;Name = Winged Knife : Quality = Unique ; Warshrike
+;Name = Flying Axe : Quality = Unique ; Gimmershred
+;Name = Winged Axe : Quality = Unique ; Lacerator
+;Name = Lich Wand : Quality = Unique ; Boneshade
+;Name = Unearthed Wand : Quality = Unique ; Death's Web
+
+;------------------------;
+;-----CLASS SPECIFIC-----;
+;------------------------;
+
+;-----AMAZON-----;
+
+;Name = Matriarchal Bow : Quality = Unique ;  Blood Raven's Charge
+;Name = Ceremonial Bow : Quality = Unique ;  Lycander's Aim
+Name = Ceremonial Javelin : Quality = Unique : Flag = Eth ; Eth Titan's Revenge
+Name = Matriarchal Javelin : Quality = Unique : Flag = Eth ; Eth Thunderstroke
+;Name = Matriarchal Spear : Quality = Unique ;  Stoneraven
+;Name = Ceremonial Pike : Quality = Unique ;  Lycander's Flank
+
+;-----ASSASSIN-----;
+
+;Name = Battle Cestus : Quality = Unique ;  Shadow Killer
+Name = Greater Talons : Quality = Unique : Flag = Eth : Enhanced Damage >= 200 ; Eth Bartuc's Cut-Throat
+;Name = Wrist Sword : Quality = Unique ;  Jade Talon
+;Name = Feral Claws : Quality = Unique ;  Firelizard's Talons
+
+;-----NECROMANCER-----;
+
+Name = Hierophant Trophy : Quality = Unique : Enhanced Defense = 200 : Flag != Eth ; Homunculus 200 ed
+Name = Bloodlord Skull : Quality = Unique : necromancersummoningskilltab >= 3 : poisonandboneskilltab >= 3 : cursesskilltab >= 3 ; Darkforce Spawn
+Name = Succubus Skull : Quality = Unique : 39 = 30 : 41 = 30 : 43 = 30 : 45 = 30 ; Boneflame
+
+;-----BARBARIAN-----;
+
+;Name = Fury Visor : Quality = Unique ; Wolfhowl
+;Name = Conqueror Crown : Quality = Unique ; Halaberd's Reign
+;Name = Destroyer Helm : Quality = Unique ; Demonhorn's Edge
+Name = Slayer Guard : Quality = Unique : Enhanced Defense >= 190 ;  Arreat's Face 190+ ed
+
+;-----SORCERESS-----;
+
+Name = Swirling Crystal : Quality = Unique : Flag = Eth ; Eth The Oculus
+Name = Eldritch Orb : Quality = Unique : Sorceress Skills = 3 : passiveltngmastery = 20 ; Eschuta's Temper 3 Skills/20% Light Dmg
+Name = Eldritch Orb : Quality = Unique : Sorceress Skills = 3 : passivefiremastery = 20 ; Eschuta's Temper 3 Skills/20% Fire Dmg
+Name = Dimensional Shard : Quality = Unique ;  Death's Fathom
+
+;-----DRUID-----;
+
+Name = Totemic Mask : Quality = Unique : Enhanced Defense = 200 ; Jalal's Mane 200 ed
+;Name = Blood Spirit : Quality = Unique : Flag != Eth ; Cerebus' Bite
+;Name = Sky Spirit : Quality = Unique : Flag != Eth ; Ravenlore
+;Name = Earth Spirit : Quality = Unique : Flag != Eth ; Spirit Keeper
+
+;-----PALADIN-----;
+
+;Name = Sacred Rondache : Quality = Unique ; Alma Negra
+Name = Gilded Shield : Quality = Unique ; Herald Of Zakarum
+;Name = Zakarum Shield : Quality = Unique ; Dragonscale
+
+;---------------;
+;-----RINGS-----;
+;---------------;
+
+Type = ring : Quality = Unique : 80 = 30 ; NagelRing 30 Mf
+;Type = ring : Quality = Unique : 62 >= 6 ; Manald Heal
+Type = ring : Quality = Unique : 77 = 25 ; Stone of Jordan
+;Type = ring : Quality = Unique : 7 = 40 ; Dwarf Star
+Type = ring : Quality = Unique : 2 = 20 : tohit >= 245 ; Raven Frost 20 Dext/245+ Ar
+Type = ring : Quality = Unique : 60 >= 3 : 11 = 50 ; Bul Kathos Wedding Band
+;Type = ring : Quality = Unique : 60 >= 6 ; Carrion Wind
+;Type = ring : Quality = Unique : Normal Damage Reduction >= 7 : Poison Resist >= 20 ; Nature's Peace
+Type = ring : Quality = Unique : 144 >= 20 ; Wisp Projector
+
+;-----------------;
+;-----AMULETS-----;
+;-----------------;
+
+;Type = amulet : Quality = Unique : 0 = 12 : 39 >= 20 : 41 >= 20 :43 >= 20 :46 >= 20 ; Sacrens Chance
+;Type = amulet : Quality = Unique : 62 >= 11 : 60 >= 5 ; Cresent Moon
+;Type = amulet : Quality = Unique : 2 = 25 ; Cat's Eye
+;Type = amulet : Quality = Unique : 45 = 75 ; Atma's Scarab
+;Type = amulet : Quality = Unique : 74 = 10 ; The Rising Sun
+;Type = amulet : Quality = Unique : 41 = 35  ; Highlord's Wrath
+Type = amulet : Quality = Unique : 39 >= 20 : 41 >= 20 : 43 >= 20 : 45 >= 20 : 0 = 5 ; Mara's Kaleidoscope
+;Type = amulet : Quality = Unique : defensiveaurasskilltab >= 1 ; Seraph's Hymn
+;Type = amulet : Quality = Unique : 19 >= 400 ; Metalgrid
+
+;-----------------;
+;-----JEWELS------;
+;-----------------;
+
+Name = jewel : Quality = Unique : 329 >= 5 : 333 >= 5 ; RBF -5/5 Fire          
+Name = jewel : Quality = Unique : 332 >= 5 : 336 >= 5 ; RBF -5/5 Poison            
+Name = jewel : Quality = Unique : 330 >= 5 : 334 >= 5 ; RBF -5/5 Light           
+Name = jewel : Quality = Unique : 331 >= 5 : 335 >= 5 ; RBF -5/5 Cold   
+
+;-----------------;
+;-----CHARMS------;
+;-----------------;
+
+Type = Small Charm : Quality = Unique ; Annihilus
+Type = Medium Charm : Quality = Unique ; Torch
+;Type = Large Charm : Quality = Unique ; Gheed
