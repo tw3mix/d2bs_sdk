@@ -1,0 +1,351 @@
+;----------------;
+;-----ARMORS-----;
+;----------------;
+
+;---15% ED NON-ETH ANY SOCKET---;
+
+Name = Ghost Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Serpentskin Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Demonhide Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth      
+Name = Trellised Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth       
+Name = Linked Mail : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth        
+Name = Tigulated Mail : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Cuirass : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth      
+Name = Mesh Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth       
+Name = Russet Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth     
+Name = Sharktooth Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth   
+Name = Templar Coat : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth         
+Name = Embossed Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth      
+Name = Chaos Armor : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth        
+Name = Ornate Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth       
+Name = Mage Plate : Quality = Superior : Sockets = 0 : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Mage Plate : Quality = Superior : Sockets = 3 : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth  
+Name = Gothic Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Diamond Mail : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth      
+Name = Loricated Mail : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth   
+Name = Kraken Shell : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth     
+Name = Hellforge Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth     
+Name = Lacquered Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Shadow Plate : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth          
+Name = Boneweave : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth          
+Name = Balrog Skin : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth        
+Name = Dusk Shroud : Quality = Superior : Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Wyrmhide : Quality = Superior :  Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Scarab Husk : Quality = Superior :  Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth     
+Name = Wirefleece : Quality = Superior :  Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth   
+Name = Great Hauberk : Quality = Superior : Enhanced Defense =15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Archon Plate : Quality = Superior :  Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth    
+Name = Sacred Armor : Quality = Superior :  Enhanced Defense = 15 : Sockets != 1 : Sockets != 2 : Flag != Eth
+
+;---NORMAL/SUPERIOR 0 SOCKET ETH WHITE ARMOR (WITH HIGH BASE DEF)---;
+
+Name = Scarab Husk : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 680 
+Name = Diamond Mail : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 704
+Name = Loricated Mail : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 714
+Name = Wyrmhide : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 675
+Name = Wirefleece : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 692
+Name = Great Hauberk : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 720    
+Name = Boneweave : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 720    
+Name = Balrog skin : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 735     
+Name = Archon Plate : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 700   
+Name = Kraken Shell : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 745      
+Name = Hellforge Plate : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 750   
+Name = Lacquered Plate : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 765   
+Name = Shadow Plate : Quality < Superior : Sockets = 0 :Flag = Eth : 31 >= 790    
+Name = Sacred Armor : Quality < Superior : Sockets = 0 : Flag = Eth : 31 >= 800
+
+;---------------;
+;-----HELMS-----;
+;---------------;
+
+;---NORMAL HELMS---; 
+     
+Name = Grand Crown : Quality <= Superior : Sockets = 0 : Flag = Eth : 31 >= 160           
+Name = Grand Crown : Quality = Superior : Sockets = 0 : Flag != Eth : Enhanced Defense = 15     
+Name = Grand Crown : Quality = Superior : Sockets = 3 : Flag != Eth : Enhanced Defense = 15     
+Name = Demonhead : Quality <= Superior : Sockets = 0 : Flag = Eth : 31 >= 220           
+Name = Demonhead : Quality = Superior : Sockets = 0 : Flag != Eth : Enhanced Defense = 15     
+Name = Demonhead : Quality = Superior : Sockets = 3 : Flag != Eth : Enhanced Defense = 15     
+Name = Bone Visage : Quality <= Superior : Sockets = 0 : Flag = Eth : 31 >= 225           
+Name = Bone Visage : Quality = Superior : Sockets = 0 : Flag != Eth : Enhanced Defense = 15     
+Name = Bone Visage : Quality = Superior : Sockets = 3 : Flag != Eth : Enhanced Defense = 15     
+Name = Diadem : Quality <= Superior : Sockets = 0 : Flag = Eth : 31 >= 85           
+
+;----------------------;
+;-----DRUID PELTS------;
+;----------------------;
+
+;---GRIZZLY---;
+
+;Name = Wolf Head : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2    
+;Name = Hawk Helm : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2      
+;Name = Antlers : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2      
+;Name = Falcon Mask : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2     
+;Name = Spirit Mask : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2      
+;Name = Alpha Helm : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2     
+;Name = Griffon Headdress : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2   
+;Name = Hunter's Guise : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2   
+;Name = Sacred Feathers : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2   
+;Name = Totemic Mask : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2  
+;Name = Blood Spirit : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2    
+;Name = Sun Spirit : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2    
+;Name = Earth Spirit : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2 
+;Name = Sky Spirit : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2     
+;Name = Dream Spirit : Quality <= Superior : skillSummonGrizzly = 3 : Sockets != 1 :Sockets != 2
+
+;---TORNADO---;
+
+;Name = Wolf Head : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2     
+;Name = Hawk Helm : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2      
+;Name = Antlers : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2         
+;Name = Falcon Mask : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2    
+;Name = Spirit Mask : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Alpha Helm : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Griffon Headdress : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2      
+;Name = Hunter's Guise : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sacred Feathers : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Totemic Mask : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Blood Spirit : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sun Spirit : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Earth Spirit : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sky Spirit : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2       
+;Name = Dream Spirit : Quality <= Superior : skillTornado = 3 : Sockets != 1 :Sockets != 2   
+
+;---FIRECLAW---;
+                  
+;Name = Wolf Head : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2     
+;Name = Hawk Helm : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2      
+;Name = Antlers : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2         
+;Name = Falcon Mask : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2    
+;Name = Spirit Mask : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Alpha Helm : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Griffon Headdress : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2      
+;Name = Hunter's Guise : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sacred Feathers : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Totemic Mask : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Blood Spirit : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sun Spirit : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Earth Spirit : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Sky Spirit : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2       
+;Name = Dream Spirit : Quality <= Superior : skillFireclaws = 3 : Sockets != 1 :Sockets != 2
+
+;-----------------------------;
+;-----BARBARIAN BO HELMS------;
+;-----------------------------;
+
+Name = Jawbone Cap : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Fanged helm : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Horned Helm : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Assault Helmet : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Avenger guard : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Jawbone Visor : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Lion helm : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Rage Mask :Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Savage Helmet : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Slayer Guard : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+Name = Carnage Helm : Quality <= Superior : skillbattleorders = 3 : Sockets != 1 :Sockets != 2 
+
+
+;-----------------;
+;-----SHIELDS-----;
+;-----------------;
+
+;---NORMAL SHIELDS---; 
+
+Name = Monarch : Quality = Superior : Sockets = 4 : Flag != Eth : Enhanced Defense = 15   
+Name = Monarch : Quality = Superior : Sockets = 0 : Flag != Eth : Enhanced Defense = 15   
+Name = Monarch : Quality <= Superior : Flag = Eth : Sockets = 0 : 31 = 222  
+Name = Troll Nest : Quality <= Superior : Sockets = 0 : Flag = Eth : 31 >= 250           
+Name = Troll Nest : Quality = Superior : Sockets = 0 : Flag != Eth : Enhanced Defense = 15     
+Name = Troll Nest : Quality = Superior : Sockets = 3 : Flag != Eth : Enhanced Defense = 15
+
+;---PALADIN SHIELDS---; 
+
+Name = Sacred Targe : Quality <= Superior : Sockets = 0 : Flag = Eth : 39 >= 40         
+Name = Sacred Targe : Quality <= Superior : Sockets = 4 : Flag = Eth : 39 >= 40
+Name = Sacred Targe : Quality <= Superior : Sockets = 0 : Flag != Eth : 39 >= 40           
+Name = Sacred Targe : Quality <= Superior : Sockets = 3 : Flag != Eth : 39 >= 40           
+Name = Sacred Targe : Quality <= Superior : Sockets = 4 : Flag != Eth : 39 >= 40           
+Name = Sacred Targe : Quality <= Superior : Sockets = 0 : Flag = Eth : Enhanced Damage >= 60  
+Name = Sacred Targe : Quality <= Superior : Sockets = 4 : Flag = Eth : Enhanced Damage >= 60   
+Name = Sacred Rondache : Quality <= Superior : Sockets = 0 : Flag = Eth : 39 >= 40        
+Name = Sacred Rondache : Quality <= Superior : Sockets = 4 : Flag = Eth : 39 >= 40
+Name = Sacred Rondache : Quality <= Superior : Sockets = 0 : Flag != Eth : 39 >= 40          
+Name = Sacred Rondache : Quality <= Superior : Sockets = 3 : Flag != Eth : 39 >= 40           
+Name = Sacred Rondache : Quality <= Superior : Sockets = 4 : Flag != Eth : 39 >= 40           
+Name = Sacred Rondache : Quality <= Superior : Sockets = 0 : Flag = Eth : Enhanced Damage >= 60
+Name = Sacred Rondache : Quality <= Superior : Sockets = 4 : Flag = Eth : Enhanced Damage >= 60  
+Name = Kurast Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : 39 >= 40        
+Name = Kurast Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : 39 >= 40
+Name = Kurast Shield : Quality <= Superior : Sockets = 0 : Flag != Eth : 39 >= 40         
+Name = Kurast Shield : Quality <= Superior : Sockets = 3 : Flag != Eth : 39 >= 40           
+Name = Kurast Shield : Quality <= Superior : Sockets = 4 : Flag != Eth : 39 >= 40           
+Name = Kurast Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : Enhanced Damage >= 60 
+Name = Kurast Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : Enhanced Damage >= 60  
+Name = Zakarum Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : 39 >= 35        
+Name = Zakarum Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : 39 >= 35
+Name = Zakarum Shield : Quality <= Superior : Sockets = 0 : Flag != Eth : 39 >= 35          
+Name = Zakarum Shield : Quality <= Superior : Sockets = 3 : Flag != Eth : 39 >= 35           
+Name = Zakarum Shield : Quality <= Superior : Sockets = 4 : Flag != Eth : 39 >= 35           
+Name = Zakarum Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : Enhanced Damage >= 55  
+Name = Zakarum Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : Enhanced Damage >= 55  
+Name = Vortex Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : 39 >= 35 : 31 >= 300         
+Name = Vortex Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : 39 >= 35 : 31 >= 300
+Name = Vortex Shield : Quality <= Superior : Sockets = 0 : Flag != Eth : 39 >= 35          
+Name = Vortex Shield : Quality <= Superior : Sockets = 3 : Flag != Eth : 39 >= 35           
+Name = Vortex Shield : Quality <= Superior : Sockets = 4 : Flag != Eth : 39 >= 35           
+Name = Vortex Shield : Quality <= Superior : Sockets = 0 : Flag = Eth : Enhanced Damage >= 55  
+Name = Vortex Shield : Quality <= Superior : Sockets = 4 : Flag = Eth : Enhanced Damage >= 55
+
+;-----------------;
+;-----WEAPONS-----;
+;-----------------;
+
+;---NORMAL WEAPONS---;
+
+Name = Berserker Axe : Quality <= Superior : Flag = Eth        
+Name = Berserker Axe : Quality <= Superior : Enhanced Damage >= 10 : Flag != Eth   
+Name = Phase Blade : Quality <= Superior : Enhanced Damage = 15    
+Name = Colossus Blade : Quality <= Superior : Enhanced Damage =15 : Flag = Eth      
+Name = War Pike : Quality <= Superior :  Enhanced Damage >= 10 : Flag = Eth
+Name = Ghost Spear : Quality <= Superior : Enhanced Damage >= 10 : Flag = Eth
+Name = Cryptic Axe : Quality <= Superior : Sockets = 4 : Enhanced Damage = 15 : Flag = Eth
+Name = Cryptic Axe : Quality <= Superior :  Enhanced Damage = 15 : Flag = Eth  
+Name = Colossus Voulge : Quality <= Superior :  Enhanced Damage = 15 : Flag = Eth
+Name = Thresher : Quality <= Superior : Enhanced Damage >= 10 : Flag = Eth
+Name = Giant Thresher   : Quality <= Superior : Enhanced Damage >= 10 : Flag = Eth
+Name = Great Poleaxe : Quality <= Superior :  Enhanced Damage >= 10 : Flag = Eth 
+Name = Crystal Sword : Quality <= Superior : Sockets = 4 : Enhanced Damage = 15 
+Name = Crystal Sword : Quality <= Superior : Sockets = 5 : Enhanced Damage = 15
+Name = Crystal Sword : Quality <= Superior : Sockets = 5 : Flag = Eth            
+Name = Crystal Sword : Quality <= Superior : Enhanced Damage = 15          
+Name = Matriarchal Bow : Quality <= Superior : bowandcrossbowskilltab = 3 : Enhanced Damage >= 10   
+Name = Grand Matron Bow   : Quality <= Superior : bowandcrossbowskilltab = 3 : Enhanced Damage >= 10   
+Name = Great Bow : Quality <= Superior : Enhanced Damage = 15
+Name = Flail : Quality <= Superior : Sockets = 0 : Enhanced Damage = 15
+Name = Flail : Quality <= Superior : Sockets = 4 : Enhanced Damage = 15
+Name = Knout : Quality <= Superior : Sockets = 0 : Enhanced Damage = 15
+Name = Knout : Quality <= Superior : Sockets = 4 : Enhanced Damage = 15
+Name = Scourge : Quality <= Superior : Sockets = 0 : Enhanced Damage = 15
+Name = Scourge : Quality <= Superior : Sockets = 4 : Enhanced Damage = 15
+
+;---NECROMANCER WANDS (WHITE RW)---;
+
+;Type = Wand : Quality <= Superior : skillpoisonnova = 3 : skillDecrepify >= 2     
+;Type = Wand : Quality <= Superior : skillbonespirit = 3 : skillDecrepify >= 2    
+;Type = Wand : Quality <= Superior : skillpoisonnova >= 2 : skillbonespirit >= 2     
+;Type = Wand : Quality <= Superior : 107,84 >= 2 : skillbonespirit >= 2    
+Type = Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1   
+Type = Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Bone Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2  
+Name = Bone Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2   
+Name = Bone Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Bone Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Bone Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1    
+Name = Bone Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Grim Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2     
+Name = Grim Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Grim Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Grim Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Grim Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1    
+Name = Grim Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Petrified Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2  
+Name = Petrified Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Petrified Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2   
+Name = Petrified Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Petrified Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1    
+Name = Petrified Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3  
+Name = Tomb Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2    
+Name = Tomb Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Tomb Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Tomb Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2    
+Name = Tomb Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1    
+Name = Tomb Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Grave Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2   
+Name = Grave Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Grave Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2   
+Name = Grave Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Grave Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1    
+Name = Grave Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Polished Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2    
+Name = Polished Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Polished Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Polished Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Polished Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1     
+Name = Polished Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Ghost Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2     
+Name = Ghost Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Ghost Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Ghost Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Ghost Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1     
+Name = Ghost Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Lich Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2     
+Name = Lich Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Lich Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2     
+Name = Lich Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Lich Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1     
+Name = Lich Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+Name = Unearthed Wand : Quality <= Superior  : skillpoisonnova = 3 : skillDecrepify >= 2     
+Name = Unearthed Wand : Quality <= Superior  : skillbonespirit = 3 : skillDecrepify >= 2     
+Name = Unearthed Wand : Quality <= Superior  : skillpoisonnova >= 2 : skillbonespirit >= 2   
+Name = Unearthed Wand : Quality <= Superior  : skillbonespear >= 2 : skillbonespirit >= 2     
+Name = Unearthed Wand : Quality <= Superior  : skillbonespear = 3 : skillbonespirit >= 1     
+Name = Unearthed Wand : Quality <= Superior  : skillbonespear >= 1 : skillbonespirit = 3     
+
+;---PALADIN SCEPTORS---;
+
+Name = War scepter : Quality <= Superior : Sockets = 5 : skillfistoftheheavens = 3         
+Name = War scepter : Quality <= Superior : Sockets = 0 : skillfistoftheheavens = 3         
+Name = Divine scepter : Quality <= Superior : Sockets = 5 : skillfistoftheheavens = 3         
+Name = Divine scepter : Quality <= Superior : Sockets = 0 : skillfistoftheheavens = 3         
+Name = Caduceus : Quality <= Superior : Sockets = 5 : skillfistoftheheavens = 3           
+Name = Caduceus : Quality <= Superior : Sockets = 0 : skillfistoftheheavens = 3
+Name = War scepter : Quality <= Superior : Sockets = 5 : skillholyshield = 3         
+Name = War scepter : Quality <= Superior : Sockets = 0 : skillholyshield = 3         
+Name = Divine scepter : Quality <= Superior : Sockets = 5 : skillholyshield = 3         
+Name = Divine scepter : Quality <= Superior : Sockets = 0 : skillholyshield = 3         
+Name = Caduceus : Quality <= Superior : Sockets = 5 : skillholyshield = 3           
+Name = Caduceus : Quality <= Superior : Sockets = 0 : skillholyshield = 3    
+         
+;---ASSASSIN CLAWS---;
+
+Name = Greater Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2    
+Name = Greater Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Greater Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1  
+Name = Greater Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2     
+Name = Greater Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2      
+Name = Greater Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Greater Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Greater Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2       
+Name = Greater Claws : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2    
+Name = Greater Claws : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Greater Claws : Quality <= Superior : Sockets = 0 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1  
+Name = Greater Claws : Quality <= Superior : Sockets = 0 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2     
+Name = Greater Claws : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2      
+Name = Greater Claws : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Greater Claws : Quality <= Superior : Sockets = 3 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Greater Claws : Quality <= Superior : Sockets = 3 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2       
+Name = Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2    
+Name = Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1  
+Name = Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2     
+Name = Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2      
+Name = Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2        
+Name = Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2       
+Name = Runic Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2   
+Name = Runic Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2         
+Name = Runic Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Runic Talons : Quality <= Superior : Sockets = 0 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2      
+Name = Runic Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2   
+Name = Runic Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2     
+Name = Runic Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Runic Talons : Quality <= Superior : Sockets = 3 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2       
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2   
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2     
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 0 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2     
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skilllightningsentry >= 2     
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilldragonflight >= 2 : skillmindblast >= 2     
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skillshadowmaster >= 1 : skillweaponblock >= 1 : skillvenom >= 1   
+Name = Scissors Suwayyah : Quality <= Superior : Sockets = 3 : Flag != Eth : skilllightningsentry >= 2 : skillwakeofinferno >= 2
