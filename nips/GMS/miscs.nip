@@ -1,0 +1,116 @@
+;----------;
+;---KEYS---;
+;----------;
+
+;Name = Key of Terror ; Key of Terror
+;Name = Key of Hate ; Key of Hate
+;Name = Key of Destruction ; Key of Destruction
+
+;--------------;
+;---ESSENCES---;
+;--------------;
+
+;Name = Twisted Essence Of Suffering
+;Name = Charged Essence Of Hatred 
+;Name = Burning Essence Of Terror
+;Name = Festering Essence Of Destruction
+;Name = Token of Absolution
+
+;-----------;
+;---RUNES---;
+;-----------;
+
+;Name = El rune
+;Name = Eld rune
+;Name = Tir rune
+;Name = Nef rune
+;Name = Eth rune
+;Name = Ith rune
+;Name = Tal rune
+;Name = Ral rune
+;Name = Ort rune
+;Name = Thul Rune
+;Name = Amn rune
+;Name = Sol rune
+;Name = Shael rune
+;Name = Dol rune
+;Name = Hel rune
+;Name = Io rune
+;Name = Lum rune
+;Name = Ko rune
+;Name = Fal rune
+;Name = Lem rune
+Name = Pul rune
+Name = Um rune
+Name = Mal rune
+Name = Ist rune
+Name = Gul rune
+Name = Vex rune
+Name = Ohm rune
+Name = Lo rune
+Name = Sur rune
+Name = Ber rune
+Name = Jah rune
+Name = Cham rune
+Name = Zod rune
+
+;-------------;
+;---POTIONS---;
+;-------------;
+
+;Name = Rejuvenation Potion
+Name = Full Rejuvenation Potion
+;Name = Greater Healing Potion
+Name = Super Healing Potion
+;Name = Greater Mana Potion
+Name = Super Mana Potion
+
+;-----------;
+;---GOLDS---;
+;-----------;
+
+Name = Gold : 14 >= 1500
+
+;----------;
+;---GEMS---;
+;----------;
+
+;Name = Chipped Amethyst;
+;Name = Chipped Diamond;
+;Name = Chipped Emerald;
+;Name = Chipped Ruby; 
+;Name = Chipped Sapphire; 
+;Name = Chipped Skull;
+;Name = Chipped Topaz; 
+
+;Name = Flawed Amethyst; 
+;Name = Flawed Diamond; 
+;Name = Flawed Emerald; 
+;Name = Flawed Ruby;
+;Name = Flawed Sapphire;  
+;Name = Flawed Skull; 
+;Name = Flawed Topaz; 
+
+;Name = Amethyst; 
+;Name = Diamond; 
+;Name = Emerald; 
+;Name = Ruby;
+;Name = Skull; 
+;Name = Sapphire; 
+;Name = Topaz; 
+
+;Name = Flawless Amethyst; 
+;Name = Flawless Diamond; 
+;Name = Flawless Emerald;
+;Name = Flawless Ruby;
+;Name = Flawless Sapphire;
+;Name = Flawless Skull; 
+;Name = Flawless Topaz;
+
+Name = Perfect Amethyst; 
+Name = Perfect Diamond; 
+Name = Perfect Emerald;
+Name = Perfect Ruby; 
+Name = Perfect Sapphire;
+Name = Perfect Skull;
+Name = Perfect Topaz;
