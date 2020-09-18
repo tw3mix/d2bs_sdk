@@ -94,3 +94,18 @@ display status messages out of game as well as in game:
 
 ``` and you'll get the X, Y coordinates. ```
 
+<style>.table-2 table { text-align: right;  }</style>
+
+<div class="ox-hugo-table table-2">
+<div></div>
+<div class="table-caption">
+  <span class="table-number">Table 2</span>:
+  Table with caption, with right-aligned text
+</div>
+
+| h1       | h2       | h3       |
+|----------|----------|----------|
+| abcdefgh | ijklmnop | qrstuvwx |
+
+</div>
+
