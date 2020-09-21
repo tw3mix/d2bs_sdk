@@ -28,7 +28,7 @@ JS column: T (ToolsThread.js) , M (MapThread.js) , H (HeartBeat.js) , U (UserAdd
 | 32 | `Space` | U | FileTools.copy | copy the charconfig with name of char included |
 | 33 | `PageUp` |   |   |   |
 | 34 | `PageDown` |   |   |   |
-| 36 | `Home` |   |   |   |
+| 36 | `Home` | T | show, hideonsole() | `Alt` + `Home` input console  |
 | 45 | `Insert` | O | c (Test.js) | print ... |
 | 46 | `Delete` |   |   |   |
 | 96 | `Num 0` | M | getHook("Next Area") | move to next area |
