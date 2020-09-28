@@ -1,0 +1,2 @@
+this.controls.characterSelect.button.deleteChar = [6,433,528,168,60];
+this.controls.characterSelect.button.deleteYes = [6,421,337,96,32];
