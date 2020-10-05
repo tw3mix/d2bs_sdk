@@ -1,11 +1,9 @@
 # skills.txt
 
-directory: `data/global/excel/skills.txt`   
-usage: `game.exe -direct -txt`   
-purpose: enchant in town   
+usage: copy `data/global/excel/skills.txt` param `game.exe -direct -txt`   
+apply: enchant in town   
 
 # runes.txt
-
-directory: `data/global/excel/Runes.txt`   
-usage: `game.exe -direct -txt`   
-purpose: to make ladder runeword in single mode
+   
+usage: copy `data/global/excel/Runes.txt` param `game.exe -direct -txt`   
+apply: ladder runeword in single mode
