@@ -25,7 +25,7 @@ JS column: T (ToolsThread.js) , M (MapThread.js) , H (HeartBeat.js) , U (UserAdd
 |   |   |   |   |   |
 | 17 | `Ctrl` |   |   |   |
 | 19 | `Pause/Break`  | H | togglePause() | Pause/Resume bot |
-| 32 | `Space` | U | FileTools.copy | copy the charconfig with name of char included |
+| 32 | `Space` | U | FileTools.copy | <pre>copy the charconfig with name of char included |
 | 33 | `PageUp` |   |   |   |
 | 34 | `PageDown` |   |   |   |
 | 36 | `Home` | T | show, hideonsole() | `Alt` + `Home` input console  |
@@ -43,7 +43,7 @@ JS column: T (ToolsThread.js) , M (MapThread.js) , H (HeartBeat.js) , U (UserAdd
 | 105 | `Num 9` | T | print(this.getNearestPreset()) |   |
 | 106 | `Num *` | T | Precast.doPrecast(true) | activate the precast/buff |
 | 107 | `Num +` | T | showConsole() ... | print real FCR IAS FBR FHR |
-| 109 | `Num -` | T<br/>O | Misc.spy(me.name) <br/> go (CrushTele.js) | Log someone's gear <br/> autoteleport in strategic areas |
+| 109 | `Num -` | T<br/>O | Misc.spy(me.name) <br/> go (CrushTele.js) | <pre>Log someone's gear <br/> autoteleport in strategic areas |
 | 110 | `Num .` | T | say("/fps") | shows frames/sec |
 | 111 | `Num /` |   |   |   |
 | 123 | `F12`  | T | revealLevel(true) | show/hide map |
