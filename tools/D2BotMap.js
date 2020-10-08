@@ -5,7 +5,8 @@ function main () {
 
 	var handle,
 		ingame,
-		lastGame = "/",
+		lastGame = {gamename: "", password: ""},
+		rotate = 0,
 		isUp = "no";
 
 	function locationAction(location) {
@@ -15,13 +16,13 @@ function main () {
 
 		switch (location) {
 		case 4:
-			ControlAction.setText(1, 432, 162, 158, 20, lastGame[0]);
-			ControlAction.setText(1, 432, 217, 158, 20, lastGame[1]);
+			ControlAction.setText(1, 432, 162, 158, 20, lastGame.gamename);
+			ControlAction.setText(1, 432, 217, 158, 20, rotate++ > 1 ? "" : lastGame.password);
 			break;
 
 		case 5:
-			ControlAction.setText(1, 432, 148, 155, 20, lastGame[0]);
-			ControlAction.setText(1, 606, 148, 155, 20, lastGame[1]);
+			ControlAction.setText(1, 432, 148, 155, 20, lastGame.gamename);
+			ControlAction.setText(1, 606, 148, 155, 20, rotate++ > 1 ? "" : lastGame.password);
 			break;
 		}
 
@@ -71,7 +72,6 @@ function main () {
 	load("tools/heartbeat.js");
 
 	//lastGame = DataFile.getObj().lastGame || "/";
-	lastGame = lastGame.split("/");
 
 	while (true) {
 		while (me.ingame) {
@@ -80,10 +80,11 @@ function main () {
 
 				if (!ingame) {
 					ingame = true;
+					rotate = 0;
 
-					lastGame[0] = me.gamename.toLowerCase();
-					lastGame[1] = me.gamepassword.toLowerCase();
-					//DataFile.updateStats("lastGame", lastGame[0] + "/" + lastGame[1]);
+					lastGame.gamename = me.gamename.toLowerCase();
+					lastGame.password = me.gamepassword.toLowerCase();
+					//DataFile.updateStats("lastGame", lastGame.name + "/" + lastGame.password);
 				}
 			}
 
