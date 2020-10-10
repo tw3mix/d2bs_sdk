@@ -8,3 +8,116 @@ Character Select => Delete Character Confirm:
 	CONTROL_TEXTBOX: getControl(4, 268, 320, 264, 120); Are you sure that..Character.
 	CONTROL_BUTTON (NO): getControl(6, 281, 337, 96, 32);
 	CONTROL_BUTTON (YES): getControl(6, 421, 337, 96, 32);
+
+
+var arr = [1,2,3];
+console.log(Math.min(arr)); // NaN
+console.log(Math.min.apply(null, arr)); // 1
+
+
+bool CheckCollision(object 1, object 2, flag)
+bool CheckCollision(areaid, x1, y1, x2, y2, flag)
+Bit 0 - Map non walkable
+Bit 1 - LOS blockers, like walls for instance
+Bit 2 - Leap blocks, blocks ranged
+Bit 3 - Block Player's walk but not Mercenary's walk
+Bit 4 - Some doors, entry/exits, a few waypoints. Also seems to have something to do with light.
+Bit 5 - Blocks light only, not LOS
+Bit 6 - Stuff from catapults in act 5 and poison clouds not
+Bit 7 - Players, all players, yourself and others
+Bit 8 - NPCs & Monsters (a dot)
+Bit 9 - Items
+Bit 10 - Objects
+Bit 11 - Closed Doors
+Bit 12 - NPCs & Monsters (where you collide with them)
+Bit 13 - Friendly NPCs
+Bit 14
+Bit 15 - Dead bodies, tps, most likely interactive non blockers
+
+77 0  (trade - cancel window)
+77 1  (trade - ok/cancel window)
+77 5  (trade - cp click [V])
+77 6  (trade - click item)
+77 7  (trade - my click [V])
+77 9  (trade - no room for items)
+77 10 (trade - person has no room)
+77 12 (trade - click cancel)
+77 13 (trade - click accept)
+77 14 (trade - red signal on) - start timeout
+77 15 (trade - red signal off)
+77 16 (stash - open)
+77 17 (cube in stash - open)
+77 21 (cube - open)
+
+4f 3 00000 (trade ok click) <==== accept trade
+77 6 (pickup, down item)
+4f 8 00000 (trade window open)
+4f 2 00000 (trade cancel) <=== block
+
+		varied = getBaseStat( basestat, classid, statnum );
+	
+		0 - items
+		1 - monstats (&npcs)
+		2 - skilldesc
+		3 - skills
+		4 - objects
+		5 - missiles
+		6 - monstats2
+		7 - itemstatcost
+		8 - levels
+		9 - leveldefs
+		10 - lvlmaze
+		11 - lvlsub
+		12 - lvlwarp
+		13 - lvlprest
+		14 - lvltypes
+		15 - charstats
+		16 - setitems
+		17 - uniqueitems
+		18 - sets
+		19 - itemtypes
+		20 - runes
+		21 - cubemain
+		22 - gems 
+		23 - experience
+		24 - pettype
+		25 - SuperUniques
+
+		Examples:
+			// If not killable...
+			if (getBaseStat(1, monster.classid, 20) == 0) return false;
+				
+			// Align, on our side?
+			if (getBaseStat(1, monster.classid, 63)) return false;
+
+spectype monster types to kill
+0x0 all
+0x1 "Normal" Boss
+0x2 Champion
+0x3 "Normal" Boss + Champion
+0x4 Boss
+0x5 "Normal" Boss + Boss
+0x6 Champion + Boss
+0x7 "Normal" Boss + Champion + Boss
+0x8 Minion
+0x9 "Normal" Boss + Minion
+0xA Champion + Minion
+0xB "Normal" Boss + Champion + Minion
+0xC Boss + Minion
+0xD "Normal" Boss + Boss + Minion
+0xE Champion + Boss + Minion
+0xF "Normal" Boss + Champion + Boss + Minion
+
+
+9c   *   Item Action (World)   9c [BYTE item mode][BYTE pLength][BYTE ?][DWORD gid][BYTE * Array]
+
+9C00: Item Action - New item on ground
+9C01: Item Action - Pick up to cursor from GROUND
+9C02: Item Action- Drop from cursor to ground
+9C03: Item Action - Old item on ground
+9C04: Item Action - Inventory/stash
+9C0B: Item Action - Store
+9C0C: Item Action - Removed from store
+9C0E: Item Action - Belt
+9D: Item Action/ Item ID?
+
