@@ -1,7 +1,10 @@
 [1]: https://markdown-here.com/livedemo.html
 [2]: https://github.com/noah-/d2bs/blob/master/doc/globalFuncs.h
-[@markdown live demo][1] [@How to MarkDown](https://dooray.com/htmls/guides/markdown_ko_KR.html)
-[@d2bs global funcs][2]
+[3]: https://github.com/nitrotech7/D2BS_HTML_Log_Viewer
+[@markdown live demo][1] <br />
+[@How to MarkDown](https://dooray.com/htmls/guides/markdown_ko_KR.html) </ br>
+[@d2bs global funcs][2] <br />
+[@D2BS_HTML_Log_Viewer][3] <br />
 
 # D2_ColorCodes
 
