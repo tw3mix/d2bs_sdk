@@ -72,3 +72,11 @@ display status messages out of game as well as in game:
 
 </div>
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
