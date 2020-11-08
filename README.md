@@ -71,5 +71,8 @@ display status messages out of game as well as in game:
 | abcdefgh | ijklmnop | qrstuvwx |
 
 </div>
-
+- {+ addition 1 +}
+- [+ addition 2 +]
+- {- deletion 3 -}
+- [- deletion 4 -]
 
