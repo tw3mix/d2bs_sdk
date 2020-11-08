@@ -11,6 +11,7 @@
 `ÿc + [1,2,3,4,5,6,7,8,9,0,  `
 ÿ is made with: ALT + 152
 ![d2_colorCodes](/image/D2_ColorCodes.jpg "d2 color code")
+![d2_colorCodes](/image/LineClassColor.png "d2 color code")
 
 # d2bs hotkeys
 
