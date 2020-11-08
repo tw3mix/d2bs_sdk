@@ -6,12 +6,6 @@
 [@d2bs global funcs][2] <br />
 [@D2BS_HTML_Log_Viewer][3] <br />
 
-# D2_ColorCodes
-
-`ÿc + [1,2,3,4,5,6,7,8,9,0,  `
-ÿ is made with: ALT + 152
-![d2_colorCodes](/image/D2_ColorCodes.jpg "d2 color code")
-
 # d2bs hotkeys
 
 Here is just a quick run through of what each current key is, and what it will do for bot
