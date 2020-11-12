@@ -1,7 +1,7 @@
 [1]: https://markdown-here.com/livedemo.html
 [2]: https://github.com/noah-/d2bs/blob/master/doc/globalFuncs.h
 [3]: https://github.com/nitrotech7/D2BS_HTML_Log_Viewer
-[4]: https://github.com/D2etal/Etal/blob/master/D2NT/scripts/libs/controlInfo.ntl
+[4]: https://github.com/D2etal/
 
 # other page link
  - [markdown live demo][1] <br />
