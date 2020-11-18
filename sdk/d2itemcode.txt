@@ -14,3 +14,22 @@ Crown		crn		GrandCrown	xrn		Corona		urn
 Mask		msk		DeathMask	xsk		Demonhead	usk
 BoneHelm	bhm		GrimHelm	xh9		BoneVisage	uh9
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+ Body Armor 
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+QuiltedArmor	qui	GhostArmor	xui	DuskShroud	uui
+LeatherArmor	lea	Serpentskin	xea	Wyrmhide	uea
+HardLeather	hla	DemonhideArmor	xla	ScarabHusk	ula
+StuddedLeather	stu	TrellisedArmor	xtu	WireFleece	utu
+RingMail	rng	LinkedMail	xng	DiamondMail	ung
+ScaleMail	scl	TigulatedMail	xcl	LoricatedMail	ucl
+ChainMail	chn	MeshArmor	xhn	Boneweave	uhn
+BreastPlate	brs	Cuirass		xrs	GreatHauberk	urs
+SplintMail	spl	RussetArmor	xpl	BalrogSkin	upl
+PlateMail	plt	TemplarCoat	xlt	HellforgePlate	ult
+FieldPlate	fld	Sharktooth	xld	KrakenShell	uld
+GothicPlate	gth	EmbossedPlate	xth	LacqueredPlate	uth
+FullPlateMail	ful	ChaosArmor	xul	ShadowPlate	uul
+AncientArmor	aar	OrnateArmor	xar	SacredArmor	uar
+LightPlate	ltp	MagePlate	xtp	ArchonPlate	utp
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
