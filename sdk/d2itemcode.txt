@@ -45,7 +45,6 @@ BoneShield	bsh		GrimShield	xsh		TrollNest	ush
 SpikedShield	spk		BarbedShield	xpk		BladeBarrier	upk
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
-
 Gloves
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 LeatherGloves	lgl		DemonhideGlove	xlg		BrambleMitts	ulg
@@ -107,4 +106,168 @@ ZombieHead	ne2		FetishTrophy	ne7		HellspawnSkull	nec
 UnravellerHead	ne3		SextonTrophy	ne8		OverseerSkull	ned
 GargoyleHead	ne4		CantorTrophy	ne9		SuccubaeSkull	nee
 DemonHead	ne5		HeirophantTrphy	nea		BloodlordSkull	nef
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+Weapons
+
+Axes
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+HandAxe		hax		Hatchet		9ha		Tomahawk	7ha
+Axe		axe		Cleaver		9ax		SmallCrescent	7ax
+DoubleAxe	2ax		TwinAxe		92a		EttinAxe	72a
+MilitaryPick	mpi		Crowbill	9mp		WarSpike	7mp
+WarAxe		wax		Naga		9wa		BerserkerAxe	7wa
+LargeAxe	lax		MilitaryAxe	9la		FeralAxe	7la
+BroadAxe	bax		BeardedAxe	9ba		SilverEdgedAx	7ba
+BattleAxe	btx		Tabar		9bt		Decapitator	7bt
+GreatAxe	gax		GothicAxe	9ga		ChampionAxe	7ga
+GiantAxe	gix		AncientAxe	9gi		GloriousAxe	7gi
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Maces
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Club		clb		Cudgel		9cl		Truncheon	7cl
+SpikedClub	spc		BarbedClub	9sp		TyrantClub	7sp
+Mace		mac		FlangedMace	9ma		ReinforcedMace	7ma
+MorningStar	mst		JaggedStar	9mt		DevilStar	7mf
+Flail		fla		Knout		9fl		Scourge		7fl
+WarHammer	whm		BattleHammer	9wh		LegendaryMallt	7wh
+Maul		mau		WarClub		9m9		OgreMaul	7m7
+GreatMaul	gma		MarteldeFer	9gm		ThunderMaul	7gm
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Swords
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ShortSwrod	ssd		Gladius		9ss		Falcata		7ss
+Scimitar	scm		Cutlass		9sm		Ataghan	7sm
+Saber		sbr		Shamshir	9sb		ElegantBlade	7sb
+Falchion	flc		Tulwar		9fc		HydraEdge	7fc
+CrystalSword	crs		DimensionalBld	9cr		PhaseBlade	7cr
+BroadSword	bsd		BattleSword	9bs		ConquestSword	7bs
+LongSword	lsd		RuneSword	9ls		CrypticSword	7ls
+WarSword	wsd		AncientSword	9wd		MythicalSword	7wd
+Two-handedSwrd	2hs		Espadon		92h		LegendSword	72h
+Claymore	clm		DacianFalx	9cm		HighlandBlade	7cm
+GiantSword	gis		TuskSword	9gs		BalrogBlade	7gs
+BastardSword	bsw		GothicSword	9b9		ChampionSword	7b7
+Flamberge	flb		Zweihander	9fb		ColossalSword	7fb
+GreatSword	gsd		ExecutionerSwr	9gd		ColossusBlade	7gd
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Daggers
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Dagger		dgr		Poignard	9dg		BoneKnife	7dg
+Dirk		dir		Rondel		9di		MithralPoint	7di
+Kriss		kri		Cinquedeas	9kr		FangedKnife	7kr
+Blade		bld		Stilleto	9bl		LegendSpike	7bl
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Throwing
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ThrowingKnife	tkf		BattleDart	9tk		FlyingKnife	7tk
+ThrowingAxe	tax		Francisca	9ta		FlyingAxe	7ta
+BalancedKnife	bkf		WarDart		9bk		WingedKnife	7bk
+BalancedAxe	bal		Hurlbat		9b8		WingedAxe	7b8
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Javelins
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Javelin		jav		WarJavelin	9ja		HyperionJaveln	7ja
+Pilum		pil		GreatPilum	9pi		StygianPilum	7pi
+ShortSpear	ssp		Simbilan	9s9		BalrogSpear	7s7
+Glaive		glv		Spiculum	9gl		GhostGlaive	7gl
+ThrowingSpear	tsp		Harpoon		9ts		WingedHarpoon	7ts
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Spears
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Spear		spr		WarSpear	9sr		HyperionSpear	7sr
+Trident		tri		Fuscina		9tr		StygianPike	7tr
+Brandistock	brn		WarFork		9br		Mancatcher	7br
+Spetum		spt		Yari		9st		GhostSpear	7st
+Pike		pik		Lance		9p9		WarPike		7p7
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Polearms
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Bardiche	bar		LochaberAxe	9b7		OgreAxe		7o7
+Voulge		vou		Bill		9vo		ColossusVoulge	7vo
+Scythe		scy		BattleScythe	9s8		Thresher	7s8
+Poleaxe		pax		Partizan	9pa		CrypticAxe	7pa
+Halberd		hal		Bec-de-Corbin	9h9		GreatPoleaxe	7h7
+WarScythe	wsc		GrimScythe	9wc		GiantThresher	7wc
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Bows
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ShortBow	sbw		EdgeBow		8sb		SpiderBow	6sb
+Hunter'sBow	hbw		RazorBow	8hb		BladeBow	6hb
+LongBow		lbw		CedarBow	8lb		ShadowBow	6lb
+CompositeBow	cbw		DoubleBow	8cb		GreatBow	6cb
+ShrtBattleBow	sbb		ShortSiegeBow	8s8		DiamondBow	6s7
+LongBattleBow	lbb		LongSiegeBow	8l8		CrusaderBow	6l7
+ShortWarBow	swb		RuneBow		8sw		WardBow		6sw
+LongWarBow	lwb		GothicBow	8lw		HydraBow	6lw
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Crossbows
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+LightCrossbow	lxb		Arbalest	8lx		PelletBow	6lx
+Crossbow	mxb		SiegeCrossbow	8mx		GorgonCrossbow	6mx
+HeavyCrossbow	hxb		Ballista	8hx		Colossusx-bow	6hx
+RepeatingX-bow	rxb		Chu-Ko-Nu	8rx		DemonCrossbow	6rx
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Staves
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ShortStaff	sst		JoStaff		8ss		WalkingStick	6ss
+LongStaff	lst		Quarterstaff	8ls		Stalagmite	6ls
+GnarledStaff	gst		CedarStaff	8cs		ElderStaff	6cs
+BattleStaff	bst		GothicStaff	8bs		Shillelagh	6bs
+WarStaff	wst		RuneStaff	8ws		ArchonStaff	6ws
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Wands
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Wand		wnd		BurntWand	9wn		PolishedWand	7wn
+YewWand		ywn		PetrifiedWand	9yw		GhostWand	7yw
+BoneWand	bwn		TombWand	9bw		LichWand	7bw
+GrimWand	gwn		GraveWand	9gw		UnearthedWand	7gw
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Scepters
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Sceptre		scp		RuneSceptre	9sc		MightySceptre	7sc
+GrandSceptre	gsc		HolyWaterSpri	9qs		SeraphRod	7qs
+WarSceptre	wsp		DivineSceptre	9ws		Caduceus	7ws
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+AssassinKatars
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Katar		ktr		Quhab		9ar		Suwayyah	7ar
+WristBlade	wrb		WristSpike	9wb		WristSword	7wb
+HatchetHands	axf		Fascia		9xf		WarFist		7xf
+Cestus		ces		HandScythe	9cs		BattleCestus	7cs
+Claws		clw		GreaterClaws	9lw		FeralClaws	7lw
+BladeTalons	btl		GreaterTalons	9hw		RunicTalons	7hw
+ScissorsKatar	skr		ScissorsQuhab	9qr		ScissorsSuwayh	7qr
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+SorceressOrbs
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+EagleOrb	ob1		GlowingOrb	ob6		HeavenlyStone	obb
+SacredGlobe	ob2		CrystallineGlb	ob7		EldritchOrb	obc
+SmokedSphere	ob3		CloudySphere	ob8		DemonHeart	obd
+ClaspedOrb	ob4		SparklingBall	ob9		VortexOrb	obe
+DragonStone	ob5		SwirlingCrystl	oba		DimensionalShrd	obf
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+AmazonWeapons
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+StagBow		am1		AshwoodBow	am6		MatriarchalBow	amb
+ReflexBow	am2		CeremonialBow	am7		GrndMatronBow	amc
+MaidenSpear	am3		CeremonialSpr	am8		MatriarchalSpr	amd
+MaidenPike	am4		CeremonialPike	am9		MatriarchalPik	ame
+MaidenJavelin	am5		CeremonialJav	ama		MatriarchalJav	amf
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
