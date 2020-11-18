@@ -32,3 +32,43 @@ FullPlateMail	ful		ChaosArmor	xul		ShadowPlate	uul
 AncientArmor	aar		OrnateArmor	xar		SacredArmor	uar
 LightPlate	ltp		MagePlate	xtp		ArchonPlate	utp
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+ Shields 
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Buckler		buc		Defender	xuc		Heater		uuc
+SmallShield	sml		RoundShield	xml		Luna		uml
+LargeShield	lrg		Scutum		xrg		Hyperion	urg
+KiteShield	kit		DragonShield	xit		Monarch		uit
+TowerShield	tow		Pavise		xow		Aegis		uow
+GothicShield	gts		AncientShield	xts		Ward		uts
+BoneShield	bsh		GrimShield	xsh		TrollNest	ush
+SpikedShield	spk		BarbedShield	xpk		BladeBarrier	upk
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+Gloves
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+LeatherGloves	lgl		DemonhideGlove	xlg		BrambleMitts	ulg
+HeavyGloves	vgl		SharkskinGlove	xvg		VampireboneGl	uvg
+ChainGloves	mgl		HeavyBracers	xmg		Vambraces	umg
+LightGauntlets	tgl		BattleGauntlet	xtg		CrusaderGaunt	ulg
+Gauntlets	hgl		WarGauntlets	xhg		OgreGauntlets	uhg
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Boots
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Boots		lbt		DemonhideBoots	xlb		WyrmhideBoots	ulb
+HeavyBoots	vbt		SharkskinBoots	xvb		ScarabshellBts	uvb
+ChainBoots	mbt		MeshBoots	xmb		BoneweaveBoots	umb
+LightPlate	tbt		BattleBoots	xtb		MirroredBoots	utb
+Greaves		hbt		WarBoots	xhb		MyrmidonGreave	uhb
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+Belts
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Sash		lbl		DemonhideSash	zlb		SpiderwebSash	ulc
+LightBelt	vbl		SharkskinBelt	zvb		VampirefangBlt	uvc
+Belt		mbl		MeshBelt	zmb		MithrilCoil	umc
+HeavyBelt	tbl		BattleBelt	ztb		TrollBelt	utc
+PlatedBelt	hbl		WarBelt		zhb		ColossusGirdle	uhc
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
