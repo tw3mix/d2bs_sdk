@@ -1,11 +1,10 @@
 ### Item Codes
 
 Armor
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
 Helms
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-NORMAL          CODE	        EXCEPTIONAL     CODE            ELITE           CODE
-Cap     	cap		WarHat		xap		Shako		uap
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Cap		cap		WarHat		xap		Shako		uap
 SkullCap	skp		Sallet		xkp		Hydraskull	ukp
 Helm		hlm		Casque		xlm		Armet		ulm
 FullHelm	fhl		Basinet		xhl		GiantConch	uhl
@@ -13,7 +12,7 @@ GreatHelm	ghm		WingedHelm	xhm		SpiredHelm	uhm
 Crown		crn		GrandCrown	xrn		Corona		urn
 Mask		msk		DeathMask	xsk		Demonhead	usk
 BoneHelm	bhm		GrimHelm	xh9		BoneVisage	uh9
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
  Body Armor 
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
