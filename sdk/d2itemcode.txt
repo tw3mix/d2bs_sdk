@@ -72,3 +72,39 @@ Belt		mbl		MeshBelt	zmb		MithrilCoil	umc
 HeavyBelt	tbl		BattleBelt	ztb		TrollBelt	utc
 PlatedBelt	hbl		WarBelt		zhb		ColossusGirdle	uhc
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+DruidPelts
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+WolfHead	dr1		AlphaHelm	dr6		BloodSpirit	drb
+HawkHelm	dr2		GriffonHeadress	dr7		SunSpirit	drc
+Antlers		dr3		Hunter'sGuise	dr8		EarthSpirit	drd
+FalconMask	dr4		SacredFeathers	dr9		SkySpirit	dre
+SpiritMask	dr5		TotemicMask	dra		DreamSpirit	drf
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+BarbarianHelms
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+JawboneCap	ba1		JawboneVisor	ba6		CarnageHelm	bab
+FangedHelm	ba2		LionHelm	ba7		FuryVisor	bac
+HornedHelm	ba3		RageMask	ba8		DestroyerHelm	bad
+AssualtHelmet	ba4		SavageHelmet	ba9		ConquerorCrown	bae
+AvengerGuard	ba5		SlayerGuard	baa		GuardianCrown	baf
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+PaladinShields
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+Targe		pa1		AkaranTarge	pa6		SacredTarge	pab
+Rondache	pa2		AkaranRondache	pa7		SacredRondache	pac
+HeraldicShield	pa3		ProtectorShld	pa8		AncientShield	pad
+AerinShield	pa4		GuildedShield	pa9		ZakarumShield	pae
+CrownShield	pa5		RoyalShield	paa		VortexShield	paf
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+NecromancerShrunkenHeads
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+PreservedHead	ne1		MummifiedTrphy	ne6		MinionSkull	neb
+ZombieHead	ne2		FetishTrophy	ne7		HellspawnSkull	nec
+UnravellerHead	ne3		SextonTrophy	ne8		OverseerSkull	ned
+GargoyleHead	ne4		CantorTrophy	ne9		SuccubaeSkull	nee
+DemonHead	ne5		HeirophantTrphy	nea		BloodlordSkull	nef
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
