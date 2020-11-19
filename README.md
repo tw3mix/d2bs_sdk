@@ -2,6 +2,7 @@
 [2]: https://github.com/noah-/d2bs/blob/master/doc/globalFuncs.h
 [3]: https://github.com/nitrotech7/D2BS_HTML_Log_Viewer
 [4]: https://github.com/D2etal/
+[5]: http://tools.harrogath.com/affixcalc.html
 
 # other page link
  - [markdown live demo][1] <br />
@@ -9,6 +10,7 @@
  - [d2bs global funcs][2] <br />
  - [D2BS_HTML_Log_Viewer][3] <br />
  - [D2etal github][4] <br />
+ - [Item Affix Calculator (pickit support)]
 
 # d2bs hotkeys
 
