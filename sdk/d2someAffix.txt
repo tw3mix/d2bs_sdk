@@ -1,0 +1,116 @@
+Name	Prefix
+Suffix	Group	Level	Level-
+req.	freq.	Stats
+Rugged	P	109	1	1	4	+5 to +10 to Stamina
+Rugged	8	6	4	+11 to +20 to Stamina
+Bronze	110	1	1	8	+10 to +20 to Attack Rating
+Iron	4	3	8	+21 to +40 to Attack Rating
+Steel	8	6	7	+41 to +60 to Attack Rating
+Silver	12	9	7	+61 to +80 to Attack Rating
+Gold	17	12	6	+81 to +100 to Attack Rating
+Platinum	22	16	6	+101 to +120 to Attack Rating
+Glimmering	112	1	1	1	+1 to Light Radius
+Glowing	6	4	1	+2 to Light Radius
+Felicitous	114	5	3	4	+5% to +10% Better Chance of Getting Magic Items
+Fortuitous	12	8	4	+11% to +15% Better Chance of Getting Magic Items
+Lizard's	115	1 - 2	1	4	+1 to +2 to Mana
+Lizard's	3	2	4	+3 to +5 to Mana
+Snake's	6	4	4	+5 to +10 to Mana
+Serpent's	14	10	3	+11 to +20 to Mana
+Drake's	20	15	2	+21 to +30 to Mana
+Dragon's	24	18	2	+31 to +40 to Mana
+Wyrm's	30	22	2	+41 to +60 to Mana
+Great Wyrm's	37	29	2	+61 to +90 to Mana
+Bahamut's	45	37	2	+91 to +120 to Mana
+Shimmering	116	45	37	3	+3% to +7% to each Resistance
+Rainbow	56	48	2	+8% to +11% to each Resistance
+Scintillating	67	59	2	+12% to +15% to each Resistance
+Azure	117	1 - 4	1	3	Cold-Resist +5%
+Azure	5	3	2	Cold-Resist +5% to +10%
+Lapis	12	9	4	Cold-Resist +11% to +20%
+Cobalt	18	13	3	Cold-Resist +21% to +30%
+Crimson	118	1 - 4	1	3	Fire-Resist +5%
+Crimson	5	3	4	Fire-Resist +5% to +10%
+Russet	12	9	4	Fire-Resist +11% to +20%
+Garnet	18	13	3	Fire-Resist +21% to +30%
+Tangerine	119	1 - 4	1	3	Lightning-Resist +5%
+Tangerine	5	3	4	Lightning-Resist +5% to +10%
+Ocher	12	9	4	Lightning-Resist +11% to +20%
+Coral	18	13	3	Lightning-Resist +21% to +30%
+Beryl	120	1 - 4	1	3	Poison-Resist +5%
+Beryl	5	3	4	Poison-Resist +5% to +10%
+Viridian	12	9	4	Poison-Resist +11% to +20%
+Jade	18	13	3	Poison-Resist +21% to +30%
+Triumphant	121	3	2	4	+1 Mana after each Kill
+of Health	S	1	7	5	4	Damage Reduced By 1
+of Protection	18	13	4	Damage Reduced By 2
+of Warding	2	7	5	4	Magic Damage Reduced By 1
+of the Sentinel	18	12	4	Magic Damage Reduced By 2
+of the Apprentice	9	5	3	6	+10% Faster Cast Rate
+of Thawing	11	10	7	4	Half Freeze Duration
+of Flame	12	40	30	2	1 to 2 - 6 Fire-Damage
+of Shock	13	50	37	2	1 to 11 - 23 Lightning Damage
+of Craftmanship	14	1	1	8	+1 Maximum Damage
+of Maiming	42	34	4	+3 to +4 Maximum Damage
+of Worth	15	15	11	4	+2 to +3 Minimum Damage
+of Measure	37	29	4	+4 to +5 Minimum Damage
+of Excellence	59	51	4	+6 to +9 Minimum Damage
+of Performance	81	73	4	+10 to +13 Minimum Damage
+of Blight	16	45	33	2	50 Poison-Damage over 3 Seconds
+of Dexterity	17	1 - 5	1	4	+1 to Dexterity
+of Dexterity	6	4	4	+1 to +2 to Dexterity
+of Skill	22	16	3	+3 to +5 to Dexterity
+of Accuracy	39	31	3	+6 to +9 to Dexterity
+of Precision	56	48	3	+10 to +15 to Dexterity
+of Perfection	75	67	3	+16 to +20 to Dexterity
+of Regeneration	19	10	7	4	Replenish Life +3 to +5
+of Regrowth	55	41	4	Replenish Life +6 to +9
+of Greed	21	1	1	4	+25% to +40% Extra Gold from Monsters
+of Chance	22	12	9	4	+5% to +15% Better Chance of Getting Magic Items
+of Fortune	42	31	4	+16% to +25% Better Chance of Getting Magic Items
+of Energy	23	1 - 4	1	4	+1 to Energie
+of Energy	7	5	4	+1 to +3 to Energie
+of the Mind	13	9	3	+4 to +6 to Energie
+of Brilliance	21	16	3	+7 to +10 to Energie
+of Sorcery	31	23	3	+11 to +15 to Energie
+of Wizardry	41	33	3	+16 to +20 to Energie
+of Light	25	1 - 5	1	4	+1 to Light Radius
++10 to Attack Rating
+of Light	6	4	1	+1 to Light Radius
++15 to Attack Rating
+of Radiance	15	11	1	+3 to Light Radius
++30 to Attack Rating
+of the Sun	17	12	1	+5 to Light Radius
++5% to Attack Rating
+of the Jackal	26	8	6	3	+1 to +5 to Life
+of the Fox	17	13	3	+6 to +10 to Life
+of the Wolf	34	26	3	+11 to +20 to Life
+of the Tiger	51	43	3	+21 to +30 to Life
+of the Mammoth	68	60	3	+31 to +40 to Life
+of the Leech	27	14	10	4	+3% to +4% Life stolen per Hit
+of the Locust	47	35	4	+5% to +6% Life stolen per Hit
+of the Lamprey	77	65	4	+7% to +8% Life stolen per Hit
+of the Bat	28	25	21	2	+2% to +3% Mana stolen per Hit
+of the Wraith	58	46	2	+4% to +5% Mana stolen per Hit
+of the Vampire	86	74	2	+6% Mana stolen per Hit
+of Remedy	29	7	5	3	Poison Length Reduced by 25%
+of Strength	31	1 - 4	1	4	+1 to Strength
+of Strength	5	3	4	+1 to +2 to Strength
+of Might	21	15	3	+3 to +5 to Strength
+of the Ox	38	30	3	+6 to +9 to Strength
+of the Giant	55	47	3	+10 to +15 to Strength
+of the Titan	74	66	3	+16 to +20 to Strength
+of Charged Bolt	44	6	4	1	10% Chance to cast Level 3 Charged Bolt when struck
+of Fire Bolt	14	14	1	20 Charges of Level 6 Fire Bolt
+of Charged Bolt	1	20 Charges of Level 6 Charged Bolt
+of Charged Bolt	16	12	1	12% Chance to cast Level 4 Charged Bolt when struck
+of Poison Dagger	24	24	1	20 Charges of Level 5 Poison Dagger
+of Dim Vision	1	20 Charges of Level 5 Dim Vision
+of Ice Blast	1	20 Charges of Level 5 Ice Blast
+of Telekinesis	1	20 Charges of Level 5 Telekinesis
+of Chain Lightning	25	18	1	5% Chance to cast Level 3 Chain Lightning on Attack
+of Charged Bolt	26	19	1	14% Chance to cast Level 5 Charged Bolt when struck
+of Chain Lightning	35	26	1	8% Chance to cast Level 3 Chain Lightning on Attack
+of Chain Lightning	45	33	1	8% Chance to cast Level 5 Chain Lightning on Attack
+of Confusion	48	48	1	20 Charges of Level 3 Confuse
+of Attract	60	60	1	20 Charges of Level 2 Attract
