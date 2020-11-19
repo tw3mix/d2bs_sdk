@@ -3,6 +3,7 @@
 [3]: https://github.com/nitrotech7/D2BS_HTML_Log_Viewer
 [4]: https://github.com/D2etal/
 [5]: http://tools.harrogath.com/affixcalc.html
+[6]: https://github.com/blizzhackers/pickits
 
 # other page link
  - [markdown live demo][1] <br />
@@ -11,6 +12,7 @@
  - [D2BS_HTML_Log_Viewer][3] <br />
  - [D2etal github][4] <br />
  - [Item Affix Calculator (pickit support)][5] <br />
+ - [Blizzhackers/pickits][6] <br />
 
 # d2bs hotkeys
 
