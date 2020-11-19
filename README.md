@@ -10,7 +10,7 @@
  - [d2bs global funcs][2] <br />
  - [D2BS_HTML_Log_Viewer][3] <br />
  - [D2etal github][4] <br />
- - [Item Affix Calculator (pickit support)]
+ - [Item Affix Calculator (pickit support)][5] <br />
 
 # d2bs hotkeys
 
