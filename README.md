@@ -6,13 +6,13 @@
 [6]: https://github.com/blizzhackers/pickits
 
 # other page link
- - [markdown live demo][1] <br />
- - [How to MarkDown](https://dooray.com/htmls/guides/markdown_ko_KR.html) <br />
- - [d2bs global funcs][2] <br />
- - [D2BS_HTML_Log_Viewer][3] <br />
- - [D2etal github][4] <br />
- - [Item Affix Calculator (pickit support)][5] <br />
- - [Blizzhackers/pickits][6] <br />
+ :link: [markdown live demo][1] <br />
+ :link: [How to MarkDown](https://dooray.com/htmls/guides/markdown_ko_KR.html) <br />
+ :link: [d2bs global funcs][2] <br />
+ :link: [D2BS_HTML_Log_Viewer][3] <br />
+ :link: [D2etal github][4] <br />
+ :link: [Item Affix Calculator (pickit support)][5] <br />
+ :link: [Blizzhackers/pickits][6] <br />
 
 # d2bs hotkeys
 
