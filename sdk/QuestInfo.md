@@ -384,7 +384,7 @@
 > > 1 & 13: I talked to Akara to validate Act1 Q1
 > > 0: I used reset stats/skills
 
-Quest Message Dump
+Quest Messages Dump - Packet 0x31
 ==================
 
 ``` javascript
