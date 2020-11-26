@@ -1,18 +1,14 @@
 [1]: https://markdown-here.com/livedemo.html
-[2]: https://github.com/noah-/d2bs/blob/master/doc/globalFuncs.h
-[3]: https://github.com/nitrotech7/D2BS_HTML_Log_Viewer
-[4]: https://github.com/D2etal/
-[5]: http://tools.harrogath.com/affixcalc.html
-[6]: https://github.com/blizzhackers/pickits
 
 # other page link
  :seedling: [markdown live demo][1] <br />
  :seedling: [How to MarkDown](https://dooray.com/htmls/guides/markdown_ko_KR.html) <br />
- :seedling: [d2bs global funcs][2] <br />
- :seedling: [D2BS_HTML_Log_Viewer][3] <br />
- :seedling: [D2etal github][4] <br />
- :seedling: [Item Affix Calculator (pickit support)][5] <br />
- :seedling: [Blizzhackers/pickits][6] <br />
+ :seedling: [d2bs global funcs](https://github.com/noah-/d2bs/blob/master/doc/globalFuncs.h) <br />
+ :seedling: [D2BS_HTML_Log_Viewer](https://github.com/nitrotech7/D2BS_HTML_Log_Viewer) <br />
+ :seedling: [D2etal github](https://github.com/D2etal/) <br />
+ :seedling: [Item Affix Calculator (pickit support)](http://tools.harrogath.com/affixcalc.html) <br />
+ :seedling: [Blizzhackers/pickits](https://github.com/blizzhackers/pickits) <br />
+ :seedling: [Extreme Injector](https://github.com/master131/ExtremeInjector) <br />
 
 # d2bs hotkeys
 
