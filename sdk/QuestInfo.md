@@ -1,3 +1,5 @@
+Detail Quest Common State
+======================================================================
 > Hello,
 > 
 > I did a slow job of retrieving all quests states in Diablo, here is the result if some people are interested in it. They are necessary to understand how to use the D2BS API function **me.getQuest(id, state)**.
