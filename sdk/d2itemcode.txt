@@ -287,6 +287,21 @@ Charm
 SmallCharm	cm1		LargeCharm	cm1		GrandCharm	cm3
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
+ Potion
+ ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ Antidote Potion 	 yps 
+ Stamina Potion 	 vps 
+ Thawing Potion 	 wms
+ 
+ Minor Healing Potion 	 hp1		Minor Mana Potion	mp1 
+ Light Healing Potion 	 hp2		Light Mana Potion	mp2 
+ Healing Potion 	 hp3		Mana Potion		mp3 
+ Greater Healing Potion	 hp4		Greater Mana Potion	mp4 
+ Super Healing Potion 	 hp5		Super Mana Potion	mp5 
+ Rejuv Potion 		 rvs		Full Rejuv Potion	rvl 
+ ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
 Rune
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 Code: "r" + rune number , El(r01) ~ Zod(r33)
