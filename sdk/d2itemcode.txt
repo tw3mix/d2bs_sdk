@@ -284,7 +284,7 @@ Circlet ci0	Coronet ci1	Tiara ci2	Diadem ci3
 
 Charm
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-SmallCharm	cm1		LargeCharm	cm1		GrandCharm	cm3
+SmallCharm	cm1		LargeCharm	cm2		GrandCharm	cm3
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
  Potion
