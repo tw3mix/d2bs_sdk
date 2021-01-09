@@ -1,4 +1,6 @@
 Description:
+===========
+```
 Basestat numbers are: (see libs/getBaseStat.d2l for an includable list of constants)
 0 - items
 1 - monstats (&npcs)
@@ -26,3 +28,4 @@ Basestat numbers are: (see libs/getBaseStat.d2l for an includable list of consta
 23 - experience (v0.45)
 24 - pettype (v0.46)
 25 - SuperUniques (v0.50)
+```
