@@ -5,6 +5,7 @@ Romain Beaumont edited this page on 21 Jul 2018 · 2 revisions
 
 server -> client
 
+~~~
 Number   Size   Effect:            Usage:
 ----------------------------------------------------------------------------
 00   1   Game Loading      00
