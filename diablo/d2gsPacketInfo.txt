@@ -308,3 +308,4 @@ Number   Size   Effect:            Usage:
 6d  13  Ping           6d [DWORD Tickcount] [DWORD Delay] [DWORD WardenResponse or 00000000]
 6e  --   Unknown/Unused            --------------
 6f   --   Unknown/Unused            --------------
+~~~
