@@ -5,7 +5,7 @@ Romain Beaumont edited this page on 21 Jul 2018 · 2 revisions
 
 server -> client
 
-~~~
+``` text
 Number   Size   Effect:            Usage:
 ----------------------------------------------------------------------------
 00   1   Game Loading      00
@@ -308,4 +308,4 @@ Number   Size   Effect:            Usage:
 6d  13  Ping           6d [DWORD Tickcount] [DWORD Delay] [DWORD WardenResponse or 00000000]
 6e  --   Unknown/Unused            --------------
 6f   --   Unknown/Unused            --------------
-~~~
+```
