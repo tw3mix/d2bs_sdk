@@ -319,3 +319,42 @@ Arrows		aqv		Bolts		cqv		Skeletonkey	key
 Jewel		jew		Amulet		amu		ring		rin
 Gold		gld		Ear		ear
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+gems
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ Chipped Amethyst 	 gcv 
+ Chipped Diamond 	 gcw 
+ Chipped Emerald 	 gcg 
+ Chipped Ruby 		 gcr 
+ Chipped Saphire 	 gcb 
+ Chipped Skull 		 skc 
+ Chipped Topaz 		 gcy 
+ Flawed Amethyst 	 gfv 
+ Flawed Diamond 	 gfw 
+ Flawed Emerald 	 gfg 
+ Flawed Ruby 		 gfr 
+ Flawed Saphire 	 gfb 
+ Flawed Skull 		 skf 
+ Flawed Topaz 		 gfy 
+ Amethyst 		 gsv 
+ Diamond 		 gsw 
+ Emerald 		 gsg 
+ Ruby 			 gsr 
+ Saphire 		 gsb 
+ Skull 			 sku 
+ Topaz 			 gsy 
+ Flawless Amethyst 	 gzv 
+ Flawless Diamond 	 glw 
+ Flawless Emerald 	 glg 
+ Flawless Ruby 		 glr 
+ Flawless Saphire 	 glb 
+ Flawless Skull 	 skl 
+ Flawless Topaz 	 gly 
+ Perfect Diamond 	 gpw 
+ Perfect Amethyst 	 gpv 
+ Perfect Sapphire 	 gpb 
+ Perfect Topaz 		 gpy 
+ Perfect Ruby 		 gpr 
+ Perfect Skull 		 skz 
+ Perfect Emerald 	 gpg 
+
