@@ -322,39 +322,19 @@ Gold		gld		Ear		ear
 
 gems
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
- Chipped Amethyst 	 gcv 
- Chipped Diamond 	 gcw 
- Chipped Emerald 	 gcg 
- Chipped Ruby 		 gcr 
- Chipped Saphire 	 gcb 
- Chipped Skull 		 skc 
- Chipped Topaz 		 gcy 
- Flawed Amethyst 	 gfv 
- Flawed Diamond 	 gfw 
- Flawed Emerald 	 gfg 
- Flawed Ruby 		 gfr 
- Flawed Saphire 	 gfb 
- Flawed Skull 		 skf 
- Flawed Topaz 		 gfy 
- Amethyst 		 gsv 
- Diamond 		 gsw 
- Emerald 		 gsg 
- Ruby 			 gsr 
- Saphire 		 gsb 
- Skull 			 sku 
- Topaz 			 gsy 
- Flawless Amethyst 	 gzv 
- Flawless Diamond 	 glw 
- Flawless Emerald 	 glg 
- Flawless Ruby 		 glr 
- Flawless Saphire 	 glb 
- Flawless Skull 	 skl 
- Flawless Topaz 	 gly 
- Perfect Diamond 	 gpw 
- Perfect Amethyst 	 gpv 
- Perfect Sapphire 	 gpb 
- Perfect Topaz 		 gpy 
- Perfect Ruby 		 gpr 
- Perfect Skull 		 skz 
- Perfect Emerald 	 gpg 
-
+ Chipped Amethyst 	gcv	Flawed Amethyst		gfv 	 Amethyst 	 gsv 
+ Chipped Diamond 	gcw	Flawed Diamond  	gfw 	 Diamond 	 gsw 
+ Chipped Emerald 	gcg	Flawed Emerald  	gfg 	 Emerald 	 gsg 
+ Chipped Ruby 		gcr	Flawed Ruby 		gfr 	 Ruby 		 gsr 
+ Chipped Saphire 	gcb	Flawed Saphire  	gfb 	 Saphire 	 gsb 
+ Chipped Skull 		skc	Flawed Skull 		skf 	 Skull 		 sku 
+ Chipped Topaz 		gcy	Flawed Topaz 		gfy 	 Topaz 		 gsy 
+ 
+ Flawless Amethyst 	gzv 	 Perfect Amethyst 	gpv 
+ Flawless Diamond 	glw 	 Perfect Diamond 	gpw 
+ Flawless Emerald 	glg 	 Perfect Emerald 	gpg 
+ Flawless Ruby 		glr 	 Perfect Ruby 		gpr 
+ Flawless Saphire 	glb 	 Perfect Sapphire 	gpb 
+ Flawless Skull 	skl 	 Perfect Skull 		skz 
+ Flawless Topaz 	gly 	 Perfect Topaz 		gpy 
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
