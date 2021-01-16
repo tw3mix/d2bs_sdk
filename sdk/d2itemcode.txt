@@ -299,6 +299,9 @@ SmallCharm	cm1		LargeCharm	cm2		GrandCharm	cm3
  Greater Healing Potion	 hp4		Greater Mana Potion	mp4 
  Super Healing Potion 	 hp5		Super Mana Potion	mp5 
  Rejuv Potion 		 rvs		Full Rejuv Potion	rvl 
+ 
+ Rancid Gas Pot    gps 	    Choking Gas Pot	gpm	 Strangling Gas 	gpl 
+ Oil Potion 	   ops 	    Exploding Pot	opm	 Fulminating Pot 	opl 
  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
 
